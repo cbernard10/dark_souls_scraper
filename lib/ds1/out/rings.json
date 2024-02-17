@@ -1,0 +1,370 @@
+{
+  "Tiny Being's Ring": {
+    "effects": [
+      "Maximum HP: +5%"
+    ],
+    "acquisition": [
+      "Starting gift",
+      "Reward: Siegmeyer of Catarina in Anor Londo"
+    ]
+  },
+  "Cloranthy Ring": {
+    "effects": [
+      "Stamina regeneration: +20%",
+      "Stacks with Mask of the Child.",
+      "Stacks with Grass Crest Shield.",
+      "Stacks with Green Blossom."
+    ],
+    "acquisition": [
+      "Location: The Great Hollow"
+    ]
+  },
+  "Havel's Ring": {
+    "effects": [
+      "Maximum equip load: +50%"
+    ],
+    "acquisition": [
+      "Drop: Havel the Rock"
+    ]
+  },
+  "Ring of Steel Protection": {
+    "effects": [
+      "Physical defense: +50 points"
+    ],
+    "acquisition": [
+      "Location: Sen's Fortress"
+    ]
+  },
+  "Spell Stoneplate Ring": {
+    "effects": [
+      "Magic defense: +50 points"
+    ],
+    "acquisition": [
+      "Purchase: Crestfallen Merchant for 15,000 souls"
+    ]
+  },
+  "Flame Stoneplate Ring": {
+    "effects": [
+      "Fire defense: +50 points"
+    ],
+    "acquisition": [
+      "Location: Sen's Fortress"
+    ]
+  },
+  "Thunder Stoneplate Ring": {
+    "effects": [
+      "Lightning defense: +50 points"
+    ],
+    "acquisition": [
+      "Purchase: Crestfallen Merchant for 15,000 souls"
+    ]
+  },
+  "Speckled Stoneplate Ring": {
+    "effects": [
+      "Magic defense: +25 points",
+      "Fire defense: +25 points",
+      "Lightning defense: +25 points"
+    ],
+    "acquisition": [
+      "Drop: Siegmeyer of Catarina",
+      "Reward: Siegmeyer of Catarina in Lost Izalith if we kill all the Chaos Eaters before we interact with him"
+    ]
+  },
+  "Bloodbite Ring": {
+    "effects": [
+      "Bleed resistance: +400%"
+    ],
+    "acquisition": [
+      "Purchase: Oswald of Carim for 10,000 souls"
+    ]
+  },
+  "Poisonbite Ring": {
+    "effects": [
+      "Poison resistance: +400%"
+    ],
+    "acquisition": [
+      "Purchase: Oswald of Carim for 15,000 souls"
+    ]
+  },
+  "Cursebite Ring": {
+    "effects": [
+      "Curse resistance: +400%"
+    ],
+    "acquisition": [
+      "Location: New Londo Ruins"
+    ]
+  },
+  "Red Tearstone Ring": {
+    "effects": [
+      "Attack: +50% when health is below 20%"
+    ],
+    "acquisition": [
+      "Location: Valley of Drakes"
+    ]
+  },
+  "Blue Tearstone Ring": {
+    "effects": [
+      "Defense: +50% when health is below 20%"
+    ],
+    "acquisition": [
+      "Location: Undead Burg"
+    ]
+  },
+  "Ring of Sacrifice": {
+    "effects": [
+      "Lose nothing upon death",
+      "Ring breaks when used"
+    ],
+    "acquisition": [
+      "Location: Firelink Shrine",
+      "Location: New Londo Ruins",
+      "Trade: Snuggly for Humanity",
+      "Purchase: Oswald of Carim for 5,000 souls"
+    ]
+  },
+  "Rare Ring of Sacrifice": {
+    "effects": [
+      "Lose nothing upon death",
+      "Death caused by curse will not take effect",
+      "Ring breaks when used"
+    ],
+    "acquisition": [
+      "Location: Sen's Fortress",
+      "Location: New Londo Ruins",
+      "Location: Lost Izalith",
+      "Trade: Snuggly for Twin Humanities"
+    ]
+  },
+  "Bellowing Dragoncrest Ring": {
+    "effects": [
+      "Magic damage: +20-26% depending on spell",
+      "Stacks with Crown of Dusk"
+    ],
+    "acquisition": [
+      "Purchase: Griggs of Vinheim for 20,000 souls"
+    ]
+  },
+  "Lingering Dragoncrest Ring": {
+    "effects": [
+      "Magic effect length: +50%",
+      "Note: Does not increase miracles' effect length."
+    ],
+    "acquisition": [
+      "Purchase: Griggs of Vinheim for 20,000 souls"
+    ]
+  },
+  "Slumbering Dragoncrest Ring": {
+    "effects": [
+      "Wearer makes no sound"
+    ],
+    "acquisition": [
+      "Location: Sen's Fortress",
+      "Drop: Griggs of Vinheim"
+    ]
+  },
+  "Dusk Crown Ring": {
+    "effects": [
+      "Amount of sorcery castings: +50%",
+      "Maximum HP: -50%"
+    ],
+    "acquisition": [
+      "Drop: Hydra (Darkroot Basin)"
+    ]
+  },
+  "White Seance Ring": {
+    "effects": [
+      "Attunement slots: +1 slot"
+    ],
+    "acquisition": [
+      "Location: The Duke's Archives"
+    ]
+  },
+  "Darkmoon Seance Ring": {
+    "effects": [
+      "Attunement slots: +1 slot",
+      "Grants player entrance to Darkmoon Blades covenant at Anor Londo."
+    ],
+    "acquisition": [
+      "Location: The Catacombs"
+    ]
+  },
+  "Ring of the Sun's Firstborn": {
+    "effects": [
+      "Miracle power: +20%",
+      "Stacks with Crown of Dusk/Dark Sun"
+    ],
+    "acquisition": [
+      "Location: Anor Londo"
+    ]
+  },
+  "Darkmoon Blade Covenant Ring": {
+    "effects": [
+      "Allows Gwyndolin to summon one player to invade another player's Dark Anor Londo."
+    ],
+    "acquisition": [
+      "Covenant reward: Given upon joining the Darkmoon Blades covenant"
+    ]
+  },
+  "Ring of the Sun Princess": {
+    "effects": [
+      "Boosts miracle synergy"
+    ],
+    "acquisition": [
+      "Location: Obtained upon joining the Princess Guard covenant after speaking with Gwynevere in Anor Londo."
+    ]
+  },
+  "Leo Ring": {
+    "effects": [
+      "Counter damage: +40%"
+    ],
+    "acquisition": [
+      "Drop: Ornstein"
+    ]
+  },
+  "Wolf Ring": {
+    "effects": [
+      "Poise: +40 points"
+    ],
+    "acquisition": [
+      "Location: Darkroot Garden"
+    ]
+  },
+  "Hawk Ring": {
+    "effects": [
+      "Bow range: +50%",
+      "Enhanced zooming: bows and binoculars"
+    ],
+    "acquisition": [
+      "Location: Chest behind Giant Blacksmith in Anor Londo"
+    ]
+  },
+  "Hornet Ring": {
+    "effects": [
+      "Critical attack (backstab, riposte): +30%"
+    ],
+    "acquisition": [
+      "Location: Darkroot Garden, on a corpse behind the gravestone in the boss area for Sif"
+    ]
+  },
+  "East Wood Grain Ring": {
+    "effects": [
+      "Lessens the amount of durability loss.",
+      "Note: Does not lessen durability loss when using a weapon's special ability (i.e. dragon weapons' two-handed strong attack)."
+    ],
+    "acquisition": [
+      "Location: Purchased from Shiva of the East (Blighttown)."
+    ]
+  },
+  "Dark Wood Grain Ring": {
+    "effects": [
+      "Changes rolling action to a faster and wider one (ninja flip).",
+      "Only works when equip load is under 25% as of Patch 1.06"
+    ],
+    "acquisition": [
+      "Drop: Shiva's bodyguard",
+      "Note: Need to be in Forest Hunter covenant for bodyguard to appear."
+    ]
+  },
+  "Rusted Iron Ring": {
+    "effects": [
+      "Removes the movement speed penalty in water, poison swamp, tar, etc."
+    ],
+    "acquisition": [
+      "Location: Undead Asylum (second visit)",
+      "Note: You need a special key to open a door before reaching the ring. See Undead Asylum for more information."
+    ]
+  },
+  "Covetous Gold Serpent Ring": {
+    "effects": [
+      "Item discovery: +200 points"
+    ],
+    "acquisition": [
+      "Location: Sen's Fortress"
+    ]
+  },
+  "Covetous Silver Serpent Ring": {
+    "effects": [
+      "Souls absorbed for each kill: +20%",
+      "Stacks with Symbol of Avarice."
+    ],
+    "acquisition": [
+      "Location: Tomb of Giants"
+    ]
+  },
+  "Covenant of Artorias": {
+    "effects": [
+      "Allows entering to The Abyss"
+    ],
+    "acquisition": [
+      "Drop: Great Grey Wolf Sif"
+    ]
+  },
+  "Orange Charred Ring": {
+    "effects": [
+      "Reduces lava damage",
+      "Adds fire element to kick motion"
+    ],
+    "acquisition": [
+      "Drop: Centipede Demon"
+    ]
+  },
+  "Old Witch's Ring": {
+    "effects": [
+      "Allows talking to Quelaag's Sister",
+      "Note: Without the ring choosing to talk to her only prompts a \"...?\" response."
+    ],
+    "acquisition": [
+      "Starting gift",
+      "Trade: Snuggly for a Sunlight Maggot"
+    ]
+  },
+  "Cat Covenant Ring": {
+    "effects": [
+      "Allows Alvina to summon player to protect Darkroot Garden from other players",
+      "Note: Requires to be a member of the Forest Hunter Covenant to be summoned."
+    ],
+    "acquisition": [
+      "Covenant reward: Given upon joining the Forest Hunter covenant"
+    ]
+  },
+  "Ring of Fog": {
+    "effects": [
+      "Turns the player transparent making them un-targetable (but not un-hittable).",
+      "Note: As of Patch 1.04, users of this ring are targetable."
+    ],
+    "acquisition": [
+      "Covenant reward: Forest Hunter, rank 0, 3 kills",
+      "Trade: Snuggly for a Skull Lantern"
+    ]
+  },
+  "Ring of Favor and Protection": {
+    "effects": [
+      "Maximum HP: +20%",
+      "Stamina: +20%",
+      "Maximum equip load: +20%.",
+      "Breaks when removed"
+    ],
+    "acquisition": [
+      "Drop: Lautrec",
+      "Trade: Snuggly for a Xanthous Crown"
+    ]
+  },
+  "Ring of the Evil Eye": {
+    "effects": [
+      "Absorbs 30 HP from every fallen enemy",
+      "Note: Does not stack on multiple kills."
+    ],
+    "acquisition": [
+      "Location: Depths"
+    ]
+  },
+  "Calamity Ring": {
+    "effects": [
+      "The player receives twice the amount of damage they normally would"
+    ],
+    "acquisition": [
+      "Drop:",
+      "Black Dragon Kalameet"
+    ]
+  }
+}

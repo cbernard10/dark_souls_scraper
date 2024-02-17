@@ -40,11 +40,9 @@ const getWeaponURLs = async (): Promise<WeaponURL[] | null> => {
 
   await browser.close();
 
-  if (!weaponUrls) {
-    return null;
-  }
-
-  return weaponUrls.sort((a, b) => a.name.localeCompare(b.name));
+  return weaponUrls
+    ? weaponUrls.sort((a, b) => a.name.localeCompare(b.name))
+    : null;
 };
 
 const getWeaponRoot = async (
@@ -73,45 +71,27 @@ const getWeaponData = async (
     return [1, 2, 3, 4, 7, 8, 9, 10].includes(i);
   });
 
-  const phys = $(rows[0]).find("td").eq(1).text().trim();
-  const crit = $(rows[0]).find("td").eq(3).text().trim();
-  const magic = $(rows[1]).find("td").eq(1).text().trim();
-  const stab = $(rows[1]).find("td").eq(3).text().trim();
-  const fire = $(rows[2]).find("td").eq(1).text().trim();
-  const dur = $(rows[2]).find("td").eq(3).text().trim();
-  const light = $(rows[3]).find("td").eq(1).text().trim();
-  const weight = $(rows[3]).find("td").eq(3).text().trim();
-
-  const str = $(rows[4]).find("td").eq(0).text().trim();
-  const dex = $(rows[4]).find("td").eq(1).text().trim();
-  const int = $(rows[4]).find("td").eq(2).text().trim();
-  const fth = $(rows[4]).find("td").eq(3).text().trim();
-
-  const type = $(rows[5]).find("td").eq(0).text().trim();
-  const atk_type = $(rows[6]).find("td").eq(0).text().trim();
-  const ench = $(rows[7]).find("td").eq(0).text().trim() === "Yes";
-
   return {
     damage: {
-      physical: phys,
-      magic,
-      fire,
-      lightning: light,
+      physical: $(rows[0]).find("td").eq(1).text().trim(),
+      magic: $(rows[0]).find("td").eq(3).text().trim(),
+      fire: $(rows[2]).find("td").eq(1).text().trim(),
+      lightning: $(rows[3]).find("td").eq(1).text().trim(),
     },
     requirements: {
-      strength: str,
-      dexterity: dex,
-      intelligence: int,
-      faith: fth,
+      strength: $(rows[4]).find("td").eq(0).text().trim(),
+      dexterity: $(rows[4]).find("td").eq(1).text().trim(),
+      intelligence: $(rows[4]).find("td").eq(2).text().trim(),
+      faith: $(rows[4]).find("td").eq(3).text().trim(),
     },
-    critical: crit,
-    stability: stab,
-    durability: dur,
-    weight,
-    type,
-    attack_type: atk_type,
-    enchantable: ench,
-    upgrades: undefined,
+    critical: $(rows[0]).find("td").eq(3).text().trim(),
+    stability: $(rows[1]).find("td").eq(3).text().trim(),
+    durability: $(rows[2]).find("td").eq(3).text().trim(),
+    weight: $(rows[3]).find("td").eq(3).text().trim(),
+    type: $(rows[5]).find("td").eq(0).text().trim(),
+    attack_type: $(rows[6]).find("td").eq(0).text().trim(),
+    enchantable: $(rows[7]).find("td").eq(0).text().trim() === "Yes",
+    upgrades: {},
   };
 };
 
@@ -154,7 +134,7 @@ const getUpgradeTable = async (cheerioRoot: cheerio.Root) => {
   return upgradeTable;
 };
 
-const scrapeAndSave = async (output: string = "ds1_weapons"): Promise<void> => {
+const scrapeAndSave = async (output: string = "weapons"): Promise<void> => {
   const weaponUrls = await getWeaponURLs();
   if (!weaponUrls) {
     console.log("Failed to get weapon urls");
