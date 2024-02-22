@@ -1,7 +1,8 @@
-import getHtml from "../getHtml";
-import { browser, start_browser } from "../browser";
+import getHtml from "../../lib/getHtml";
+import { browser, start_browser } from "../../lib/browser";
 import fs from "fs";
-import { WeaponData, WeaponURL, UpgradeTable } from "./types";
+import { WeaponData, WeaponURL, UpgradeTable } from "../types";
+import { has } from "cheerio/lib/api/traversing";
 
 const BASE_URL = "https://darksouls.wiki.fextralife.com";
 
@@ -67,30 +68,81 @@ const getWeaponData = async (
 
   const table = $(".wiki_table").eq(0);
 
-  const rows = table.find("tr").filter((i, el) => {
-    return [1, 2, 3, 4, 7, 8, 9, 10].includes(i);
+  const damageTable = table.find("tr").filter((i, el) => {
+    return [1, 2, 3, 4].includes(i);
   });
+
+  const requirementsTable = table.find("tr").filter((i, el) => {
+    return i === 7;
+  });
+
+  let otherTable = table.find("tr").filter((i, el) => {
+    return [8, 9, 10, 11, 12].includes(i);
+  });
+
+  let hasAuxiliary =
+    $(otherTable[0]).find("th").text().trim() === "Auxiliary" ||
+    $(otherTable[0]).find("th").text().trim() === "Auxiliar" ||
+    $(otherTable[0]).find("th").text().trim() === "Auxillary";
+
+  const other: {
+    auxiliary: string | null;
+    type: string;
+    attack_type: string;
+    enchantable: boolean;
+    special: string;
+  } = hasAuxiliary
+    ? {
+        auxiliary: $(otherTable[0]).find("td").eq(0).text().trim(),
+        type: $(otherTable[1]).find("td").eq(0).text().trim(),
+        attack_type: $(otherTable[2]).find("td").eq(0).text().trim(),
+        enchantable: $(otherTable[3]).find("td").eq(0).text().trim() === "Yes",
+        special: $(otherTable[4]).find("td").eq(0).text().trim(),
+      }
+    : {
+        auxiliary: null,
+        type: $(otherTable[0]).find("td").eq(0).text().trim(),
+        attack_type: $(otherTable[1]).find("td").eq(0).text().trim(),
+        enchantable: $(otherTable[2]).find("td").eq(0).text().trim() === "Yes",
+        special: $(otherTable[3]).find("td").eq(0).text().trim(),
+      };
+
+  if (
+    other.auxiliary &&
+    (other.auxiliary === "No" ||
+      other.auxiliary === "–" ||
+      other.auxiliary === "-")
+  ) {
+    other.auxiliary = null;
+  }
+
+  const str = $(requirementsTable).find("td").eq(0).text().trim();
+  const dex = $(requirementsTable).find("td").eq(1).text().trim();
+  const int = $(requirementsTable).find("td").eq(2).text().trim();
+  const faith = $(requirementsTable).find("td").eq(3).text().trim();
 
   return {
     damage: {
-      physical: $(rows[0]).find("td").eq(1).text().trim(),
-      magic: $(rows[0]).find("td").eq(3).text().trim(),
-      fire: $(rows[2]).find("td").eq(1).text().trim(),
-      lightning: $(rows[3]).find("td").eq(1).text().trim(),
+      physical: $(damageTable[0]).find("td").eq(1).text().trim(),
+      magic: $(damageTable[0]).find("td").eq(3).text().trim(),
+      fire: $(damageTable[2]).find("td").eq(1).text().trim(),
+      lightning: $(damageTable[3]).find("td").eq(1).text().trim(),
     },
     requirements: {
-      strength: $(rows[4]).find("td").eq(0).text().trim(),
-      dexterity: $(rows[4]).find("td").eq(1).text().trim(),
-      intelligence: $(rows[4]).find("td").eq(2).text().trim(),
-      faith: $(rows[4]).find("td").eq(3).text().trim(),
+      strength: str === "–" || str === "-" ? null : str,
+      dexterity: dex === "–" || dex === "-" ? null : dex,
+      intelligence: int === "–" || int === "-" ? null : int,
+      faith: faith === "–" || faith === "-" ? null : faith,
     },
-    critical: $(rows[0]).find("td").eq(3).text().trim(),
-    stability: $(rows[1]).find("td").eq(3).text().trim(),
-    durability: $(rows[2]).find("td").eq(3).text().trim(),
-    weight: $(rows[3]).find("td").eq(3).text().trim(),
-    type: $(rows[5]).find("td").eq(0).text().trim(),
-    attack_type: $(rows[6]).find("td").eq(0).text().trim(),
-    enchantable: $(rows[7]).find("td").eq(0).text().trim() === "Yes",
+    critical: $(damageTable[0]).find("td").eq(3).text().trim(),
+    stability: $(damageTable[1]).find("td").eq(3).text().trim(),
+    auxiliary: other.auxiliary,
+    durability: $(damageTable[2]).find("td").eq(3).text().trim(),
+    weight: $(damageTable[3]).find("td").eq(3).text().trim(),
+    type: other.type,
+    attack_type: other.attack_type,
+    enchantable: other.enchantable,
+    special: other.special,
     upgrades: {},
   };
 };
@@ -146,6 +198,9 @@ const scrapeAndSave = async (output: string = "weapons"): Promise<void> => {
   } = {};
 
   for (const weapon of weaponUrls) {
+    if (weapon.name === "Pyromancy Flame (Upgraded)") {
+      continue;
+    }
     console.log("Scraping", weapon.name);
     const $ = await getWeaponRoot(weapon.url!);
     if (!$) {
@@ -164,8 +219,13 @@ const scrapeAndSave = async (output: string = "weapons"): Promise<void> => {
       continue;
     }
 
+    if (weapon.name === "Canvas Talisman") {
+      data.attack_type = "Strike";
+      data.type = "Talisman";
+    }
+
     allWeapons[weapon.name] = { ...data, upgrades: upgradeTable };
-    await sleep(1000);
+    await sleep(1500);
   }
 
   fs.writeFileSync(

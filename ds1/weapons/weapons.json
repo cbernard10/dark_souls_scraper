@@ -1,23 +1,27 @@
 {
   "Abyss Greatsword": {
-    "data": {
+    "damage": {
       "physical": "240",
-      "critical": "100",
-      "magic": "-",
-      "stability": "38",
+      "magic": "100",
       "fire": "-",
-      "durability": "300",
-      "lightning": "-",
-      "weight": "9.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "22",
       "dexterity": "18",
       "intelligence": "18",
-      "faith": "18",
-      "type": "Greatsword",
-      "attack_type": "Regular",
-      "enchantable": false
+      "faith": "18"
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "300",
+    "weight": "9.0",
+    "type": "Greatsword",
+    "attack_type": "Regular",
+    "enchantable": false,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "160",
         "magic": "-",
@@ -123,24 +127,28 @@
     }
   },
   "Astora's Straight Sword": {
-    "data": {
+    "damage": {
       "physical": "120",
-      "critical": "100",
-      "magic": "120",
-      "stability": "32",
+      "magic": "100",
       "fire": "-",
-      "durability": "160",
-      "lightning": "-",
-      "weight": "3.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "10",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "14",
-      "type": "120",
-      "attack_type": "Straight Sword",
-      "enchantable": false
+      "intelligence": null,
+      "faith": "14"
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": "120",
+    "durability": "160",
+    "weight": "3.0",
+    "type": "Straight Sword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": false,
+    "special": "Divine",
+    "upgrades": {
       "Regular": {
         "physical": "80",
         "magic": "80",
@@ -246,24 +254,28 @@
     }
   },
   "Avelyn": {
-    "data": {
+    "damage": {
       "physical": "229",
-      "critical": "100",
-      "magic": "151(154)",
-      "stability": "-",
+      "magic": "100",
       "fire": "153(153)",
-      "durability": "150",
-      "lightning": "140(133)",
-      "weight": "6.0",
+      "lightning": "140(133)"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "14",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Crossbow",
-      "attack_type": "50",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "-",
+    "auxiliary": null,
+    "durability": "150",
+    "weight": "6.0",
+    "type": "Crossbow",
+    "attack_type": "50",
+    "enchantable": false,
+    "special": "Burst fire",
+    "upgrades": {
       "Regular": {
         "physical": "37",
         "magic": "-",
@@ -495,24 +507,28 @@
     }
   },
   "Balder Side Sword": {
-    "data": {
+    "damage": {
       "physical": "200",
-      "critical": "100",
-      "magic": "150(162)",
-      "stability": "32",
+      "magic": "100",
       "fire": "192(192)",
-      "durability": "120",
-      "lightning": "200(200)",
-      "weight": "3.0",
+      "lightning": "200(200)"
+    },
+    "requirements": {
       "strength": "10",
       "dexterity": "14",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Straight Sword",
-      "attack_type": "Regular / Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": null,
+    "durability": "120",
+    "weight": "3.0",
+    "type": "Straight Sword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "80",
         "magic": "-",
@@ -1094,24 +1110,28 @@
     }
   },
   "Bandit's Knife": {
-    "data": {
+    "damage": {
       "physical": "140",
-      "critical": "147",
-      "magic": "105(115)",
-      "stability": "26",
+      "magic": "147",
       "fire": "134(134)",
-      "durability": "200",
-      "lightning": "140(140)",
-      "weight": "1.0",
+      "lightning": "140(140)"
+    },
+    "requirements": {
       "strength": "6",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Dagger",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "147",
+    "stability": "26",
+    "auxiliary": "300",
+    "durability": "200",
+    "weight": "1.0",
+    "type": "Dagger",
+    "attack_type": "Slash / Thrust",
+    "enchantable": true,
+    "special": "Bleed",
+    "upgrades": {
       "Regular": {
         "physical": "56",
         "magic": "-",
@@ -1693,24 +1713,28 @@
     }
   },
   "Barbed Straight Sword": {
-    "data": {
+    "damage": {
       "physical": "200",
-      "critical": "100",
-      "magic": "150(162)",
-      "stability": "10",
+      "magic": "100",
       "fire": "192(192)",
-      "durability": "200",
-      "lightning": "200(200)",
-      "weight": "3.0",
+      "lightning": "200(200)"
+    },
+    "requirements": {
       "strength": "10",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Straight Sword",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "10",
+    "auxiliary": "300",
+    "durability": "200",
+    "weight": "3.0",
+    "type": "Straight Sword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": true,
+    "special": "Bleed",
+    "upgrades": {
       "Regular": {
         "physical": "80",
         "magic": "-",
@@ -2292,24 +2316,28 @@
     }
   },
   "Bastard Sword": {
-    "data": {
+    "damage": {
       "physical": "262",
-      "critical": "100",
-      "magic": "197(212)",
-      "stability": "38",
+      "magic": "100",
       "fire": "252(252)",
-      "durability": "200",
-      "lightning": "262(262)",
-      "weight": "6.0",
+      "lightning": "262(262)"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Greatsword",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "6.0",
+    "type": "Greatsword",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "105",
         "magic": "-",
@@ -2891,24 +2919,28 @@
     }
   },
   "Battle Axe": {
-    "data": {
+    "damage": {
       "physical": "237",
-      "critical": "100",
-      "magic": "177(192)",
-      "stability": "36",
+      "magic": "100",
       "fire": "228(228)",
-      "durability": "250",
-      "lightning": "237(237)",
-      "weight": "4.0",
+      "lightning": "237(237)"
+    },
+    "requirements": {
       "strength": "12",
       "dexterity": "8",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Axe",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "36",
+    "auxiliary": null,
+    "durability": "250",
+    "weight": "4.0",
+    "type": "Axe",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "95",
         "magic": "0",
@@ -3560,24 +3592,28 @@
     }
   },
   "Beatrice's Catalyst": {
-    "data": {
+    "damage": {
       "physical": "40",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "90",
-      "lightning": "-",
-      "weight": "2.0",
-      "strength": "6",
-      "dexterity": "-",
-      "intelligence": "10",
-      "faith": "–",
-      "type": "Catalyst",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "6",
+      "dexterity": null,
+      "intelligence": "10",
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "90",
+    "weight": "2.0",
+    "type": "Catalyst",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "240",
         "magic": "40",
@@ -3597,24 +3633,28 @@
     }
   },
   "Black Bow of Pharis": {
-    "data": {
+    "damage": {
       "physical": "85",
-      "critical": "100",
-      "magic": "67(70)",
-      "stability": "-",
+      "magic": "100",
       "fire": "153(153)",
-      "durability": "100",
-      "lightning": "156(170)",
-      "weight": "1.0",
+      "lightning": "156(170)"
+    },
+    "requirements": {
       "strength": "9",
       "dexterity": "18",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Bows",
-      "attack_type": "65",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "-",
+    "auxiliary": null,
+    "durability": "100",
+    "weight": "1.0",
+    "type": "Bows",
+    "attack_type": "65",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "34",
         "magic": "-",
@@ -4026,24 +4066,28 @@
     }
   },
   "Black Knight Greataxe": {
-    "data": {
+    "damage": {
       "physical": "343",
-      "critical": "100",
-      "magic": "-",
-      "stability": "38",
+      "magic": "100",
       "fire": "-",
-      "durability": "300",
-      "lightning": "-",
-      "weight": "16.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "36",
       "dexterity": "18",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Great Axe",
-      "attack_type": "Regular",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "300",
+    "weight": "16.0",
+    "type": "Great Axe",
+    "attack_type": "Regular",
+    "enchantable": false,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "229",
         "magic": "0",
@@ -4143,24 +4187,28 @@
     }
   },
   "Black Knight Greatsword": {
-    "data": {
+    "damage": {
       "physical": "330",
-      "critical": "100",
-      "magic": "-",
-      "stability": "44",
+      "magic": "100",
       "fire": "-",
-      "durability": "300",
-      "lightning": "-",
-      "weight": "14.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "32",
       "dexterity": "18",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Ultra Greatsword",
-      "attack_type": "Regular / Thrust",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "44",
+    "auxiliary": null,
+    "durability": "300",
+    "weight": "14.0",
+    "type": "Ultra Greatsword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": false,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "220",
         "magic": "-",
@@ -4266,24 +4314,28 @@
     }
   },
   "Black Knight Halberd": {
-    "data": {
+    "damage": {
       "physical": "367",
-      "critical": "100",
-      "magic": "-",
-      "stability": "26",
+      "magic": "100",
       "fire": "-",
-      "durability": "300",
-      "lightning": "-",
-      "weight": "14.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "32",
       "dexterity": "18",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Halberd",
-      "attack_type": "Slash",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "300",
+    "weight": "14.0",
+    "type": "Halberd",
+    "attack_type": "Slash",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "245",
         "magic": "0",
@@ -4389,24 +4441,28 @@
     }
   },
   "Black Knight Sword": {
-    "data": {
+    "damage": {
       "physical": "330",
-      "critical": "100",
-      "magic": "-",
-      "stability": "38",
+      "magic": "100",
       "fire": "-",
-      "durability": "300",
-      "lightning": "-",
-      "weight": "8.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "20",
       "dexterity": "18",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Greatsword",
-      "attack_type": "Regular / Thrust",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "300",
+    "weight": "8.0",
+    "type": "Greatsword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": false,
+    "special": "+20% Damage to Demons",
+    "upgrades": {
       "Regular": {
         "physical": "220",
         "magic": "-",
@@ -4512,24 +4568,28 @@
     }
   },
   "Blacksmith Giant Hammer": {
-    "data": {
+    "damage": {
       "physical": "180",
-      "critical": "100",
-      "magic": "-",
-      "stability": "30",
+      "magic": "100",
       "fire": "-",
-      "durability": "250",
-      "lightning": "300",
-      "weight": "6.0",
-      "strength": "16",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Hammer",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "300"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "16",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": null,
+    "durability": "250",
+    "weight": "6.0",
+    "type": "Hammer",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "120",
         "magic": "0",
@@ -4641,24 +4701,28 @@
     }
   },
   "Blacksmith Hammer": {
-    "data": {
+    "damage": {
       "physical": "217",
-      "critical": "100",
-      "magic": "162(177)",
-      "stability": "30",
+      "magic": "100",
       "fire": "208(208)",
-      "durability": "250",
-      "lightning": "217(217)",
-      "weight": "5.0",
-      "strength": "14",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Hammer",
-      "attack_type": "Strike",
-      "enchantable": true
+      "lightning": "217(217)"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "14",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": null,
+    "durability": "250",
+    "weight": "5.0",
+    "type": "Hammer",
+    "attack_type": "Strike",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "87",
         "magic": "0",
@@ -5310,24 +5374,28 @@
     }
   },
   "Broadsword": {
-    "data": {
+    "damage": {
       "physical": "205",
-      "critical": "100",
-      "magic": "155(167)",
-      "stability": "32",
+      "magic": "100",
       "fire": "196(196)",
-      "durability": "200",
-      "lightning": "205(205)",
-      "weight": "3.0",
+      "lightning": "205(205)"
+    },
+    "requirements": {
       "strength": "10",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Straight Sword",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "3.0",
+    "type": "Straight Sword",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "82",
         "magic": "-",
@@ -5909,24 +5977,28 @@
     }
   },
   "Broken Straight Sword": {
-    "data": {
+    "damage": {
       "physical": "100",
-      "critical": "100",
-      "magic": "75(82)",
-      "stability": "16",
+      "magic": "100",
       "fire": "96(96)",
-      "durability": "200",
-      "lightning": "100(100)",
-      "weight": "2.0",
+      "lightning": "100(100)"
+    },
+    "requirements": {
       "strength": "8",
       "dexterity": "8",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Straight Sword",
-      "attack_type": "Regular / Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "2.0",
+    "type": "Straight Sword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "40",
         "magic": "-",
@@ -6508,24 +6580,28 @@
     }
   },
   "Butcher Knife": {
-    "data": {
+    "damage": {
       "physical": "225",
-      "critical": "100",
-      "magic": "170(182)",
-      "stability": "36",
+      "magic": "100",
       "fire": "216(216)",
-      "durability": "250",
-      "lightning": "225(225)",
-      "weight": "10.0",
-      "strength": "24",
-      "dexterity": "-",
-      "intelligence": "-",
-      "faith": "-",
-      "type": "Axe",
-      "attack_type": "Regular",
-      "enchantable": true
+      "lightning": "225(225)"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "24",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "36",
+    "auxiliary": null,
+    "durability": "250",
+    "weight": "10.0",
+    "type": "Axe",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "90",
         "magic": "0",
@@ -7177,24 +7253,28 @@
     }
   },
   "Caestus": {
-    "data": {
+    "damage": {
       "physical": "165",
-      "critical": "100",
-      "magic": "125(135)",
-      "stability": "-",
+      "magic": "100",
       "fire": "158(158)",
-      "durability": "300",
-      "lightning": "165(165)",
-      "weight": "0.5",
+      "lightning": "165(165)"
+    },
+    "requirements": {
       "strength": "5",
       "dexterity": "8",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Fist Weapon",
-      "attack_type": "Strike",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "-",
+    "auxiliary": null,
+    "durability": "300",
+    "weight": "0.5",
+    "type": "Fist Weapon",
+    "attack_type": "Strike",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "66",
         "magic": "0",
@@ -7810,24 +7890,28 @@
     }
   },
   "Canvas Talisman": {
-    "data": {
+    "damage": {
       "physical": "14",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "50",
-      "lightning": "-",
-      "weight": "0.3",
-      "strength": "4",
-      "dexterity": "–",
-      "intelligence": "–",
-      "faith": "14",
-      "type": "–",
-      "attack_type": "Talisman",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "4",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": "14"
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "50",
+    "weight": "0.3",
+    "type": "Talisman",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "220",
         "magic": "14",
@@ -7847,24 +7931,28 @@
     }
   },
   "Channeler's Trident": {
-    "data": {
+    "damage": {
       "physical": "105",
-      "critical": "100",
-      "magic": "172",
-      "stability": "26",
+      "magic": "100",
       "fire": "-",
-      "durability": "240",
-      "lightning": "-",
-      "weight": "6.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "16",
       "intelligence": "24",
-      "faith": "–",
-      "type": "Spears",
-      "attack_type": "Thrust",
-      "enchantable": false
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "240",
+    "weight": "6.0",
+    "type": "Spears",
+    "attack_type": "Thrust",
+    "enchantable": false,
+    "special": "Yes",
+    "upgrades": {
       "Channeler's Trident": {
         "physical": "70",
         "magic": "115",
@@ -7976,24 +8064,28 @@
     }
   },
   "Chaos Blade": {
-    "data": {
+    "damage": {
       "physical": "216",
-      "critical": "100",
-      "magic": "-",
-      "stability": "30",
+      "magic": "100",
       "fire": "-",
-      "durability": "120",
-      "lightning": "-",
-      "weight": "6.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "14",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Katana",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": "300",
+    "durability": "120",
+    "weight": "6.0",
+    "type": "Katana",
+    "attack_type": "Slash",
+    "enchantable": false,
+    "special": "Bleed",
+    "upgrades": {
       "Regular": {
         "physical": "144",
         "magic": "0",
@@ -8105,24 +8197,28 @@
     }
   },
   "Claws": {
-    "data": {
+    "damage": {
       "physical": "180",
-      "critical": "100",
-      "magic": "135(145)",
-      "stability": "-",
+      "magic": "100",
       "fire": "172(172)",
-      "durability": "150",
-      "lightning": "180(180)",
-      "weight": "1.0",
+      "lightning": "180(180)"
+    },
+    "requirements": {
       "strength": "6",
       "dexterity": "14",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Fist Weapon",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "-",
+    "auxiliary": "300",
+    "durability": "150",
+    "weight": "1.0",
+    "type": "Fist Weapon",
+    "attack_type": "Slash",
+    "enchantable": true,
+    "special": "Bleed",
+    "upgrades": {
       "Regular": {
         "physical": "72",
         "magic": "0",
@@ -8756,24 +8852,28 @@
     }
   },
   "Claymore": {
-    "data": {
+    "damage": {
       "physical": "257",
-      "critical": "100",
-      "magic": "192(210)",
-      "stability": "38",
+      "magic": "100",
       "fire": "247(247)",
-      "durability": "200",
-      "lightning": "257(257)",
-      "weight": "6.0",
+      "lightning": "257(257)"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Greatsword",
-      "attack_type": "Regular / Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "6.0",
+    "type": "Greatsword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "103",
         "magic": "-",
@@ -9355,24 +9455,28 @@
     }
   },
   "Club": {
-    "data": {
+    "damage": {
       "physical": "183",
-      "critical": "101",
-      "magic": "137(150)",
-      "stability": "30",
+      "magic": "101",
       "fire": "169(169)",
-      "durability": "250",
-      "lightning": "178(178)",
-      "weight": "3.0",
+      "lightning": "178(178)"
+    },
+    "requirements": {
       "strength": "11",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Hammer",
-      "attack_type": "Strike",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "101",
+    "stability": "30",
+    "auxiliary": null,
+    "durability": "250",
+    "weight": "3.0",
+    "type": "Hammer",
+    "attack_type": "Strike",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "87",
         "magic": "0",
@@ -10024,24 +10128,28 @@
     }
   },
   "Composite Bow": {
-    "data": {
+    "damage": {
       "physical": "137",
-      "critical": "100",
-      "magic": "102(112)",
-      "stability": "-",
+      "magic": "100",
       "fire": "181(181)",
-      "durability": "100",
-      "lightning": "181(203)",
-      "weight": "1.0",
+      "lightning": "181(203)"
+    },
+    "requirements": {
       "strength": "11",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Bows",
-      "attack_type": "38",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "-",
+    "auxiliary": null,
+    "durability": "100",
+    "weight": "1.0",
+    "type": "Bows",
+    "attack_type": "38",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "55",
         "magic": "-",
@@ -10453,24 +10561,28 @@
     }
   },
   "Crescent Axe": {
-    "data": {
+    "damage": {
       "physical": "172",
-      "critical": "100",
-      "magic": "172",
-      "stability": "36",
+      "magic": "100",
       "fire": "-",
-      "durability": "180",
-      "lightning": "-",
-      "weight": "7.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "18",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "16",
-      "type": "150",
-      "attack_type": "Axe",
-      "enchantable": false
+      "intelligence": null,
+      "faith": "16"
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "36",
+    "auxiliary": "150",
+    "durability": "180",
+    "weight": "7.0",
+    "type": "Axe",
+    "attack_type": "Regular",
+    "enchantable": false,
+    "special": "Divine",
+    "upgrades": {
       "Regular": {
         "physical": "115",
         "magic": "115",
@@ -10582,24 +10694,28 @@
     }
   },
   "Crystal Greatsword": {
-    "data": {
+    "damage": {
       "physical": "190",
-      "critical": "100",
-      "magic": "0",
-      "stability": "38",
+      "magic": "100",
       "fire": "0",
-      "durability": "60",
-      "lightning": "0",
-      "weight": "8.0",
+      "lightning": "0"
+    },
+    "requirements": {
       "strength": "20",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Greatsword",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "60",
+    "weight": "8.0",
+    "type": "Greatsword",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "190",
         "magic": "-",
@@ -10618,24 +10734,28 @@
     }
   },
   "Crystal Straight Sword": {
-    "data": {
+    "damage": {
       "physical": "145",
-      "critical": "100",
-      "magic": "-",
-      "stability": "32",
+      "magic": "100",
       "fire": "-",
-      "durability": "60",
-      "lightning": "-",
-      "weight": "6.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Straight Sword",
-      "attack_type": "Regular / Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": null,
+    "durability": "60",
+    "weight": "6.0",
+    "type": "Straight Sword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "145",
         "magic": "-",
@@ -10654,24 +10774,28 @@
     }
   },
   "Dagger": {
-    "data": {
+    "damage": {
       "physical": "140",
-      "critical": "131",
-      "magic": "105(115)",
-      "stability": "26",
+      "magic": "131",
       "fire": "134(134)",
-      "durability": "200",
-      "lightning": "140(140)",
-      "weight": "0.5",
+      "lightning": "140(140)"
+    },
+    "requirements": {
       "strength": "5",
       "dexterity": "8",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Dagger",
-      "attack_type": "Slash / Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "131",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "0.5",
+    "type": "Dagger",
+    "attack_type": "Slash / Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "56",
         "magic": "-",
@@ -11253,24 +11377,28 @@
     }
   },
   "Dark Hand": {
-    "data": {
+    "damage": {
       "physical": "200",
-      "critical": "100",
-      "magic": "-",
-      "stability": "30",
+      "magic": "100",
       "fire": "-",
-      "durability": "999",
-      "lightning": "-",
-      "weight": "0.5",
-      "strength": "–",
-      "dexterity": "–",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "130",
-      "attack_type": "Fist Weapon",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": null,
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": "130",
+    "durability": "999",
+    "weight": "0.5",
+    "type": "Fist Weapon",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "200",
         "magic": "0",
@@ -11292,24 +11420,28 @@
     }
   },
   "Dark Silver Tracer": {
-    "data": {
+    "damage": {
       "physical": "112",
-      "critical": "160",
-      "magic": "-",
-      "stability": "26",
+      "magic": "160",
       "fire": "-",
-      "durability": "120",
-      "lightning": "-",
-      "weight": "1.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "6",
       "dexterity": "25",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "360",
-      "attack_type": "Dagger",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "160",
+    "stability": "26",
+    "auxiliary": "360",
+    "durability": "120",
+    "weight": "1.0",
+    "type": "Dagger",
+    "attack_type": "Slash / Thrust",
+    "enchantable": false,
+    "special": "Poison",
+    "upgrades": {
       "Regular": {
         "physical": "75",
         "magic": "-",
@@ -11415,24 +11547,28 @@
     }
   },
   "Darkmoon Bow": {
-    "data": {
+    "damage": {
       "physical": "127",
-      "critical": "100",
-      "magic": "127",
-      "stability": "-",
+      "magic": "100",
       "fire": "-",
-      "durability": "400",
-      "lightning": "-",
-      "weight": "1.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "7",
       "dexterity": "16",
-      "intelligence": "–",
-      "faith": "16",
-      "type": "Bows",
-      "attack_type": "50",
-      "enchantable": false
+      "intelligence": null,
+      "faith": "16"
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "-",
+    "auxiliary": null,
+    "durability": "400",
+    "weight": "1.0",
+    "type": "Bows",
+    "attack_type": "50",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "80",
         "magic": "80",
@@ -11508,24 +11644,28 @@
     }
   },
   "Darksword": {
-    "data": {
+    "damage": {
       "physical": "205",
-      "critical": "100",
-      "magic": "155(167)",
-      "stability": "32",
+      "magic": "100",
       "fire": "196(196)",
-      "durability": "200",
-      "lightning": "205(205)",
-      "weight": "6.0",
+      "lightning": "205(205)"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "16",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Straight Sword",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "6.0",
+    "type": "Straight Sword",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "82",
         "magic": "-",
@@ -12107,24 +12247,28 @@
     }
   },
   "Demon Great Machete": {
-    "data": {
+    "damage": {
       "physical": "332",
-      "critical": "100",
-      "magic": "250(270)",
-      "stability": "44",
+      "magic": "100",
       "fire": "319(319)",
-      "durability": "600",
-      "lightning": "332(332)",
-      "weight": "18.0",
-      "strength": "40",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Ultra Greatsword",
-      "attack_type": "Regular",
-      "enchantable": true
+      "lightning": "332(332)"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "40",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "44",
+    "auxiliary": null,
+    "durability": "600",
+    "weight": "18.0",
+    "type": "Ultra Greatsword",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "133",
         "magic": "-",
@@ -12706,24 +12850,28 @@
     }
   },
   "Demon's Catalyst": {
-    "data": {
+    "damage": {
       "physical": "110",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "170",
-      "durability": "300",
-      "lightning": "-",
-      "weight": "4.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "12",
       "dexterity": "10",
       "intelligence": "10",
-      "faith": "–",
-      "type": "Catalyst",
-      "attack_type": "Thrust",
-      "enchantable": false
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "300",
+    "weight": "4.0",
+    "type": "Catalyst",
+    "attack_type": "Thrust",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "200",
         "magic": "110",
@@ -12743,24 +12891,28 @@
     }
   },
   "Demon's Great Hammer": {
-    "data": {
+    "damage": {
       "physical": "345",
-      "critical": "100",
-      "magic": "260(280)",
-      "stability": "32",
+      "magic": "100",
       "fire": "331(331)",
-      "durability": "600",
-      "lightning": "345(345)",
-      "weight": "22.0",
-      "strength": "46",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Great Hammer",
-      "attack_type": "Strike",
-      "enchantable": true
+      "lightning": "345(345)"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "46",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": null,
+    "durability": "600",
+    "weight": "22.0",
+    "type": "Great Hammer",
+    "attack_type": "Strike",
+    "enchantable": true,
+    "special": "Knockdown",
+    "upgrades": {
       "Regular": {
         "physical": "138",
         "magic": "0",
@@ -13412,24 +13564,28 @@
     }
   },
   "Demon's Greataxe": {
-    "data": {
+    "damage": {
       "physical": "285",
-      "critical": "100",
-      "magic": "215(232)",
-      "stability": "38",
+      "magic": "100",
       "fire": "273(273)",
-      "durability": "600",
-      "lightning": "285(285)",
-      "weight": "22.0",
-      "strength": "46",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Great Axe",
-      "attack_type": "Regular",
-      "enchantable": true
+      "lightning": "285(285)"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "46",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "600",
+    "weight": "22.0",
+    "type": "Great Axe",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "114",
         "magic": "0",
@@ -14081,24 +14237,28 @@
     }
   },
   "Demon's Spear": {
-    "data": {
+    "damage": {
       "physical": "150",
-      "critical": "100",
-      "magic": "-",
-      "stability": "26",
+      "magic": "100",
       "fire": "-",
-      "durability": "400",
-      "lightning": "180",
-      "weight": "4.0",
+      "lightning": "180"
+    },
+    "requirements": {
       "strength": "12",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Spears",
-      "attack_type": "Thrust",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "400",
+    "weight": "4.0",
+    "type": "Spears",
+    "attack_type": "Thrust",
+    "enchantable": false,
+    "special": "Knockback",
+    "upgrades": {
       "Regular": {
         "physical": "100",
         "magic": "0",
@@ -14210,24 +14370,28 @@
     }
   },
   "Dragon Bone Fist": {
-    "data": {
+    "damage": {
       "physical": "142",
-      "critical": "100",
-      "magic": "-",
-      "stability": "-",
+      "magic": "100",
       "fire": "-",
-      "durability": "999",
-      "lightning": "-",
-      "weight": "8.0",
-      "strength": "20",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Fist Weapon",
-      "attack_type": "Strike",
-      "enchantable": true
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "20",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "-",
+    "auxiliary": null,
+    "durability": "999",
+    "weight": "8.0",
+    "type": "Fist Weapon",
+    "attack_type": "Strike",
+    "enchantable": true,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "95",
         "magic": "-",
@@ -14339,24 +14503,28 @@
     }
   },
   "Dragon Greatsword": {
-    "data": {
+    "damage": {
       "physical": "585",
-      "critical": "100",
-      "magic": "-",
-      "stability": "44",
+      "magic": "100",
       "fire": "-",
-      "durability": "400",
-      "lightning": "-",
-      "weight": "24.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "50",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Ultra Greatsword",
-      "attack_type": "Regular",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "44",
+    "auxiliary": null,
+    "durability": "400",
+    "weight": "24.0",
+    "type": "Ultra Greatsword",
+    "attack_type": "Regular",
+    "enchantable": false,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "390",
         "magic": "-",
@@ -14462,24 +14630,28 @@
     }
   },
   "Dragon King Greataxe": {
-    "data": {
+    "damage": {
       "physical": "570",
-      "critical": "100",
-      "magic": "-",
-      "stability": "38",
+      "magic": "100",
       "fire": "-",
-      "durability": "400",
-      "lightning": "-",
-      "weight": "24.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "50",
       "dexterity": "8",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Great Axe",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "400",
+    "weight": "24.0",
+    "type": "Great Axe",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "380",
         "magic": "0",
@@ -14591,24 +14763,28 @@
     }
   },
   "Dragon Tooth": {
-    "data": {
+    "damage": {
       "physical": "435",
-      "critical": "100",
-      "magic": "-",
-      "stability": "32",
+      "magic": "100",
       "fire": "-",
-      "durability": "999",
-      "lightning": "-",
-      "weight": "18.0",
-      "strength": "40",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Great Hammer",
-      "attack_type": "Strike",
-      "enchantable": true
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "40",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": null,
+    "durability": "999",
+    "weight": "18.0",
+    "type": "Great Hammer",
+    "attack_type": "Strike",
+    "enchantable": true,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "290",
         "magic": "0",
@@ -14714,24 +14890,28 @@
     }
   },
   "Dragonslayer Greatbow": {
-    "data": {
+    "damage": {
       "physical": "135",
-      "critical": "100",
-      "magic": "-",
-      "stability": "-",
+      "magic": "100",
       "fire": "-",
-      "durability": "100",
-      "lightning": "-",
-      "weight": "10.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "20",
       "dexterity": "20",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Greatbow",
-      "attack_type": "50",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "-",
+    "auxiliary": null,
+    "durability": "100",
+    "weight": "10.0",
+    "type": "Greatbow",
+    "attack_type": "50",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "90",
         "magic": "0",
@@ -14807,24 +14987,28 @@
     }
   },
   "Dragonslayer Spear": {
-    "data": {
+    "damage": {
       "physical": "142",
-      "critical": "100",
-      "magic": "-",
-      "stability": "26",
+      "magic": "100",
       "fire": "-",
-      "durability": "300",
-      "lightning": "97",
-      "weight": "10.0",
+      "lightning": "97"
+    },
+    "requirements": {
       "strength": "24",
       "dexterity": "24",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Spears",
-      "attack_type": "Thrust",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "300",
+    "weight": "10.0",
+    "type": "Spears",
+    "attack_type": "Thrust",
+    "enchantable": false,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "95",
         "magic": "0",
@@ -14936,24 +15120,28 @@
     }
   },
   "Drake Sword": {
-    "data": {
+    "damage": {
       "physical": "300",
-      "critical": "100",
-      "magic": "-",
-      "stability": "32",
+      "magic": "100",
       "fire": "-",
-      "durability": "360",
-      "lightning": "-",
-      "weight": "6.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Straight Sword",
-      "attack_type": "Regular",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": null,
+    "durability": "360",
+    "weight": "6.0",
+    "type": "Straight Sword",
+    "attack_type": "Regular",
+    "enchantable": false,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "200",
         "magic": "-",
@@ -15059,24 +15247,28 @@
     }
   },
   "Estoc": {
-    "data": {
+    "damage": {
       "physical": "187",
-      "critical": "100",
-      "magic": "140(152)",
-      "stability": "22",
+      "magic": "100",
       "fire": "180(180)",
-      "durability": "150",
-      "lightning": "187(187)",
-      "weight": "3.0",
+      "lightning": "187(187)"
+    },
+    "requirements": {
       "strength": "10",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Piercing Sword",
-      "attack_type": "Regular / Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "22",
+    "auxiliary": null,
+    "durability": "150",
+    "weight": "3.0",
+    "type": "Piercing Sword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "75",
         "magic": "0",
@@ -15692,24 +15884,28 @@
     }
   },
   "Falchion": {
-    "data": {
+    "damage": {
       "physical": "205",
-      "critical": "100",
-      "magic": "155(167)",
-      "stability": "30",
+      "magic": "100",
       "fire": "196(196)",
-      "durability": "160",
-      "lightning": "205(205)",
-      "weight": "2.5",
+      "lightning": "205(205)"
+    },
+    "requirements": {
       "strength": "9",
       "dexterity": "13",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Curved Sword",
-      "attack_type": "Slash",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": null,
+    "durability": "160",
+    "weight": "2.5",
+    "type": "Curved Sword",
+    "attack_type": "Slash",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "82",
         "magic": "-",
@@ -16271,24 +16467,28 @@
     }
   },
   "Flamberge": {
-    "data": {
+    "damage": {
       "physical": "250",
-      "critical": "100",
-      "magic": "187(202)",
-      "stability": "38",
+      "magic": "100",
       "fire": "240(240)",
-      "durability": "160",
-      "lightning": "250(250)",
-      "weight": "6.0",
+      "lightning": "250(250)"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "14",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Greatsword",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": "300",
+    "durability": "160",
+    "weight": "6.0",
+    "type": "Greatsword",
+    "attack_type": "Slash",
+    "enchantable": true,
+    "special": "Bleed",
+    "upgrades": {
       "Regular": {
         "physical": "100",
         "magic": "-",
@@ -16870,24 +17070,28 @@
     }
   },
   "Four-pronged Plow": {
-    "data": {
+    "damage": {
       "physical": "187",
-      "critical": "100",
-      "magic": "140(152)",
-      "stability": "26",
+      "magic": "100",
       "fire": "180(180)",
-      "durability": "300",
-      "lightning": "187(187)",
-      "weight": "5.5",
+      "lightning": "187(187)"
+    },
+    "requirements": {
       "strength": "15",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Spears",
-      "attack_type": "Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "300",
+    "weight": "5.5",
+    "type": "Spears",
+    "attack_type": "Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "75",
         "magic": "-",
@@ -17266,24 +17470,28 @@
     }
   },
   "Gargoyle Tail Axe": {
-    "data": {
+    "damage": {
       "physical": "232",
-      "critical": "100",
-      "magic": "175(190)",
-      "stability": "36",
+      "magic": "100",
       "fire": "223(223)",
-      "durability": "150",
-      "lightning": "232(232)",
-      "weight": "5.0",
+      "lightning": "232(232)"
+    },
+    "requirements": {
       "strength": "14",
       "dexterity": "14",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Axe",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "36",
+    "auxiliary": null,
+    "durability": "150",
+    "weight": "5.0",
+    "type": "Axe",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "93",
         "magic": "0",
@@ -17791,24 +17999,28 @@
     }
   },
   "Gargoyle's Halberd": {
-    "data": {
+    "damage": {
       "physical": "287",
-      "critical": "100",
-      "magic": "215(232)",
-      "stability": "26",
+      "magic": "100",
       "fire": "276(276)",
-      "durability": "200",
-      "lightning": "287(287)",
-      "weight": "6.0",
+      "lightning": "287(287)"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Halberds",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "6.0",
+    "type": "Halberds",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "115",
         "magic": "0",
@@ -18407,24 +18619,28 @@
     }
   },
   "Ghost Blade": {
-    "data": {
+    "damage": {
       "physical": "165",
-      "critical": "127",
-      "magic": "-",
-      "stability": "26",
+      "magic": "127",
       "fire": "-",
-      "durability": "100",
-      "lightning": "-",
-      "weight": "0.5",
-      "strength": "5",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Dagger",
-      "attack_type": "Slash / Thrust",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "5",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "127",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "100",
+    "weight": "0.5",
+    "type": "Dagger",
+    "attack_type": "Slash / Thrust",
+    "enchantable": false,
+    "special": "Combo",
+    "upgrades": {
       "Regular": {
         "physical": "110",
         "magic": "-",
@@ -18530,24 +18746,28 @@
     }
   },
   "Giant's Halberd": {
-    "data": {
+    "damage": {
       "physical": "210",
-      "critical": "100",
-      "magic": "-",
-      "stability": "26",
+      "magic": "100",
       "fire": "-",
-      "durability": "300",
-      "lightning": "202",
-      "weight": "16.0",
+      "lightning": "202"
+    },
+    "requirements": {
       "strength": "36",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Halberd",
-      "attack_type": "Regular/Thrust",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "300",
+    "weight": "16.0",
+    "type": "Halberd",
+    "attack_type": "Regular/Thrust",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "140",
         "magic": "0",
@@ -18653,24 +18873,28 @@
     }
   },
   "Gold Tracer": {
-    "data": {
+    "damage": {
       "physical": "195",
-      "critical": "100",
-      "magic": "-",
-      "stability": "30",
+      "magic": "100",
       "fire": "-",
-      "durability": "240",
-      "lightning": "-",
-      "weight": "2.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "9",
       "dexterity": "25",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Curved Sword",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": "300",
+    "durability": "240",
+    "weight": "2.0",
+    "type": "Curved Sword",
+    "attack_type": "Slash",
+    "enchantable": false,
+    "special": "Combo",
+    "upgrades": {
       "Regular": {
         "physical": "130",
         "magic": "-",
@@ -18776,24 +19000,28 @@
     }
   },
   "Golem Axe": {
-    "data": {
+    "damage": {
       "physical": "255",
-      "critical": "100",
-      "magic": "-",
-      "stability": "36",
+      "magic": "100",
       "fire": "-",
-      "durability": "600",
-      "lightning": "-",
-      "weight": "16.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "36",
       "dexterity": "8",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Axe",
-      "attack_type": "Regular",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "36",
+    "auxiliary": null,
+    "durability": "600",
+    "weight": "16.0",
+    "type": "Axe",
+    "attack_type": "Regular",
+    "enchantable": false,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "170",
         "magic": "-",
@@ -18905,24 +19133,28 @@
     }
   },
   "Gough's Greatbow": {
-    "data": {
+    "damage": {
       "physical": "127",
-      "critical": "100",
-      "magic": "-",
-      "stability": "-",
+      "magic": "100",
       "fire": "-",
-      "durability": "100",
-      "lightning": "-",
-      "weight": "13.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "27",
       "dexterity": "20",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Greatbow",
-      "attack_type": "55",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "-",
+    "auxiliary": null,
+    "durability": "100",
+    "weight": "13.0",
+    "type": "Greatbow",
+    "attack_type": "55",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "85",
         "magic": "-",
@@ -18992,24 +19224,28 @@
     }
   },
   "Grant": {
-    "data": {
+    "damage": {
       "physical": "195",
-      "critical": "100",
-      "magic": "195",
-      "stability": "32",
+      "magic": "100",
       "fire": "-",
-      "durability": "600",
-      "lightning": "-",
-      "weight": "24.0",
-      "strength": "50",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "30",
-      "type": "130",
-      "attack_type": "Great Hammer",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "50",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": "30"
+    },
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": "130",
+    "durability": "600",
+    "weight": "24.0",
+    "type": "Great Hammer",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "130",
         "magic": "130",
@@ -19121,24 +19357,28 @@
     }
   },
   "Gravelord Sword": {
-    "data": {
+    "damage": {
       "physical": "397",
-      "critical": "100",
-      "magic": "-",
-      "stability": "36",
+      "magic": "100",
       "fire": "-",
-      "durability": "600",
-      "lightning": "-",
-      "weight": "10.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "24",
       "dexterity": "13",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Curved Greatsword",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "36",
+    "auxiliary": "300",
+    "durability": "600",
+    "weight": "10.0",
+    "type": "Curved Greatsword",
+    "attack_type": "Slash/Thrust",
+    "enchantable": false,
+    "special": "Toxic",
+    "upgrades": {
       "Weapon": {
         "physical": "265",
         "magic": "-",
@@ -19250,24 +19490,28 @@
     }
   },
   "Great Club": {
-    "data": {
+    "damage": {
       "physical": "337",
-      "critical": "100",
-      "magic": "295(282)",
-      "stability": "32",
+      "magic": "100",
       "fire": "324(324)",
-      "durability": "250",
-      "lightning": "337(337)",
-      "weight": "12.0",
-      "strength": "28",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Great Hammer",
-      "attack_type": "Strike",
-      "enchantable": true
+      "lightning": "337(337)"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "28",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": null,
+    "durability": "250",
+    "weight": "12.0",
+    "type": "Great Hammer",
+    "attack_type": "Strike",
+    "enchantable": true,
+    "special": "Knockdown",
+    "upgrades": {
       "Regular": {
         "physical": "135",
         "magic": "0",
@@ -19919,24 +20163,28 @@
     }
   },
   "Great Lord Greatsword": {
-    "data": {
+    "damage": {
       "physical": "384",
-      "critical": "100",
-      "magic": "-",
-      "stability": "26",
+      "magic": "100",
       "fire": "-",
-      "durability": "400",
-      "lightning": "-",
-      "weight": "8.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "20",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Greatsword",
-      "attack_type": "Regular",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "400",
+    "weight": "8.0",
+    "type": "Greatsword",
+    "attack_type": "Regular",
+    "enchantable": false,
+    "special": "Knockdown",
+    "upgrades": {
       "Regular": {
         "physical": "256",
         "magic": "-",
@@ -20042,24 +20290,28 @@
     }
   },
   "Great Scythe": {
-    "data": {
+    "damage": {
       "physical": "250",
-      "critical": "100",
-      "magic": "187(202)",
-      "stability": "22",
+      "magic": "100",
       "fire": "240(240)",
-      "durability": "130",
-      "lightning": "250(250)",
-      "weight": "5.0",
+      "lightning": "250(250)"
+    },
+    "requirements": {
       "strength": "14",
       "dexterity": "14",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Halberd",
-      "attack_type": "Slash",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "22",
+    "auxiliary": null,
+    "durability": "130",
+    "weight": "5.0",
+    "type": "Halberd",
+    "attack_type": "Slash",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "100",
         "magic": "0",
@@ -20658,24 +20910,28 @@
     }
   },
   "Greataxe": {
-    "data": {
+    "damage": {
       "physical": "350",
-      "critical": "100",
-      "magic": "262(285)",
-      "stability": "38",
+      "magic": "100",
       "fire": "336(336)",
-      "durability": "230",
-      "lightning": "350(350)",
-      "weight": "14.0",
+      "lightning": "350(350)"
+    },
+    "requirements": {
       "strength": "32",
       "dexterity": "8",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Great Axe",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "230",
+    "weight": "14.0",
+    "type": "Great Axe",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "Knockdown",
+    "upgrades": {
       "Regular": {
         "physical": "140",
         "magic": "0",
@@ -21327,24 +21583,28 @@
     }
   },
   "Greatsword": {
-    "data": {
+    "damage": {
       "physical": "325",
-      "critical": "100",
-      "magic": "245(265)",
-      "stability": "44",
+      "magic": "100",
       "fire": "312(312)",
-      "durability": "200",
-      "lightning": "325(325)",
-      "weight": "12.0",
+      "lightning": "325(325)"
+    },
+    "requirements": {
       "strength": "28",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "–",
-      "attack_type": "Ultra Greatswords",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "44",
+    "auxiliary": "–",
+    "durability": "200",
+    "weight": "12.0",
+    "type": "Ultra Greatswords",
+    "attack_type": "Regular / Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "130",
         "magic": "-",
@@ -21926,24 +22186,28 @@
     }
   },
   "Greatsword of Artorias": {
-    "data": {
+    "damage": {
       "physical": "180",
-      "critical": "100",
-      "magic": "127",
-      "stability": "10",
+      "magic": "100",
       "fire": "-",
-      "durability": "200",
-      "lightning": "-",
-      "weight": "10.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "24",
       "dexterity": "18",
       "intelligence": "20",
-      "faith": "20",
-      "type": "140",
-      "attack_type": "Greatsword",
-      "enchantable": false
+      "faith": "20"
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "10",
+    "auxiliary": "140",
+    "durability": "200",
+    "weight": "10.0",
+    "type": "Greatsword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": false,
+    "special": "Knockback",
+    "upgrades": {
       "Regular": {
         "physical": "120",
         "magic": "85",
@@ -22049,24 +22313,28 @@
     }
   },
   "Greatsword of Artorias (Cursed)": {
-    "data": {
+    "damage": {
       "physical": "267",
-      "critical": "100",
-      "magic": "-",
-      "stability": "38",
+      "magic": "100",
       "fire": "-",
-      "durability": "400",
-      "lightning": "-",
-      "weight": "10.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "24",
       "dexterity": "18",
       "intelligence": "18",
-      "faith": "18",
-      "type": "Greatsword",
-      "attack_type": "Regular / Thrust",
-      "enchantable": false
+      "faith": "18"
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "400",
+    "weight": "10.0",
+    "type": "Greatsword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": false,
+    "special": "Knockback",
+    "upgrades": {
       "Regular": {
         "physical": "178",
         "magic": "-",
@@ -22172,24 +22440,28 @@
     }
   },
   "Guardian Tail": {
-    "data": {
+    "damage": {
       "physical": "210",
-      "critical": "100",
-      "magic": "157(170)",
-      "stability": "16",
+      "magic": "100",
       "fire": "201(201)",
-      "durability": "250",
-      "lightning": "210(210)",
-      "weight": "5.0",
+      "lightning": "210(210)"
+    },
+    "requirements": {
       "strength": "15",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "176",
-      "attack_type": "Whip",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": "176",
+    "durability": "250",
+    "weight": "5.0",
+    "type": "Whip",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "Poison",
+    "upgrades": {
       "Regular": {
         "physical": "84",
         "magic": "-",
@@ -22754,24 +23026,28 @@
     }
   },
   "Halberd": {
-    "data": {
+    "damage": {
       "physical": "275",
-      "critical": "100",
-      "magic": "207(222)",
-      "stability": "26",
+      "magic": "100",
       "fire": "264(264)",
-      "durability": "200",
-      "lightning": "275(275)",
-      "weight": "6.0",
+      "lightning": "275(275)"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Halberd",
-      "attack_type": "Regular/Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "6.0",
+    "type": "Halberd",
+    "attack_type": "Regular/Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "110",
         "magic": "0",
@@ -23370,24 +23646,28 @@
     }
   },
   "Hammer of Vamos": {
-    "data": {
+    "damage": {
       "physical": "172",
-      "critical": "100",
-      "magic": "-",
-      "stability": "30",
+      "magic": "100",
       "fire": "96",
-      "durability": "250",
-      "lightning": "-",
-      "weight": "5.0",
-      "strength": "14",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Hammer",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "14",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": null,
+    "durability": "250",
+    "weight": "5.0",
+    "type": "Hammer",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "115",
         "magic": "0",
@@ -23499,24 +23779,28 @@
     }
   },
   "Hand Axe": {
-    "data": {
+    "damage": {
       "physical": "200",
-      "critical": "100",
-      "magic": "150(162)",
-      "stability": "36",
+      "magic": "100",
       "fire": "192(192)",
-      "durability": "200",
-      "lightning": "200(200)",
-      "weight": "2.0",
+      "lightning": "200(200)"
+    },
+    "requirements": {
       "strength": "8",
       "dexterity": "8",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Axe",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "36",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "2.0",
+    "type": "Axe",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "80",
         "magic": "0",
@@ -24132,24 +24416,28 @@
     }
   },
   "Heavy Crossbow": {
-    "data": {
+    "damage": {
       "physical": "341",
-      "critical": "100",
-      "magic": "221(231)",
-      "stability": "10",
+      "magic": "100",
       "fire": "228(228)",
-      "durability": "150",
-      "lightning": "209(198)",
-      "weight": "5.0",
+      "lightning": "209(198)"
+    },
+    "requirements": {
       "strength": "14",
       "dexterity": "8",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Crossbow",
-      "attack_type": "50",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "10",
+    "auxiliary": null,
+    "durability": "150",
+    "weight": "5.0",
+    "type": "Crossbow",
+    "attack_type": "50",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "55",
         "magic": "-",
@@ -24393,24 +24681,28 @@
     }
   },
   "Iaito": {
-    "data": {
+    "damage": {
       "physical": "220",
-      "critical": "100",
-      "magic": "165(180)",
-      "stability": "30",
+      "magic": "100",
       "fire": "211(211)",
-      "durability": "80",
-      "lightning": "220(220)",
-      "weight": "5.0",
+      "lightning": "220(220)"
+    },
+    "requirements": {
       "strength": "14",
       "dexterity": "20",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Katana",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": "300",
+    "durability": "80",
+    "weight": "5.0",
+    "type": "Katana",
+    "attack_type": "Slash",
+    "enchantable": true,
+    "special": "Bleed",
+    "upgrades": {
       "Regular": {
         "physical": "88",
         "magic": "0",
@@ -25062,24 +25354,28 @@
     }
   },
   "Ivory Talisman": {
-    "data": {
+    "damage": {
       "physical": "14",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "50",
-      "lightning": "-",
-      "weight": "0.3",
-      "strength": "4",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "16",
-      "type": "Catalyst",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "4",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": "16"
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "50",
+    "weight": "0.3",
+    "type": "Catalyst",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "234",
         "magic": "14",
@@ -25099,24 +25395,28 @@
     }
   },
   "Izalith Catalyst": {
-    "data": {
+    "damage": {
       "physical": "40",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "300",
-      "lightning": "-",
-      "weight": "2.0",
-      "strength": "6",
-      "dexterity": "-",
-      "intelligence": "14",
-      "faith": "–",
-      "type": "Catalyst",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "6",
+      "dexterity": null,
+      "intelligence": "14",
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "300",
+    "weight": "2.0",
+    "type": "Catalyst",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "40",
         "magic": "0",
@@ -25136,24 +25436,28 @@
     }
   },
   "Jagged Ghost Blade": {
-    "data": {
+    "damage": {
       "physical": "232",
-      "critical": "100",
-      "magic": "-",
-      "stability": "30",
+      "magic": "100",
       "fire": "-",
-      "durability": "100",
-      "lightning": "-",
-      "weight": "1.5",
-      "strength": "7",
-      "dexterity": "–",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Curved Sword",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "7",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": "300",
+    "durability": "100",
+    "weight": "1.5",
+    "type": "Curved Sword",
+    "attack_type": "Slash/Thrust",
+    "enchantable": false,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "155",
         "magic": "-",
@@ -25259,24 +25563,28 @@
     }
   },
   "Large Club": {
-    "data": {
+    "damage": {
       "physical": "300",
-      "critical": "100",
-      "magic": "225(245)",
-      "stability": "32",
+      "magic": "100",
       "fire": "288(288)",
-      "durability": "250",
-      "lightning": "300(300)",
-      "weight": "11.0",
-      "strength": "26",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "180",
-      "attack_type": "Great Hammer",
-      "enchantable": false
+      "lightning": "300(300)"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "26",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": "180",
+    "durability": "250",
+    "weight": "11.0",
+    "type": "Great Hammer",
+    "attack_type": "Strike",
+    "enchantable": true,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "120",
         "magic": "0",
@@ -25910,24 +26218,28 @@
     }
   },
   "Lifehunt Scythe": {
-    "data": {
+    "damage": {
       "physical": "270",
-      "critical": "100",
-      "magic": "-",
-      "stability": "22",
+      "magic": "100",
       "fire": "-",
-      "durability": "100",
-      "lightning": "-",
-      "weight": "6.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "14",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Halberd",
-      "attack_type": "Slash",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "22",
+    "auxiliary": null,
+    "durability": "100",
+    "weight": "6.0",
+    "type": "Halberd",
+    "attack_type": "Slash",
+    "enchantable": false,
+    "special": "500",
+    "upgrades": {
       "Regular": {
         "physical": "180",
         "magic": "0",
@@ -26033,24 +26345,28 @@
     }
   },
   "Light Crossbow": {
-    "data": {
+    "damage": {
       "physical": "310",
-      "critical": "100",
-      "magic": "205(210)",
-      "stability": "-",
+      "magic": "100",
       "fire": "207(207)",
-      "durability": "150",
-      "lightning": "190(180)",
-      "weight": "3.0",
+      "lightning": "190(180)"
+    },
+    "requirements": {
       "strength": "10",
       "dexterity": "8",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Crossbow",
-      "attack_type": "50",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "-",
+    "auxiliary": null,
+    "durability": "150",
+    "weight": "3.0",
+    "type": "Crossbow",
+    "attack_type": "50",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "50",
         "magic": "-",
@@ -26294,24 +26610,28 @@
     }
   },
   "Logan's Catalyst": {
-    "data": {
+    "damage": {
       "physical": "46",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "90",
-      "lightning": "-",
-      "weight": "2.0",
-      "strength": "6",
-      "dexterity": "-",
-      "intelligence": "24",
-      "faith": "–",
-      "type": "Catalyst",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "6",
+      "dexterity": null,
+      "intelligence": "24",
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "90",
+    "weight": "2.0",
+    "type": "Catalyst",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "46",
         "magic": "0",
@@ -26331,24 +26651,28 @@
     }
   },
   "Longbow": {
-    "data": {
+    "damage": {
       "physical": "90",
-      "critical": "100",
-      "magic": "67(72)",
-      "stability": "-",
+      "magic": "100",
       "fire": "162(162)",
-      "durability": "100",
-      "lightning": "165(180)",
-      "weight": "1.0",
+      "lightning": "165(180)"
+    },
+    "requirements": {
       "strength": "9",
       "dexterity": "14",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Bows",
-      "attack_type": "50",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "-",
+    "auxiliary": null,
+    "durability": "100",
+    "weight": "1.0",
+    "type": "Bows",
+    "attack_type": "50",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "36",
         "magic": "-",
@@ -26760,24 +27084,28 @@
     }
   },
   "Longsword": {
-    "data": {
+    "damage": {
       "physical": "200",
-      "critical": "100",
-      "magic": "150(162)",
-      "stability": "10",
+      "magic": "100",
       "fire": "192(192)",
-      "durability": "200",
-      "lightning": "200(200)",
-      "weight": "3.0",
+      "lightning": "200(200)"
+    },
+    "requirements": {
       "strength": "10",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Straight Sword",
-      "attack_type": "Regular / Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "10",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "3.0",
+    "type": "Straight Sword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "80",
         "magic": "-",
@@ -27359,24 +27687,28 @@
     }
   },
   "Lucerne": {
-    "data": {
+    "damage": {
       "physical": "275",
-      "critical": "100",
-      "magic": "207(222)",
-      "stability": "26",
+      "magic": "100",
       "fire": "264(264)",
-      "durability": "200",
-      "lightning": "275(275)",
-      "weight": "5.5",
+      "lightning": "275(275)"
+    },
+    "requirements": {
       "strength": "15",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Halberd",
-      "attack_type": "Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "5.5",
+    "type": "Halberd",
+    "attack_type": "Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "110",
         "magic": "0",
@@ -27975,24 +28307,28 @@
     }
   },
   "Mace": {
-    "data": {
+    "damage": {
       "physical": "227",
-      "critical": "100",
-      "magic": "170(185)",
-      "stability": "30",
+      "magic": "100",
       "fire": "218(218)",
-      "durability": "250",
-      "lightning": "227(227)",
-      "weight": "4.0",
-      "strength": "12",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Hammer",
-      "attack_type": "Strike",
-      "enchantable": true
+      "lightning": "227(227)"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "12",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": null,
+    "durability": "250",
+    "weight": "4.0",
+    "type": "Hammer",
+    "attack_type": "Strike",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "91",
         "magic": "0",
@@ -28644,24 +28980,28 @@
     }
   },
   "Mail Breaker": {
-    "data": {
+    "damage": {
       "physical": "142",
-      "critical": "120",
-      "magic": "107(115)",
-      "stability": "22",
+      "magic": "120",
       "fire": "136(136)",
-      "durability": "200",
-      "lightning": "142(142)",
-      "weight": "0.5",
+      "lightning": "142(142)"
+    },
+    "requirements": {
       "strength": "5",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Piercing Sword",
-      "attack_type": "Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "120",
+    "stability": "22",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "0.5",
+    "type": "Piercing Sword",
+    "attack_type": "Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "57",
         "magic": "0",
@@ -29277,24 +29617,28 @@
     }
   },
   "Man-Serpent Greatsword": {
-    "data": {
+    "damage": {
       "physical": "275",
-      "critical": "100",
-      "magic": "207(222)",
-      "stability": "38",
+      "magic": "100",
       "fire": "264(264)",
-      "durability": "300",
-      "lightning": "275(275)",
-      "weight": "10.0",
-      "strength": "24",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Greatsword",
-      "attack_type": "Regular",
-      "enchantable": true
+      "lightning": "275(275)"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "24",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "300",
+    "weight": "10.0",
+    "type": "Greatsword",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "110",
         "magic": "-",
@@ -29876,24 +30220,28 @@
     }
   },
   "Manus Catalyst": {
-    "data": {
+    "damage": {
       "physical": "190",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "200",
-      "lightning": "-",
-      "weight": "5.0",
-      "strength": "14",
-      "dexterity": "–",
-      "intelligence": "13",
-      "faith": "–",
-      "type": "Catalyst",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "14",
+      "dexterity": null,
+      "intelligence": "13",
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "5.0",
+    "type": "Catalyst",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "295",
         "magic": "190",
@@ -29913,24 +30261,28 @@
     }
   },
   "Moonlight Butterfly Horn": {
-    "data": {
+    "damage": {
       "physical": "-",
-      "critical": "100",
-      "magic": "180",
-      "stability": "26",
+      "magic": "100",
       "fire": "-",
-      "durability": "160",
-      "lightning": "-",
-      "weight": "4.0",
-      "strength": "12",
-      "dexterity": "-",
-      "intelligence": "14",
-      "faith": "–",
-      "type": "Spears",
-      "attack_type": "Thrust",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "12",
+      "dexterity": null,
+      "intelligence": "14",
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "160",
+    "weight": "4.0",
+    "type": "Spears",
+    "attack_type": "Thrust",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular +0": {
         "physical": "0",
         "magic": "120",
@@ -30042,24 +30394,28 @@
     }
   },
   "Moonlight Greatsword": {
-    "data": {
+    "damage": {
       "physical": "-",
-      "critical": "100",
-      "magic": "198",
-      "stability": "38",
+      "magic": "100",
       "fire": "-",
-      "durability": "300",
-      "lightning": "-",
-      "weight": "6.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "10",
       "intelligence": "28",
-      "faith": "–",
-      "type": "Greatsword",
-      "attack_type": "Regular",
-      "enchantable": false
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "300",
+    "weight": "6.0",
+    "type": "Greatsword",
+    "attack_type": "Regular",
+    "enchantable": false,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "-",
         "magic": "132",
@@ -30165,24 +30521,28 @@
     }
   },
   "Morning Star": {
-    "data": {
+    "damage": {
       "physical": "207",
-      "critical": "100",
-      "magic": "155(167)",
-      "stability": "30",
+      "magic": "100",
       "fire": "199(199)",
-      "durability": "180",
-      "lightning": "207(207)",
-      "weight": "4.0",
-      "strength": "11",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Hammer",
-      "enchantable": false
+      "lightning": "207(207)"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "11",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": "300",
+    "durability": "180",
+    "weight": "4.0",
+    "type": "Hammer",
+    "attack_type": "Strike",
+    "enchantable": true,
+    "special": "Bleed",
+    "upgrades": {
       "Regular": {
         "physical": "83",
         "magic": "0",
@@ -30834,24 +31194,28 @@
     }
   },
   "Murakumo": {
-    "data": {
+    "damage": {
       "physical": "282",
-      "critical": "100",
-      "magic": "212(230)",
-      "stability": "36",
+      "magic": "100",
       "fire": "271(271)",
-      "durability": "180",
-      "lightning": "282(282)",
-      "weight": "12.0",
+      "lightning": "282(282)"
+    },
+    "requirements": {
       "strength": "28",
       "dexterity": "13",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Curved Greatsword",
-      "attack_type": "Slash",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "36",
+    "auxiliary": null,
+    "durability": "180",
+    "weight": "12.0",
+    "type": "Curved Greatsword",
+    "attack_type": "Slash",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "113",
         "magic": "-",
@@ -31467,24 +31831,28 @@
     }
   },
   "Notched Whip": {
-    "data": {
+    "damage": {
       "physical": "190",
-      "critical": "100",
-      "magic": "142(155)",
-      "stability": "16",
+      "magic": "100",
       "fire": "182(182)",
-      "durability": "200",
-      "lightning": "190(190)",
-      "weight": "2.0",
+      "lightning": "190(190)"
+    },
+    "requirements": {
       "strength": "10",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Notched Whip",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": "300",
+    "durability": "200",
+    "weight": "2.0",
+    "type": "Notched Whip",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "Bleed",
+    "upgrades": {
       "Regular": {
         "physical": "76",
         "magic": "0",
@@ -32066,24 +32434,28 @@
     }
   },
   "Obsidian Greatsword": {
-    "data": {
+    "damage": {
       "physical": "480",
-      "critical": "100",
-      "magic": "-",
-      "stability": "38",
+      "magic": "100",
       "fire": "-",
-      "durability": "350",
-      "lightning": "-",
-      "weight": "8.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "20",
       "dexterity": "16",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Greatsword",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "350",
+    "weight": "8.0",
+    "type": "Greatsword",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "320",
         "magic": "-",
@@ -32189,24 +32561,28 @@
     }
   },
   "Oolacile Catalyst": {
-    "data": {
+    "damage": {
       "physical": "40",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "55",
-      "lightning": "-",
-      "weight": "2.0",
-      "strength": "6",
-      "dexterity": "-",
-      "intelligence": "10",
-      "faith": "–",
-      "type": "180",
-      "attack_type": "Catalyst",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "6",
+      "dexterity": null,
+      "intelligence": "10",
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": "180",
+    "durability": "55",
+    "weight": "2.0",
+    "type": "Catalyst",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "180",
         "magic": "40",
@@ -32226,24 +32602,28 @@
     }
   },
   "Oolacile Ivory Catalyst": {
-    "data": {
+    "damage": {
       "physical": "24",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "30",
-      "lightning": "-",
-      "weight": "0.5",
-      "strength": "3",
-      "dexterity": "-",
-      "intelligence": "12",
-      "faith": "–",
-      "type": "Catalyst",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "3",
+      "dexterity": null,
+      "intelligence": "12",
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "30",
+    "weight": "0.5",
+    "type": "Catalyst",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "180",
         "magic": "24",
@@ -32263,24 +32643,28 @@
     }
   },
   "Painting Guardian Sword": {
-    "data": {
+    "damage": {
       "physical": "190",
-      "critical": "100",
-      "magic": "142(155)",
-      "stability": "30",
+      "magic": "100",
       "fire": "182(182)",
-      "durability": "100",
-      "lightning": "190(190)",
-      "weight": "1.5",
+      "lightning": "190(190)"
+    },
+    "requirements": {
       "strength": "7",
       "dexterity": "20",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Curved Sword",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": "300",
+    "durability": "100",
+    "weight": "1.5",
+    "type": "Curved Sword",
+    "attack_type": "Slash",
+    "enchantable": true,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "76",
         "magic": "-",
@@ -32770,24 +33154,28 @@
     }
   },
   "Parrying Dagger": {
-    "data": {
+    "damage": {
       "physical": "135",
-      "critical": "131",
-      "magic": "102(110)",
-      "stability": "26",
+      "magic": "131",
       "fire": "129(129)",
-      "durability": "200",
-      "lightning": "135(135)",
-      "weight": "0.5",
+      "lightning": "135(135)"
+    },
+    "requirements": {
       "strength": "5",
       "dexterity": "14",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Dagger",
-      "attack_type": "Slash / Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "131",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "0.5",
+    "type": "Dagger",
+    "attack_type": "Slash / Thrust",
+    "enchantable": true,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "54",
         "magic": "-",
@@ -33369,24 +33757,28 @@
     }
   },
   "Partizan": {
-    "data": {
+    "damage": {
       "physical": "200",
-      "critical": "100",
-      "magic": "150(162)",
-      "stability": "26",
+      "magic": "100",
       "fire": "192(192)",
-      "durability": "160",
-      "lightning": "200(200)",
-      "weight": "4.5",
+      "lightning": "200(200)"
+    },
+    "requirements": {
       "strength": "13",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Spears",
-      "attack_type": "Regular/Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "160",
+    "weight": "4.5",
+    "type": "Spears",
+    "attack_type": "Regular/Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "80",
         "magic": "0",
@@ -34020,24 +34412,28 @@
     }
   },
   "Pickaxe": {
-    "data": {
+    "damage": {
       "physical": "222",
-      "critical": "100",
-      "magic": "167(180)",
-      "stability": "30",
+      "magic": "100",
       "fire": "213(213)",
-      "durability": "250",
-      "lightning": "222(222)",
-      "weight": "5.0",
-      "strength": "14",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Hammer",
-      "attack_type": "Thrust",
-      "enchantable": true
+      "lightning": "222(222)"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "14",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": null,
+    "durability": "250",
+    "weight": "5.0",
+    "type": "Hammer",
+    "attack_type": "Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "89",
         "magic": "0",
@@ -34689,24 +35085,28 @@
     }
   },
   "Pike": {
-    "data": {
+    "damage": {
       "physical": "215",
-      "critical": "100",
-      "magic": "162(175)",
-      "stability": "26",
+      "magic": "100",
       "fire": "206(206)",
-      "durability": "180",
-      "lightning": "215(215)",
-      "weight": "10.0",
+      "lightning": "215(215)"
+    },
+    "requirements": {
       "strength": "24",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Spears",
-      "attack_type": "Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "180",
+    "weight": "10.0",
+    "type": "Spears",
+    "attack_type": "Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "86",
         "magic": "0",
@@ -35340,24 +35740,28 @@
     }
   },
   "Priscilla's Dagger": {
-    "data": {
+    "damage": {
       "physical": "120",
-      "critical": "100",
-      "magic": "-",
-      "stability": "26",
+      "magic": "100",
       "fire": "-",
-      "durability": "100",
-      "lightning": "-",
-      "weight": "1.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "6",
       "dexterity": "20",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "500 110",
-      "attack_type": "Dagger",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": "500 110",
+    "durability": "100",
+    "weight": "1.0",
+    "type": "Dagger",
+    "attack_type": "Slash / Thrust",
+    "enchantable": false,
+    "special": "Combo",
+    "upgrades": {
       "Regular": {
         "physical": "80",
         "magic": "-",
@@ -35463,24 +35867,28 @@
     }
   },
   "Pyromancy Flame": {
-    "data": {
+    "damage": {
       "physical": "190",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "40",
-      "durability": "30",
-      "lightning": "-",
-      "weight": "0",
-      "strength": "4",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Flame",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "4",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "30",
+    "weight": "0",
+    "type": "Flame",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "105",
         "magic": "-",
@@ -35681,45 +36089,29 @@
       }
     }
   },
-  "Pyromancy Flame (Upgraded)": {
-    "data": {
-      "physical": "500",
-      "critical": "",
-      "magic": "1000",
-      "stability": "",
-      "fire": "2000",
-      "durability": "",
-      "lightning": "3000",
-      "weight": "",
-      "strength": "+7",
-      "dexterity": "7000",
-      "intelligence": "23 000",
-      "faith": "",
-      "type": "+8",
-      "attack_type": "+9",
-      "enchantable": false
-    },
-    "upgradeTable": {}
-  },
   "Quelaag's Furysword": {
-    "data": {
+    "damage": {
       "physical": "90",
-      "critical": "100",
-      "magic": "-",
-      "stability": "30",
+      "magic": "100",
       "fire": "255",
-      "durability": "600",
-      "lightning": "-",
-      "weight": "3.5",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "11",
       "dexterity": "13",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Curved Sword",
-      "attack_type": "Slash",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": null,
+    "durability": "600",
+    "weight": "3.5",
+    "type": "Curved Sword",
+    "attack_type": "Slash",
+    "enchantable": false,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "60",
         "magic": "-",
@@ -35825,24 +36217,28 @@
     }
   },
   "Rapier": {
-    "data": {
+    "damage": {
       "physical": "182",
-      "critical": "110",
-      "magic": "137(147)",
-      "stability": "22",
+      "magic": "110",
       "fire": "175(175)",
-      "durability": "150",
-      "lightning": "182(182)",
-      "weight": "1.5",
+      "lightning": "182(182)"
+    },
+    "requirements": {
       "strength": "7",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Piercing Sword",
-      "attack_type": "Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "110",
+    "stability": "22",
+    "auxiliary": null,
+    "durability": "150",
+    "weight": "1.5",
+    "type": "Piercing Sword",
+    "attack_type": "Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "73",
         "magic": "-",
@@ -36458,24 +36854,28 @@
     }
   },
   "Reinforced Club": {
-    "data": {
+    "damage": {
       "physical": "242",
-      "critical": "100",
-      "magic": "182(197)",
-      "stability": "30",
+      "magic": "100",
       "fire": "232(232)",
-      "durability": "100",
-      "lightning": "242(242)",
-      "weight": "4.0",
-      "strength": "12",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Hammer",
-      "enchantable": false
+      "lightning": "242(242)"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "12",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": "300",
+    "durability": "100",
+    "weight": "4.0",
+    "type": "Hammer",
+    "attack_type": "Strike",
+    "enchantable": true,
+    "special": "Bleed",
+    "upgrades": {
       "Regular": {
         "physical": "97",
         "magic": "0",
@@ -37127,24 +37527,28 @@
     }
   },
   "Ricard's Rapier": {
-    "data": {
+    "damage": {
       "physical": "175",
-      "critical": "100",
-      "magic": "132(142)",
-      "stability": "22",
+      "magic": "100",
       "fire": "168(168)",
-      "durability": "100",
-      "lightning": "175(175)",
-      "weight": "2.0",
+      "lightning": "175(175)"
+    },
+    "requirements": {
       "strength": "8",
       "dexterity": "20",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Piercing Sword",
-      "attack_type": "Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "22",
+    "auxiliary": null,
+    "durability": "100",
+    "weight": "2.0",
+    "type": "Piercing Sword",
+    "attack_type": "Thrust",
+    "enchantable": true,
+    "special": "Combo",
+    "upgrades": {
       "Regular": {
         "physical": "70",
         "magic": "0",
@@ -37760,24 +38164,28 @@
     }
   },
   "Scimitar": {
-    "data": {
+    "damage": {
       "physical": "200",
-      "critical": "100",
-      "magic": "150(162)",
-      "stability": "30",
+      "magic": "100",
       "fire": "192(192)",
-      "durability": "160",
-      "lightning": "200(200)",
-      "weight": "1.5",
+      "lightning": "200(200)"
+    },
+    "requirements": {
       "strength": "7",
       "dexterity": "13",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Curved Sword",
-      "attack_type": "Slash",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": null,
+    "durability": "160",
+    "weight": "1.5",
+    "type": "Curved Sword",
+    "attack_type": "Slash",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "80",
         "magic": "-",
@@ -38359,24 +38767,28 @@
     }
   },
   "Scythe": {
-    "data": {
+    "damage": {
       "physical": "275",
-      "critical": "100",
-      "magic": "207(220)",
-      "stability": "26",
+      "magic": "100",
       "fire": "264(264)",
-      "durability": "150",
-      "lightning": "275(275)",
-      "weight": "5.0",
+      "lightning": "275(275)"
+    },
+    "requirements": {
       "strength": "14",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Halberd",
-      "attack_type": "Slash",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "150",
+    "weight": "5.0",
+    "type": "Halberd",
+    "attack_type": "Slash",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "110",
         "magic": "0",
@@ -38975,24 +39387,28 @@
     }
   },
   "Server": {
-    "data": {
+    "damage": {
       "physical": "267",
-      "critical": "100",
-      "magic": "200(217)",
-      "stability": "36",
+      "magic": "100",
       "fire": "256(256)",
-      "durability": "140",
-      "lightning": "267(267)",
-      "weight": "10.0",
+      "lightning": "267(267)"
+    },
+    "requirements": {
       "strength": "24",
       "dexterity": "13",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "No",
-      "attack_type": "Curved Greatsword",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "36",
+    "auxiliary": "No",
+    "durability": "140",
+    "weight": "10.0",
+    "type": "Curved Greatsword",
+    "attack_type": "Slash",
+    "enchantable": true,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "107",
         "magic": "-",
@@ -39608,24 +40024,28 @@
     }
   },
   "Short Bow": {
-    "data": {
+    "damage": {
       "physical": "77",
-      "critical": "100",
-      "magic": "57(62)",
-      "stability": "-",
+      "magic": "100",
       "fire": "139(139)",
-      "durability": "100",
-      "lightning": "142(155)",
-      "weight": "0.5",
+      "lightning": "142(155)"
+    },
+    "requirements": {
       "strength": "7",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Bow",
-      "attack_type": "50",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "-",
+    "auxiliary": null,
+    "durability": "100",
+    "weight": "0.5",
+    "type": "Bow",
+    "attack_type": "50",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "31",
         "magic": "-",
@@ -40037,24 +40457,28 @@
     }
   },
   "Shortsword": {
-    "data": {
+    "damage": {
       "physical": "195",
-      "critical": "100",
-      "magic": "147(157)",
-      "stability": "32",
+      "magic": "100",
       "fire": "187(187)",
-      "durability": "200",
-      "lightning": "195(195)",
-      "weight": "2.0",
+      "lightning": "195(195)"
+    },
+    "requirements": {
       "strength": "8",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Straight Sword",
-      "attack_type": "Regular / Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "2.0",
+    "type": "Straight Sword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "78",
         "magic": "-",
@@ -40636,24 +41060,28 @@
     }
   },
   "Shotel": {
-    "data": {
+    "damage": {
       "physical": "205",
-      "critical": "100",
-      "magic": "155(167)",
-      "stability": "30",
+      "magic": "100",
       "fire": "196(196)",
-      "durability": "120",
-      "lightning": "205(205)",
-      "weight": "2.5",
+      "lightning": "205(205)"
+    },
+    "requirements": {
       "strength": "9",
       "dexterity": "14",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Curved Sword",
-      "attack_type": "Slash",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": null,
+    "durability": "120",
+    "weight": "2.5",
+    "type": "Curved Sword",
+    "attack_type": "Slash",
+    "enchantable": true,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "82",
         "magic": "-",
@@ -41215,24 +41643,28 @@
     }
   },
   "Silver Knight Spear": {
-    "data": {
+    "damage": {
       "physical": "244",
-      "critical": "100",
-      "magic": "-",
-      "stability": "26",
+      "magic": "100",
       "fire": "-",
-      "durability": "300",
-      "lightning": "-",
-      "weight": "6.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "22",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "110",
-      "attack_type": "Spears",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": "110",
+    "durability": "300",
+    "weight": "6.0",
+    "type": "Spears",
+    "attack_type": "Regular/Thrust",
+    "enchantable": false,
+    "special": "Divine",
+    "upgrades": {
       "Regular": {
         "physical": "163",
         "magic": "0",
@@ -41344,24 +41776,28 @@
     }
   },
   "Silver Knight Straight Sword": {
-    "data": {
+    "damage": {
       "physical": "262",
-      "critical": "100",
-      "magic": "-",
-      "stability": "32",
+      "magic": "100",
       "fire": "-",
-      "durability": "300",
-      "lightning": "-",
-      "weight": "6.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "22",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Straight Sword",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": null,
+    "durability": "300",
+    "weight": "6.0",
+    "type": "Straight Sword",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "175",
         "magic": "-",
@@ -41467,24 +41903,28 @@
     }
   },
   "Smough's Hammer": {
-    "data": {
+    "damage": {
       "physical": "450",
-      "critical": "100",
-      "magic": "-",
-      "stability": "32",
+      "magic": "100",
       "fire": "-",
-      "durability": "600",
-      "lightning": "-",
-      "weight": "28.0",
-      "strength": "58",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Great Hammer",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "58",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": null,
+    "durability": "600",
+    "weight": "28.0",
+    "type": "Great Hammer",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "Knockdown",
+    "upgrades": {
       "Regular": {
         "physical": "300",
         "magic": "0",
@@ -41596,24 +42036,28 @@
     }
   },
   "Sniper Crossbow": {
-    "data": {
+    "damage": {
       "physical": "322",
-      "critical": "100",
-      "magic": "210(215)",
-      "stability": "-",
+      "magic": "100",
       "fire": "215(215)",
-      "durability": "150",
-      "lightning": "197(187)",
-      "weight": "8.0",
+      "lightning": "197(187)"
+    },
+    "requirements": {
       "strength": "20",
       "dexterity": "16",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Crossbow",
-      "attack_type": "70",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "-",
+    "auxiliary": null,
+    "durability": "150",
+    "weight": "8.0",
+    "type": "Crossbow",
+    "attack_type": "70",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "52",
         "magic": "-",
@@ -41857,24 +42301,28 @@
     }
   },
   "Sorcerer's Catalyst": {
-    "data": {
+    "damage": {
       "physical": "40",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "90",
-      "lightning": "-",
-      "weight": "2.0",
-      "strength": "6",
-      "dexterity": "-",
-      "intelligence": "10",
-      "faith": "–",
-      "type": "Catalyst",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "6",
+      "dexterity": null,
+      "intelligence": "10",
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "90",
+    "weight": "2.0",
+    "type": "Catalyst",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "40",
         "magic": "0",
@@ -41894,24 +42342,28 @@
     }
   },
   "Spear": {
-    "data": {
+    "damage": {
       "physical": "200",
-      "critical": "100",
-      "magic": "150(162)",
-      "stability": "26",
+      "magic": "100",
       "fire": "192(192)",
-      "durability": "180",
-      "lightning": "200(200)",
-      "weight": "3.5",
+      "lightning": "200(200)"
+    },
+    "requirements": {
       "strength": "11",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Spears",
-      "attack_type": "Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "180",
+    "weight": "3.5",
+    "type": "Spears",
+    "attack_type": "Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "80",
         "magic": "0",
@@ -42563,24 +43015,28 @@
     }
   },
   "Stone Greataxe": {
-    "data": {
+    "damage": {
       "physical": "285",
-      "critical": "100",
-      "magic": "-",
-      "stability": "38",
+      "magic": "100",
       "fire": "-",
-      "durability": "700",
-      "lightning": "-",
-      "weight": "24.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "48",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Great Axe",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "700",
+    "weight": "24.0",
+    "type": "Great Axe",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "190",
         "magic": "-",
@@ -42692,24 +43148,28 @@
     }
   },
   "Stone Greatsword": {
-    "data": {
+    "damage": {
       "physical": "222",
-      "critical": "100",
-      "magic": "150",
-      "stability": "38",
+      "magic": "100",
       "fire": "-",
-      "durability": "800",
-      "lightning": "-",
-      "weight": "18.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "40",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Greatsword",
-      "attack_type": "Regular",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "38",
+    "auxiliary": null,
+    "durability": "800",
+    "weight": "18.0",
+    "type": "Greatsword",
+    "attack_type": "Regular",
+    "enchantable": false,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "148",
         "magic": "100",
@@ -42815,24 +43275,28 @@
     }
   },
   "Straight Sword Hilt": {
-    "data": {
+    "damage": {
       "physical": "50",
-      "critical": "100",
-      "magic": "37(40)",
-      "stability": "10",
+      "magic": "100",
       "fire": "48(48)",
-      "durability": "200",
-      "lightning": "50(50)",
-      "weight": "1.0",
+      "lightning": "50(50)"
+    },
+    "requirements": {
       "strength": "6",
       "dexterity": "6",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Straight Sword",
-      "attack_type": "Regular / Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "10",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "1.0",
+    "type": "Straight Sword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": true,
+    "special": "Unique",
+    "upgrades": {
       "Regular": {
         "physical": "20",
         "magic": "-",
@@ -43414,24 +43878,28 @@
     }
   },
   "Sunlight Straight Sword": {
-    "data": {
+    "damage": {
       "physical": "205",
-      "critical": "100",
-      "magic": "155(167)",
-      "stability": "32",
+      "magic": "100",
       "fire": "196(196)",
-      "durability": "240",
-      "lightning": "205(205)",
-      "weight": "4.0",
+      "lightning": "205(205)"
+    },
+    "requirements": {
       "strength": "12",
       "dexterity": "12",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Straight Sword",
-      "attack_type": "Regular / Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "32",
+    "auxiliary": null,
+    "durability": "240",
+    "weight": "4.0",
+    "type": "Straight Sword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "82",
         "magic": "-",
@@ -44013,24 +44481,28 @@
     }
   },
   "Sunlight Talisman": {
-    "data": {
+    "damage": {
       "physical": "14",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "50",
-      "lightning": "-",
-      "weight": "0.3",
-      "strength": "4",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "14",
-      "type": "Catalyst",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "4",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": "14"
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "50",
+    "weight": "0.3",
+    "type": "Catalyst",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "234",
         "magic": "14",
@@ -44050,24 +44522,28 @@
     }
   },
   "Talisman": {
-    "data": {
+    "damage": {
       "physical": "14",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "50",
-      "lightning": "-",
-      "weight": "0.3",
-      "strength": "4",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "10",
-      "type": "Talisman",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "4",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": "10"
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "50",
+    "weight": "0.3",
+    "type": "Talisman",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "200",
         "magic": "14",
@@ -44087,24 +44563,28 @@
     }
   },
   "Thorolund Talisman": {
-    "data": {
+    "damage": {
       "physical": "14",
-      "critical": "165",
-      "magic": "-",
-      "stability": "10",
+      "magic": "165",
       "fire": "-",
-      "durability": "50",
-      "lightning": "165",
-      "weight": "0.3",
-      "strength": "4",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "10",
-      "type": "Catalyst",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "165"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "4",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": "10"
+    },
+    "critical": "165",
+    "stability": "10",
+    "auxiliary": null,
+    "durability": "50",
+    "weight": "0.3",
+    "type": "Catalyst",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "165",
         "magic": "14",
@@ -44124,24 +44604,28 @@
     }
   },
   "Tin Banishment Catalyst": {
-    "data": {
+    "damage": {
       "physical": "145",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "160",
-      "lightning": "-",
-      "weight": "3.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "10",
       "dexterity": "10",
       "intelligence": "12",
-      "faith": "–",
-      "type": "Catalyst",
-      "attack_type": "Thrust",
-      "enchantable": false
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "160",
+    "weight": "3.0",
+    "type": "Catalyst",
+    "attack_type": "Thrust",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "136",
         "magic": "145",
@@ -44161,24 +44645,28 @@
     }
   },
   "Tin Crystallization Catalyst": {
-    "data": {
+    "damage": {
       "physical": "240",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "90",
-      "lightning": "-",
-      "weight": "2.5",
-      "strength": "7",
-      "dexterity": "-",
-      "intelligence": "32",
-      "faith": "-",
-      "type": "Catalyst",
-      "attack_type": "Thrust",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "7",
+      "dexterity": null,
+      "intelligence": "32",
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "90",
+    "weight": "2.5",
+    "type": "Catalyst",
+    "attack_type": "Thrust",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "315",
         "magic": "240",
@@ -44198,24 +44686,28 @@
     }
   },
   "Tin Darkmoon Catalyst": {
-    "data": {
+    "damage": {
       "physical": "44",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "60",
-      "lightning": "-",
-      "weight": "1.0",
-      "strength": "4",
-      "dexterity": "-",
-      "intelligence": "–",
-      "faith": "16",
-      "type": "Catalyst",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "4",
+      "dexterity": null,
+      "intelligence": null,
+      "faith": "16"
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "60",
+    "weight": "1.0",
+    "type": "Catalyst",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "230",
         "magic": "44",
@@ -44235,24 +44727,28 @@
     }
   },
   "Titanite Catch Pole": {
-    "data": {
+    "damage": {
       "physical": "187",
-      "critical": "100",
-      "magic": "217",
-      "stability": "26",
+      "magic": "100",
       "fire": "-",
-      "durability": "600",
-      "lightning": "-",
-      "weight": "6.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "16",
       "dexterity": "14",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Halberd",
-      "attack_type": "Regular",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "600",
+    "weight": "6.0",
+    "type": "Halberd",
+    "attack_type": "Regular",
+    "enchantable": false,
+    "special": "Knockdown",
+    "upgrades": {
       "Regular": {
         "physical": "125",
         "magic": "145",
@@ -44358,24 +44854,28 @@
     }
   },
   "Uchigatana": {
-    "data": {
+    "damage": {
       "physical": "225",
-      "critical": "100",
-      "magic": "170(182)",
-      "stability": "30",
+      "magic": "100",
       "fire": "216(216)",
-      "durability": "80",
-      "lightning": "225(225)",
-      "weight": "5.0",
+      "lightning": "225(225)"
+    },
+    "requirements": {
       "strength": "14",
       "dexterity": "14",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Katana",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": "300",
+    "durability": "80",
+    "weight": "5.0",
+    "type": "Katana",
+    "attack_type": "Slash / Thrust",
+    "enchantable": true,
+    "special": "Bleed",
+    "upgrades": {
       "Regular": {
         "physical": "90",
         "magic": "0",
@@ -44919,24 +45419,28 @@
     }
   },
   "Velka's Rapier": {
-    "data": {
+    "damage": {
       "physical": "93",
-      "critical": "100",
-      "magic": "156",
-      "stability": "22",
+      "magic": "100",
       "fire": "-",
-      "durability": "130",
-      "lightning": "-",
-      "weight": "2.0",
+      "lightning": "-"
+    },
+    "requirements": {
       "strength": "8",
       "dexterity": "16",
       "intelligence": "16",
-      "faith": "–",
-      "type": "110",
-      "attack_type": "Piercing Sword",
-      "enchantable": false
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "22",
+    "auxiliary": "110",
+    "durability": "130",
+    "weight": "2.0",
+    "type": "Piercing Sword",
+    "attack_type": "Regular / Thrust",
+    "enchantable": false,
+    "special": "Combo",
+    "upgrades": {
       "Regular": {
         "physical": "62",
         "magic": "104",
@@ -45048,24 +45552,28 @@
     }
   },
   "Velka's Talisman": {
-    "data": {
+    "damage": {
       "physical": "14",
-      "critical": "100",
-      "magic": "-",
-      "stability": "16",
+      "magic": "100",
       "fire": "-",
-      "durability": "50",
-      "lightning": "-",
-      "weight": "0.3",
-      "strength": "4",
-      "dexterity": "-",
-      "intelligence": "16",
-      "faith": "–",
-      "type": "Catalyst",
-      "attack_type": "Strike",
-      "enchantable": false
+      "lightning": "-"
     },
-    "upgradeTable": {
+    "requirements": {
+      "strength": "4",
+      "dexterity": null,
+      "intelligence": "16",
+      "faith": null
+    },
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "50",
+    "weight": "0.3",
+    "type": "Catalyst",
+    "attack_type": "Strike",
+    "enchantable": false,
+    "special": "No",
+    "upgrades": {
       "": {
         "physical": "220",
         "magic": "14",
@@ -45085,24 +45593,28 @@
     }
   },
   "Warpick": {
-    "data": {
+    "damage": {
       "physical": "227",
-      "critical": "100",
-      "magic": "170(185)",
-      "stability": "10",
+      "magic": "100",
       "fire": "218(218)",
-      "durability": "220",
-      "lightning": "227(227)",
-      "weight": "3.5",
+      "lightning": "227(227)"
+    },
+    "requirements": {
       "strength": "11",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Hammer",
-      "attack_type": "Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "10",
+    "auxiliary": null,
+    "durability": "220",
+    "weight": "3.5",
+    "type": "Hammer",
+    "attack_type": "Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "91",
         "magic": "0",
@@ -45754,24 +46266,28 @@
     }
   },
   "Washing Pole": {
-    "data": {
+    "damage": {
       "physical": "225",
-      "critical": "100",
-      "magic": "170(182)",
-      "stability": "30",
+      "magic": "100",
       "fire": "216(216)",
-      "durability": "60",
-      "lightning": "225(225)",
-      "weight": "8.0",
+      "lightning": "225(225)"
+    },
+    "requirements": {
       "strength": "20",
       "dexterity": "16",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "300",
-      "attack_type": "Katana",
-      "enchantable": false
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "30",
+    "auxiliary": "300",
+    "durability": "60",
+    "weight": "8.0",
+    "type": "Katana",
+    "attack_type": "Slash / Thrust",
+    "enchantable": true,
+    "special": "Bleed",
+    "upgrades": {
       "Regular": {
         "physical": "90",
         "magic": "0",
@@ -46333,24 +46849,28 @@
     }
   },
   "Whip": {
-    "data": {
+    "damage": {
       "physical": "200",
-      "critical": "100",
-      "magic": "150(162)",
-      "stability": "16",
+      "magic": "100",
       "fire": "192(192)",
-      "durability": "200",
-      "lightning": "200(200)",
-      "weight": "1.5",
+      "lightning": "200(200)"
+    },
+    "requirements": {
       "strength": "7",
       "dexterity": "14",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Whip",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "16",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "1.5",
+    "type": "Whip",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "80",
         "magic": "-",
@@ -46932,24 +47452,28 @@
     }
   },
   "Winged Spear": {
-    "data": {
+    "damage": {
       "physical": "215",
-      "critical": "100",
-      "magic": "162(175)",
-      "stability": "26",
+      "magic": "100",
       "fire": "206(206)",
-      "durability": "140",
-      "lightning": "215(215)",
-      "weight": "4.5",
+      "lightning": "215(215)"
+    },
+    "requirements": {
       "strength": "13",
       "dexterity": "15",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Spears",
-      "attack_type": "Thrust",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "26",
+    "auxiliary": null,
+    "durability": "140",
+    "weight": "4.5",
+    "type": "Spears",
+    "attack_type": "Thrust",
+    "enchantable": true,
+    "special": "No",
+    "upgrades": {
       "Regular": {
         "physical": "86",
         "magic": "0",
@@ -47583,24 +48107,28 @@
     }
   },
   "Zweihander": {
-    "data": {
+    "damage": {
       "physical": "325",
-      "critical": "100",
-      "magic": "245(265)",
-      "stability": "44",
+      "magic": "100",
       "fire": "312(312)",
-      "durability": "200",
-      "lightning": "325(325)",
-      "weight": "10.0",
+      "lightning": "325(325)"
+    },
+    "requirements": {
       "strength": "24",
       "dexterity": "10",
-      "intelligence": "–",
-      "faith": "–",
-      "type": "Ultra Greatsword",
-      "attack_type": "Regular",
-      "enchantable": true
+      "intelligence": null,
+      "faith": null
     },
-    "upgradeTable": {
+    "critical": "100",
+    "stability": "44",
+    "auxiliary": null,
+    "durability": "200",
+    "weight": "10.0",
+    "type": "Ultra Greatsword",
+    "attack_type": "Regular",
+    "enchantable": true,
+    "special": "Yes",
+    "upgrades": {
       "Regular": {
         "physical": "130",
         "magic": "-",

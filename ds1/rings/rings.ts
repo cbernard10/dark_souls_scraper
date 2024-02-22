@@ -1,7 +1,7 @@
-import getHtml from "../getHtml";
-import { browser, start_browser } from "../browser";
+import getHtml from "../../lib/getHtml";
+import { browser, start_browser } from "../../lib/browser";
 import fs from "fs";
-import { nodesToText } from "../utils";
+import { nodesToText } from "../../lib/utils";
 
 const BASE_URL = "https://darksouls.wiki.fextralife.com";
 

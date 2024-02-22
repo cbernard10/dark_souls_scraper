@@ -1,0 +1,1431 @@
+{
+  "id": "364c48c9-d79f-4d3c-a68d-639b70a4aefe",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "5",
+  "dialect": "pg",
+  "tables": {
+    "ds1_armor": {
+      "name": "ds1_armor",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "durability": {
+          "name": "durability",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "weight": {
+          "name": "weight",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "poise": {
+          "name": "poise",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "physical": {
+          "name": "physical",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "strike": {
+          "name": "strike",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "slash": {
+          "name": "slash",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "thrust": {
+          "name": "thrust",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "magic": {
+          "name": "magic",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "fire": {
+          "name": "fire",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "lightning": {
+          "name": "lightning",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "bleed": {
+          "name": "bleed",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "poison": {
+          "name": "poison",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "curse": {
+          "name": "curse",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "type": {
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds1_armor_name_unique": {
+          "name": "ds1_armor_name_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "name"
+          ]
+        }
+      }
+    },
+    "ds1_magic": {
+      "name": "ds1_magic",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "uses": {
+          "name": "uses",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "slots": {
+          "name": "slots",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "intelligence": {
+          "name": "intelligence",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "acquisition": {
+          "name": "acquisition",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds1_magic_name_unique": {
+          "name": "ds1_magic_name_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "name"
+          ]
+        }
+      }
+    },
+    "ds1_miracles": {
+      "name": "ds1_miracles",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "uses": {
+          "name": "uses",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "slots": {
+          "name": "slots",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "faith": {
+          "name": "faith",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "acquisition": {
+          "name": "acquisition",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds1_miracles_name_unique": {
+          "name": "ds1_miracles_name_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "name"
+          ]
+        }
+      }
+    },
+    "ds1_pyromancies": {
+      "name": "ds1_pyromancies",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "uses": {
+          "name": "uses",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "slots": {
+          "name": "slots",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cost": {
+          "name": "cost",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "acquisition": {
+          "name": "acquisition",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds1_pyromancies_name_unique": {
+          "name": "ds1_pyromancies_name_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "name"
+          ]
+        }
+      }
+    },
+    "ds1_rings": {
+      "name": "ds1_rings",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "effects": {
+          "name": "effects",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "acquisition": {
+          "name": "acquisition",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds1_rings_name_unique": {
+          "name": "ds1_rings_name_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "name"
+          ]
+        }
+      }
+    },
+    "ds1_shields": {
+      "name": "ds1_shields",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "strength": {
+          "name": "strength",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dexterity": {
+          "name": "dexterity",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "intelligence": {
+          "name": "intelligence",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "faith": {
+          "name": "faith",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "durability": {
+          "name": "durability",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "weight": {
+          "name": "weight",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "critical": {
+          "name": "critical",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "type": {
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "attack_type": {
+          "name": "attack_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "enchantable": {
+          "name": "enchantable",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds1_shields_name_unique": {
+          "name": "ds1_shields_name_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "name"
+          ]
+        }
+      }
+    },
+    "ds1_upgrades": {
+      "name": "ds1_upgrades",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "weapon": {
+          "name": "weapon",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "range": {
+          "name": "range",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "physical": {
+          "name": "physical",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "magic": {
+          "name": "magic",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "fire": {
+          "name": "fire",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "lightning": {
+          "name": "lightning",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "strength": {
+          "name": "strength",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dexterity": {
+          "name": "dexterity",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "intelligence": {
+          "name": "intelligence",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "faith": {
+          "name": "faith",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "divine": {
+          "name": "divine",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "occult": {
+          "name": "occult",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "physical_defense": {
+          "name": "physical_defense",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "magic_defense": {
+          "name": "magic_defense",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "fire_defense": {
+          "name": "fire_defense",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "lightning_defense": {
+          "name": "lightning_defense",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "stability": {
+          "name": "stability",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds1_upgrades_weapon_unique": {
+          "name": "ds1_upgrades_weapon_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "weapon"
+          ]
+        }
+      }
+    },
+    "ds1_weapons": {
+      "name": "ds1_weapons",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "strength": {
+          "name": "strength",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dexterity": {
+          "name": "dexterity",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "intelligence": {
+          "name": "intelligence",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "faith": {
+          "name": "faith",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "durability": {
+          "name": "durability",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "weight": {
+          "name": "weight",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "critical": {
+          "name": "critical",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "type": {
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "attack_type": {
+          "name": "attack_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "enchantable": {
+          "name": "enchantable",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "special": {
+          "name": "special",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "auxiliary": {
+          "name": "auxiliary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds1_weapons_name_unique": {
+          "name": "ds1_weapons_name_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "name"
+          ]
+        }
+      }
+    },
+    "ds2_armor": {
+      "name": "ds2_armor",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "type": {
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "physical_defense_bonus": {
+          "name": "physical_defense_bonus",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "physical_defense": {
+          "name": "physical_defense",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "strike_defense": {
+          "name": "strike_defense",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "slash_defense": {
+          "name": "slash_defense",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "thrust_defense": {
+          "name": "thrust_defense",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "magic_defense": {
+          "name": "magic_defense",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "fire_defense": {
+          "name": "fire_defense",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "lightning_defense": {
+          "name": "lightning_defense",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dark_defense": {
+          "name": "dark_defense",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "poise": {
+          "name": "poise",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "poison_resist": {
+          "name": "poison_resist",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "bleed_resist": {
+          "name": "bleed_resist",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "petrify_resist": {
+          "name": "petrify_resist",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "curse_resist": {
+          "name": "curse_resist",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "special": {
+          "name": "special",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "weight": {
+          "name": "weight",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "durability": {
+          "name": "durability",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds2_armor_name_unique": {
+          "name": "ds2_armor_name_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "name"
+          ]
+        }
+      }
+    },
+    "ds2_magic": {
+      "name": "ds2_magic",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "category": {
+          "name": "category",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "uses": {
+          "name": "uses",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "int": {
+          "name": "int",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "fth": {
+          "name": "fth",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "attunement": {
+          "name": "attunement",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds2_magic_name_unique": {
+          "name": "ds2_magic_name_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "name"
+          ]
+        }
+      }
+    },
+    "ds2_rings": {
+      "name": "ds2_rings",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "weight": {
+          "name": "weight",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "effects": {
+          "name": "effects",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "acquisition": {
+          "name": "acquisition",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds2_rings_name_unique": {
+          "name": "ds2_rings_name_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "name"
+          ]
+        }
+      }
+    },
+    "ds2_shield_upgrades": {
+      "name": "ds2_shield_upgrades",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "shield": {
+          "name": "shield",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "range": {
+          "name": "range",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "physical": {
+          "name": "physical",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "magic": {
+          "name": "magic",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "fire": {
+          "name": "fire",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "lightning": {
+          "name": "lightning",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dark": {
+          "name": "dark",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "physical_bonus": {
+          "name": "physical_bonus",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dexterity_bonus": {
+          "name": "dexterity_bonus",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "magic_bonus": {
+          "name": "magic_bonus",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "fire_bonus": {
+          "name": "fire_bonus",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "lightning_bonus": {
+          "name": "lightning_bonus",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dark_bonus": {
+          "name": "dark_bonus",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "poison": {
+          "name": "poison",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "poison_def": {
+          "name": "poison_def",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "bleed": {
+          "name": "bleed",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "bleed_def": {
+          "name": "bleed_def",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "petrify_def": {
+          "name": "petrify_def",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "curse_def": {
+          "name": "curse_def",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "physical_def": {
+          "name": "physical_def",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "magic_def": {
+          "name": "magic_def",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "fire_def": {
+          "name": "fire_def",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "lightning_def": {
+          "name": "lightning_def",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dark_def": {
+          "name": "dark_def",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "stability": {
+          "name": "stability",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds2_shield_upgrades_shield_unique": {
+          "name": "ds2_shield_upgrades_shield_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "shield"
+          ]
+        }
+      }
+    },
+    "ds2_shields": {
+      "name": "ds2_shields",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "durability": {
+          "name": "durability",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "weight": {
+          "name": "weight",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "stability": {
+          "name": "stability",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "strength": {
+          "name": "strength",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "str_scaling": {
+          "name": "str_scaling",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dex": {
+          "name": "dex",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dex_scaling": {
+          "name": "dex_scaling",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "int": {
+          "name": "int",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "int_scaling": {
+          "name": "int_scaling",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "faith": {
+          "name": "faith",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "faith_scaling": {
+          "name": "faith_scaling",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "type": {
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "attack_type": {
+          "name": "attack_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds2_shields_name_unique": {
+          "name": "ds2_shields_name_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "name"
+          ]
+        }
+      }
+    },
+    "ds2_upgrades": {
+      "name": "ds2_upgrades",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "weapon": {
+          "name": "weapon",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "range": {
+          "name": "range",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "physical": {
+          "name": "physical",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "magicdmg": {
+          "name": "magicdmg",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "fire": {
+          "name": "fire",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "lightning": {
+          "name": "lightning",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dark": {
+          "name": "dark",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "counter": {
+          "name": "counter",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "poise": {
+          "name": "poise",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "strength": {
+          "name": "strength",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dexterity": {
+          "name": "dexterity",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "magic": {
+          "name": "magic",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "poison": {
+          "name": "poison",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "bleed": {
+          "name": "bleed",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "physical_defense": {
+          "name": "physical_defense",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "magic_defense": {
+          "name": "magic_defense",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "fire_defense": {
+          "name": "fire_defense",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "lightning_defense": {
+          "name": "lightning_defense",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dark_defense": {
+          "name": "dark_defense",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds2_upgrades_weapon_unique": {
+          "name": "ds2_upgrades_weapon_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "weapon"
+          ]
+        }
+      }
+    },
+    "ds2_weapons": {
+      "name": "ds2_weapons",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "strength": {
+          "name": "strength",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "dexterity": {
+          "name": "dexterity",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "intelligence": {
+          "name": "intelligence",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "faith": {
+          "name": "faith",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "durability": {
+          "name": "durability",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "weight": {
+          "name": "weight",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "type": {
+          "name": "type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "attack_type": {
+          "name": "attack_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "enchantable": {
+          "name": "enchantable",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "special": {
+          "name": "special",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "ds2_weapons_name_unique": {
+          "name": "ds2_weapons_name_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "name"
+          ]
+        }
+      }
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

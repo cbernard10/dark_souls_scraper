@@ -1,7 +1,7 @@
-import getHtml from "../getHtml";
-import { browser, start_browser } from "../browser";
+import getHtml from "../../lib/getHtml";
+import { browser, start_browser } from "../../lib/browser";
 import fs from "fs";
-import { WeaponData, WeaponURL, UpgradeTable } from "./types";
+import { ShieldData, WeaponURL, UpgradeTable } from "../types";
 
 const BASE_URL = "https://darksouls.wiki.fextralife.com";
 
@@ -60,7 +60,7 @@ const getWeaponRoot = async (
 
 const getWeaponData = async (
   cheerioRoot: cheerio.Root
-): Promise<WeaponData> => {
+): Promise<ShieldData> => {
   const $ = cheerioRoot;
 
   await browser.close();
@@ -90,7 +90,6 @@ const getWeaponData = async (
     weight: $(rows[3]).find("td").eq(3).text().trim(),
     type: $(rows[5]).find("td").eq(0).text().trim(),
     attack_type: $(rows[6]).find("td").eq(0).text().trim(),
-    enchantable: $(rows[7]).find("td").eq(0).text().trim() === "Yes",
     upgrades: {},
   };
 };
@@ -142,7 +141,7 @@ const scrapeAndSave = async (output: string = "shields"): Promise<void> => {
   }
 
   const allWeapons: {
-    [key: string]: WeaponData;
+    [key: string]: ShieldData;
   } = {};
 
   for (const weapon of weaponUrls) {

@@ -1,7 +1,8 @@
-import getHtml from "../getHtml";
-import { browser, start_browser } from "../browser";
+import getHtml from "../../lib/getHtml";
+import { browser, start_browser } from "../../lib/browser";
 import fs from "fs";
-import { nodesToText } from "../utils";
+import { nodesToText } from "../../lib/utils";
+import { ArmorData, ArmorPiece } from "../types";
 
 const BASE_URL = "https://darksouls.wiki.fextralife.com";
 
@@ -20,30 +21,6 @@ const getArmorRoot = async (url: string): Promise<cheerio.Root | undefined> => {
   }
   const { html, $ } = result;
   return $;
-};
-
-type ArmorPiece = {
-  durability: string;
-  weight: string;
-  protection: {
-    physical: string;
-    strike: string;
-    slash: string;
-    thrust: string;
-    magic: string;
-    fire: string;
-    lightning: string;
-    bleed: string;
-    poison: string;
-    curse: string;
-  };
-  poise: string;
-};
-
-type ArmorData = {
-  [key: string]: {
-    [key: string]: ArmorPiece;
-  };
 };
 
 const getArmorData = async (): Promise<ArmorData> => {

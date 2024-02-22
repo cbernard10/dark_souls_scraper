@@ -6,7 +6,7 @@ import { sql } from "@vercel/postgres";
 dotenv.config();
 
 export default {
-  schema: "./schema/*",
+  schema: "./schema/schema.ts",
   out: "./drizzle",
   driver: "pg",
   dbCredentials: {

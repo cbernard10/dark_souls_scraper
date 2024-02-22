@@ -1,0 +1,996 @@
+{
+  "Agape Ring": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Absorbs souls in place of its wearer"
+    ],
+    "acquisition": [
+      "Straid of Olaphis"
+    ]
+  },
+  "Life Ring": {
+    "weight": [
+      "+0=0.2",
+      "+1=0.5",
+      "+2=0.8",
+      "+3=1.2"
+    ],
+    "effects": [
+      "Raises maximum HP by 5%",
+      "+1 = 7.5%",
+      "+2 = 12.5%",
+      "+3 = 15%"
+    ],
+    "acquisition": [
+      "Forest of Fallen Giants",
+      "Starter's Gift",
+      "+1: Iron Keep",
+      "+2: Shrine of Amana",
+      "+3: Crown of the Old Iron King DLC"
+    ]
+  },
+  "Chloranthy Ring": {
+    "weight": [
+      "+0=0.2",
+      "+1=0.5",
+      "+2=0.8"
+    ],
+    "effects": [
+      "Increases stamina recovery rate by 15%",
+      "+1 = 20%",
+      "+2 = 25%"
+    ],
+    "acquisition": [
+      "Forest of Fallen Giants",
+      "+1: Shaded Woods",
+      "+2: Executioner's Chariot (NG+ only)"
+    ]
+  },
+  "Royal Soldier's Ring": {
+    "weight": [
+      "+0=0.2",
+      "+1=0.5",
+      "+2=0.8"
+    ],
+    "effects": [
+      "Increases maximum load by 10%",
+      "+1 = 15%",
+      "+2 = 20%"
+    ],
+    "acquisition": [
+      "No-Man's Wharf",
+      "+1: Drangleic Castle",
+      "+2: Velstadt, the Royal Aegis (NG+ only)"
+    ]
+  },
+  "First Dragon Ring": {
+    "weight": [
+      "1st=0.5",
+      "2nd=0.8",
+      "3rd=1.0"
+    ],
+    "effects": [
+      "Increases HP by 3%, stamina by 5% and maximum load by 5%",
+      "2nd = 5%; 10%; 10%",
+      "3rd = 7.5%; 12.5%; 12.5%"
+    ],
+    "acquisition": [
+      "1st: Company of Champions (Rank 2)",
+      "2nd: Manscorpion Tark",
+      "3rd: Dragon Shrine"
+    ]
+  },
+  "Ring of Steel Protection": {
+    "weight": [
+      "+0=1.0",
+      "+1=1.5",
+      "+2=2.0"
+    ],
+    "effects": [
+      "Increases physical defense by 50",
+      "+1 = 75",
+      "+2 = 100"
+    ],
+    "acquisition": [
+      "Crestfallen Saulden",
+      "+1: Lucatiel of Mirrah",
+      "+2: Looking Glass Knight (NG+ only)"
+    ]
+  },
+  "Spell Quartz Ring": {
+    "weight": [
+      "+0=0.2",
+      "+1=0.5",
+      "+2=0.8",
+      "+3=1.0"
+    ],
+    "effects": [
+      "Increases magic defense by 50",
+      "+1 = 80",
+      "+2 = 100",
+      "+3 =150"
+    ],
+    "acquisition": [
+      "Carhillion of the Fold",
+      "+1: Earthen Peak",
+      "+2: King's Passage",
+      "+3: Crown of the Old Iron King DLC",
+      "Starting Ring for Explorer"
+    ]
+  },
+  "Flame Quartz Ring": {
+    "weight": [
+      "+0=0.2",
+      "+1=0.5",
+      "+2=0.8",
+      "+3=1.0"
+    ],
+    "effects": [
+      "Increases fire defense by 50",
+      "+1 = 80",
+      "+2 = 100",
+      "+3 = 150"
+    ],
+    "acquisition": [
+      "Rosabeth of Melfia",
+      "+1: Forest of Fallen Giants",
+      "+2: Guardian Dragon, random possible drop from the non-respawning dragons in Dragon Aerie.",
+      "+3: Crown of the Old Iron King DLC"
+    ]
+  },
+  "Thunder Quartz Ring": {
+    "weight": [
+      "+0=0.2",
+      "+1=0.5",
+      "+2=0.8",
+      "+3=1.0"
+    ],
+    "effects": [
+      "Increases lightning defense by 50points.",
+      "+1 = 80",
+      "+2 = 100",
+      "+3 = 150"
+    ],
+    "acquisition": [
+      "Rosabeth of Melfia",
+      "+1: Iron Keep",
+      "+2: Royal Sorcerer Navlaan",
+      "+3: Crown of the Sunken King DLC"
+    ]
+  },
+  "Dark Quartz Ring": {
+    "weight": [
+      "+0=0.2",
+      "+1=0.5",
+      "+2=0.8",
+      "+3=1.0"
+    ],
+    "effects": [
+      "Increases dark defense by 50",
+      "+1 = 80",
+      "+2 = 100",
+      "+3 = 150"
+    ],
+    "acquisition": [
+      "Rosabeth of Melfia",
+      "+1: Tseldoran Settler (Duke Tseldora)",
+      "+2: Leydia Witch",
+      "+3: Crown of the Sunken King DLC"
+    ]
+  },
+  "Poisonbite Ring": {
+    "weight": [
+      "+0=0.5",
+      "+1=1.5"
+    ],
+    "effects": [
+      "Increases poison resistance by 150",
+      "+1 = 300"
+    ],
+    "acquisition": [
+      "Earthen Peak",
+      "Harvest Valley (please confirm and add to Harvest Valley page)",
+      "Cromwell the Pardoner",
+      "+1: Crown of the Sunken King DLC"
+    ]
+  },
+  "Bloodbite Ring": {
+    "weight": [
+      "+0=0.5",
+      "+1=1.5"
+    ],
+    "effects": [
+      "Increases bleeding resistance by 150",
+      "+ 1 = 300"
+    ],
+    "acquisition": [
+      "Cromwell the Pardoner",
+      "Way of Blue",
+      "+1: Crown of the Sunken King DLC"
+    ]
+  },
+  "Cursebite Ring": {
+    "weight": [
+      "0.8"
+    ],
+    "effects": [
+      "Increases curse resistance by 400"
+    ],
+    "acquisition": [
+      "Cromwell the Pardoner",
+      "Magerold of Lanafir"
+    ]
+  },
+  "Bracing Knuckle Ring": {
+    "weight": [
+      "+0=0.5",
+      "+1=0.8",
+      "+2=1.0"
+    ],
+    "effects": [
+      "Reduce weapon degradation by 20%, +1 = 35%, +2 = 50%,",
+      "Armor degradation by 20%, +1 = 25%, +2 = 35%,",
+      "Ring degradation by 20%, +1 = 25%, +2 = 35%"
+    ],
+    "acquisition": [
+      "Lost Bastille",
+      "+1: Chancellor Wellager",
+      "+2: Undead Crypt"
+    ]
+  },
+  "Ash Knuckle Ring": {
+    "weight": [
+      "0.8"
+    ],
+    "effects": [
+      "Increases petrification resistance by 400"
+    ],
+    "acquisition": [
+      "Grave of Saints"
+    ]
+  },
+  "Dispelling Ring": {
+    "weight": [
+      "+0=1.0",
+      "+1=4.0"
+    ],
+    "effects": [
+      "Increases magic, lightning, fire, and dark defense by 60",
+      "+1 = Increases magic, lightning, fire, and dark defense by 120"
+    ],
+    "acquisition": [
+      "Royal Sorcerer Navlaan",
+      "+1: Crown of the Old Iron King DLC"
+    ]
+  },
+  "Ring of Resistance": {
+    "weight": [
+      "+0=0.8",
+      "+1=1.5"
+    ],
+    "effects": [
+      "Raises poison, bleed, curse, and petrify resist by 120",
+      "+1 = Raises poison, bleed, curse, and petrify resist by 180"
+    ],
+    "acquisition": [
+      "Cromwell the Pardoner",
+      "+1: Crown of the Ivory King DLC"
+    ]
+  },
+  "Ring of Blades": {
+    "weight": [
+      "+0=1.0",
+      "+1=1.5",
+      "+2=2.0"
+    ],
+    "effects": [
+      "Increases Physical attack by 20",
+      "+1 = 35",
+      "+2 = 50"
+    ],
+    "acquisition": [
+      "The Pursuer,",
+      "+1: The Pursuer that spawns where Smelter Demon was after it is dead",
+      "+2: The Pursuers in Drangleic Castle´s throne room (NG+ only)"
+    ]
+  },
+  "Ring of Knowledge": {
+    "weight": [
+      "0.5"
+    ],
+    "effects": [
+      "Increases intelligence by 5"
+    ],
+    "acquisition": [
+      "Straid of Olaphis"
+    ]
+  },
+  "Ring of Prayer": {
+    "weight": [
+      "0.5"
+    ],
+    "effects": [
+      "Increases faith by 5"
+    ],
+    "acquisition": [
+      "Licia of Lindelt"
+    ]
+  },
+  "Stone Ring": {
+    "weight": [
+      "1.5"
+    ],
+    "effects": [
+      "Deal additional 30 damage to poise"
+    ],
+    "acquisition": [
+      "Things Betwixt"
+    ]
+  },
+  "Red Tearstone Ring": {
+    "weight": [
+      "1.5"
+    ],
+    "effects": [
+      "Boosts attack by 20% when HP is below 30%"
+    ],
+    "acquisition": [
+      "Aldia's Keep",
+      "Shaded Woods"
+    ]
+  },
+  "Blue Tearstone Ring": {
+    "weight": [
+      "1.0"
+    ],
+    "effects": [
+      "Increases defense by 35% when HP is below 30%"
+    ],
+    "acquisition": [
+      "Belfry Luna",
+      "Way of Blue"
+    ]
+  },
+  "Ring of Giants": {
+    "weight": [
+      "+0=2.0",
+      "+1=3.0",
+      "+2=5.0"
+    ],
+    "effects": [
+      "Increases poise by 10",
+      "+1 = 20",
+      "+2 = 30"
+    ],
+    "acquisition": [
+      "Gavlan",
+      "+1: Black Gulch",
+      "+2: Giant Lord (NG+ only)"
+    ]
+  },
+  "Old Leo Ring": {
+    "weight": [
+      "0.5"
+    ],
+    "effects": [
+      "Strengthens thrust weapon counter attacks by 12.5%"
+    ],
+    "acquisition": [
+      "Old Dragonslayer"
+    ]
+  },
+  "Ring of Soul Protection": {
+    "weight": [
+      "1.0"
+    ],
+    "effects": [
+      "The Gutter",
+      "Head of Vengarl"
+    ],
+    "acquisition": []
+  },
+  "Ring of Life Protection": {
+    "weight": [
+      "1.0"
+    ],
+    "effects": [
+      "No-Man's Wharf",
+      "Shaded Woods",
+      "Felkin the Outcast"
+    ],
+    "acquisition": []
+  },
+  "Lingering Dragoncrest Ring": {
+    "weight": [
+      "+0=0.2",
+      "+1=0.5",
+      "+2=0.8"
+    ],
+    "effects": [
+      "Extends length of spell effects by 15%",
+      "+1 = 25%",
+      "+2 = 40%"
+    ],
+    "acquisition": [
+      "Straid of Olaphis",
+      "+1: Desert Sorceress",
+      "+2: Defeat 1000 Dark Spirits"
+    ]
+  },
+  "Clear Bluestone Ring": {
+    "weight": [
+      "+0=0.2",
+      "+1=0.5",
+      "+2=0.8"
+    ],
+    "effects": [
+      "Shortens spell casting time by 20%",
+      "+1 = 35%",
+      "+2 = 40%"
+    ],
+    "acquisition": [
+      "Carhillion of the Fold",
+      "+1: Shaded Woods",
+      "+2: Skeleton Lords (NG+ only)"
+    ]
+  },
+  "Northern Ritual Band": {
+    "weight": [
+      "+0=0.5",
+      "+1=0.8",
+      "+2=1.0"
+    ],
+    "effects": [
+      "Increases spell uses by 10%, +1 = 20%, +2 = 30%,",
+      "Reduces HP by 20%, +1 = 35%, +2 = 50%"
+    ],
+    "acquisition": [
+      "Sinner's Rise",
+      "+1: Carhillion of the Fold",
+      "+2: Aldia's Keep"
+    ]
+  },
+  "Southern Ritual Band": {
+    "weight": [
+      "+0=1.0",
+      "+1=1.2",
+      "+2=1.5"
+    ],
+    "effects": [
+      "Increases Attunement slots by 1",
+      "+1 = 2",
+      "+2 = 3"
+    ],
+    "acquisition": [
+      "Belfry Luna",
+      "+1: Brightstone Cove Tseldora",
+      "+2: Scorpioness Najka (NG+ only)"
+    ]
+  },
+  "Covetous Gold Serpent Ring": {
+    "weight": [
+      "+0=1.0",
+      "+1=1.2",
+      "+2=1.5"
+    ],
+    "effects": [
+      "Increases item discovery by 50%",
+      "+1 = 75%",
+      "+2 = 100%"
+    ],
+    "acquisition": [
+      "Iron Keep",
+      "+1: Magerold of Lanafir",
+      "+2: Belfry Gargoyle (NG+ Only)"
+    ]
+  },
+  "Covetous Silver Serpent Ring": {
+    "weight": [
+      "+0=1.0",
+      "+1=1.2",
+      "+2=1.5"
+    ],
+    "effects": [
+      "Fallen foes yield 10% more souls",
+      "+1 = 20%",
+      "+2 = 30%"
+    ],
+    "acquisition": [
+      "Lost Bastille",
+      "+1: Merchant Hag Melentia",
+      "+2: Mytha, the Baneful Queen (NG+ only)"
+    ]
+  },
+  "Ring of the Evil Eye": {
+    "weight": [
+      "+0=1.0",
+      "+1=1.2",
+      "+2=1.5"
+    ],
+    "effects": [
+      "Absorb 30 HP from each defeated foe",
+      "+1 = 50",
+      "+2 = 80"
+    ],
+    "acquisition": [
+      "The Gutter, Sweet Shalquoir",
+      "+1: Dragon Aerie, The Pit",
+      "+2: Throne Defender and Watcher (NG+ only)"
+    ]
+  },
+  "Ring of Restoration": {
+    "weight": [
+      "1.0"
+    ],
+    "effects": [
+      "Restores 2 HP every second"
+    ],
+    "acquisition": [
+      "Forest of Fallen Giants(Requires Soldier's Key)"
+    ]
+  },
+  "Ring of Binding": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Limits HP reduction when Hollowing by 25%, and stops HP reduction at 80% of max instead of 50%"
+    ],
+    "acquisition": [
+      "Cathedral of Blue before Old Dragonslayer Boss"
+    ]
+  },
+  "Silvercat Ring": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Reduces damage from falling"
+    ],
+    "acquisition": [
+      "Sweet Shalquoir"
+    ]
+  },
+  "Redeye Ring": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Easier to be detected by enemies and draws their attention.",
+      "Can be used for most bosses to direct the fight (very useful to help others)",
+      "Adds a fiery red effect to your head around the eyes."
+    ],
+    "acquisition": [
+      "Sweet Shalquoir"
+    ]
+  },
+  "Gower's Ring of Protection": {
+    "weight": [
+      "10.0"
+    ],
+    "effects": [
+      "Makes a transparent hollow appear on your back that (doesn't negate damage anymore)will reduce damage taken from behind. Breaks after absorbing 5 attacks, regardless of their strength."
+    ],
+    "acquisition": [
+      "Shaded Woods (NG+ only, or Bonfire Ascetic)",
+      "SOFTS: Drangleic Castle"
+    ]
+  },
+  "Name-engraved Ring": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Easier to connect to players who chose same God"
+    ],
+    "acquisition": [
+      "Sweet Shalquoir"
+    ]
+  },
+  "Slumbering Dragoncrest Ring": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Walking/Running produces no sound."
+    ],
+    "acquisition": [
+      "Rat King"
+    ]
+  },
+  "Hawk Ring": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Extends the range of arrows by 7.55%"
+    ],
+    "acquisition": [
+      "Forest of Fallen Giants"
+    ]
+  },
+  "Old Sun Ring": {
+    "weight": [
+      "3.0"
+    ],
+    "effects": [
+      "Shaded Woods"
+    ],
+    "acquisition": []
+  },
+  "Illusory Ring of a Conqueror": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Left hand weapon becomes invisible"
+    ],
+    "acquisition": [
+      "Clear game without dying"
+    ]
+  },
+  "Illusory Ring of the Exalted": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Right hand weapon becomes invisible"
+    ],
+    "acquisition": [
+      "Clear game without resting at bonfire"
+    ]
+  },
+  "Ring of the Dead": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Keep human appearance even when Hollow"
+    ],
+    "acquisition": [
+      "Imprisoned Milfanito"
+    ]
+  },
+  "Ring of Thorns": {
+    "weight": [
+      "+0=0.5",
+      "+1=0.8",
+      "+2=0.8"
+    ],
+    "effects": [
+      "Has a 30% chance of counter-attacking when damage is taken",
+      "+1 = 50%",
+      "+2 = 70%"
+    ],
+    "acquisition": [
+      "Mild Mannered Pate",
+      "+1: Grave Warden Agdayne",
+      "+2: Invade and defeat the host player 1000 times"
+    ]
+  },
+  "Delicate String": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Increases chance of being invaded"
+    ],
+    "acquisition": [
+      "Titchy Gren"
+    ]
+  },
+  "White Ring": {
+    "weight": [
+      "1.0"
+    ],
+    "effects": [
+      "Take the appearance of a white phantom"
+    ],
+    "acquisition": [
+      "Dyna & Tillo"
+    ]
+  },
+  "Ring of Whispers": {
+    "weight": [
+      "0.5"
+    ],
+    "effects": [
+      "Causes a sound when you're near enemies.",
+      "Can be used to talk to Manscorpion Tark."
+    ],
+    "acquisition": [
+      "Sweet Shalquoir"
+    ]
+  },
+  "King's Ring": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Opens the King's Gates and increases fire element damage by 5 points."
+    ],
+    "acquisition": [
+      "Undead Crypt"
+    ]
+  },
+  "Blue Seal": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Covenant ring for apostles of Blue. Increases max HP by 3%"
+    ],
+    "acquisition": [
+      "Join the Way of Blue via Crestfallen Saulden"
+    ]
+  },
+  "Guardian's Seal": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Automatically summons you to other worlds"
+    ],
+    "acquisition": [
+      "Join the Blue Sentinels in the Cathedral of Blue via Blue Sentinel Targray"
+    ]
+  },
+  "Crest of Blood": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Covenant ring given to those who seek blood.",
+      "Covenant ring given to those who seek blood. Adds 50 to bleed attack if the weapon already has bleed attack present.",
+      "Adds 25 to bleed attack if the weapon doesn't have bleed attack present."
+    ],
+    "acquisition": [
+      "Join the Brotherhood of Blood in Undead Purgatory via Titchy Gren"
+    ]
+  },
+  "Crest of the Rat": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Ring of the Rat King covenant.",
+      "Allows Rat King matchmaking while being a Rat Servant and in a Rat King area",
+      "Adds 50 to poison attack if the weapon already has bleed attack present.",
+      "Adds 25 to poison attack if the weapon doesn't have bleed attack present."
+    ],
+    "acquisition": [
+      "Rat King in Grave of Saints"
+    ]
+  },
+  "Bell Keeper's Seal": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Ring for the Bell Keeper covenant. Allows invasions as a grey spirit to defend the Bell Tower"
+    ],
+    "acquisition": [
+      "Join the Bell Keepers in Belfry Luna or Belfry Sol"
+    ]
+  },
+  "Sun Seal": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Covenant ring for Heirs of the Sun. Increases the strength of Miracles by 5%"
+    ],
+    "acquisition": [
+      "Join the Heirs to the Sun in Harvest Valley"
+    ]
+  },
+  "Vanquisher's Seal": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Covenant ring for Champions. Increases bare handed attack power."
+    ],
+    "acquisition": [
+      "Company of Champions(Rank 3)"
+    ]
+  },
+  "Ancient Dragon Seal": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Covenant ring for would-be dragons. Estus Flask use restores 50 HP more."
+    ],
+    "acquisition": [
+      "Join the Dragon Remnants in Iron Keep via Magerold of Lanafir after giving him the Petrified Egg"
+    ]
+  },
+  "Abyss Seal": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Covenant ring for Pilgrims of Dark. Also increases the power of Hexes by 7.5% at the cost of 30 HP per cast."
+    ],
+    "acquisition": [
+      "Pilgrims of Dark(Meet Darkdiver Grandahl in Shaded Woods, Black Gulch and Drangleic Castle)"
+    ]
+  },
+  "Illusory Ring of the Vengeful": {
+    "weight": [
+      "0.9"
+    ],
+    "effects": [
+      "Removed from the final version of the game."
+    ],
+    "acquisition": [
+      "Unavailable"
+    ]
+  },
+  "Illusory Ring of the Guilty": {
+    "weight": [
+      "Unknown Weight"
+    ],
+    "effects": [
+      "Removed from the final version of the game."
+    ],
+    "acquisition": [
+      "Unavailable"
+    ]
+  },
+  "Lightning Clutch Ring": {
+    "weight": [
+      "2.0"
+    ],
+    "effects": [
+      "Increases Lightning AR by 30 before infusion modification",
+      "Lowers the wearer's defence against all types of physical attack by 80 points."
+    ],
+    "acquisition": [
+      "Dragons Sanctum (Requires DLC: Crown of The Sunken King)"
+    ]
+  },
+  "Sorcery Clutch Ring": {
+    "weight": [
+      "2.0"
+    ],
+    "effects": [
+      "Increases Magic AR by 30 before infusion modification",
+      "Lowers the wearer's defence against all types of physical attack by 80 points."
+    ],
+    "acquisition": [
+      "Brume Tower (Requires DLC: Crown of the Old Iron King)"
+    ]
+  },
+  "Dark Clutch Ring": {
+    "weight": [
+      "2.0"
+    ],
+    "effects": [
+      "Increases Dark AR by 30 before infusion modification",
+      "Lowers the wearer's defence against all types of physical attack by 80 points."
+    ],
+    "acquisition": [
+      "Frozen Elyum Loyce  (Requires DLC: Crown of the Ivory King)"
+    ]
+  },
+  "Fire Clutch Ring": {
+    "weight": [
+      "2.0"
+    ],
+    "effects": [
+      "Increases Fire AR by 30 before infusion modification",
+      "This ring also affects Pyromancy Flames",
+      "Lowers the wearer's defence against all types of physical attack by 80 points."
+    ],
+    "acquisition": [
+      "Frozen Elyum Loyce (Requires DLC: Crown of the Ivory King)"
+    ]
+  },
+  "Flynn's Ring": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Grants the user bonus physical attack based on their maximum Equip Load stat",
+      "The lower the user's Equip Load is, the higher the damage bonus",
+      "Does not affect bow nor greatbow damage"
+    ],
+    "acquisition": [
+      "Dragon Sanctum                (Requires         DLC: Crown of the Sunken King)"
+    ]
+  },
+  "Ring of the Embedded": {
+    "weight": [
+      "2.0"
+    ],
+    "effects": [
+      "Increases the wearers Vigor, Endurance, and Vitality by X points depending on wearer's stat values. The lesser the player stats the better the effect",
+      "Increases damage taken by 8%"
+    ],
+    "acquisition": [
+      "Frozen Eleum Loyce       (Requires    DLC: Crown of the Ivory King)"
+    ]
+  },
+  "Yorgh's Ring": {
+    "weight": [
+      "0.5"
+    ],
+    "effects": [
+      "Has a chance to prevent any damage from spells that hit you."
+    ],
+    "acquisition": [
+      "Dragon's Rest  (Requires DLC: Crown of the Sunken King)"
+    ]
+  },
+  "Strength Ring": {
+    "weight": [
+      "1.5"
+    ],
+    "effects": [
+      "Increases Strength by 5"
+    ],
+    "acquisition": [
+      "Brume Tower (Requires DLC: Crown of the Old Iron King)"
+    ]
+  },
+  "Simpleton's Ring": {
+    "weight": [
+      "1.5"
+    ],
+    "effects": [
+      "Makes wearer \"invisible\" while rolling",
+      "Increases Adaptability by 5"
+    ],
+    "acquisition": [
+      "Brume Tower (Requires DLC: Crown of the Old Iron King)"
+    ]
+  },
+  "Ring of the Living": {
+    "weight": [
+      "0.2"
+    ],
+    "effects": [
+      "Appear human when you're a phantom/spirit"
+    ],
+    "acquisition": [
+      "Frigid Outskirts (Requires DLC: Crown of the Ivory King)"
+    ]
+  },
+  "Ivory Warrior Ring": {
+    "weight": [
+      "5.0"
+    ],
+    "effects": [
+      "Attacks greatly reduce enemy Stamina if enemy is blocking."
+    ],
+    "acquisition": [
+      "White Covetous Demon (Requires DLC: Crown of the Ivory King)"
+    ]
+  },
+  "Dexterity Ring": {
+    "weight": [
+      "1.5"
+    ],
+    "effects": [
+      "Increases Dexterity by 5"
+    ],
+    "acquisition": [
+      "Brume Tower (Requires DLC: Crown of the Old Iron King)"
+    ]
+  },
+  "Baneful Bird Ring": {
+    "weight": [
+      "2.0"
+    ],
+    "effects": [
+      "Reduces stamina damage taken while blocking by about .5%"
+    ],
+    "acquisition": [
+      "Brume Tower (Requires DLC: Crown of the Old Iron King)"
+    ]
+  }
+}

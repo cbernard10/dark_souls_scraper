@@ -1,19 +1,12 @@
-import getHtml from "../getHtml";
-import { browser, start_browser } from "../browser";
+import getHtml from "../../lib/getHtml";
+import { browser, start_browser } from "../../lib/browser";
 import fs from "fs";
-import { WeaponData, WeaponURL, UpgradeTable } from "./types";
-import { nodesToText } from "../utils";
+import { nodesToText } from "../../lib/utils";
 
 const BASE_URL = "https://darksouls.wiki.fextralife.com";
 
-const sleep = async (ms: number) => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => resolve(null), ms);
-  });
-};
-
-const getMagicRoot = async (
-  url: string = "/Magic"
+const getMiracleRoot = async (
+  url: string = "/Miracles"
 ): Promise<cheerio.Root | undefined> => {
   await start_browser();
   const result = await getHtml(BASE_URL + url);
@@ -25,27 +18,27 @@ const getMagicRoot = async (
   return $;
 };
 
-type Magic = {
+type Miracle = {
   [key: string]: {
     uses: string;
     slots: string;
-    intelligence: string;
+    faith: string;
     description: string;
     acquisition: string[];
     type: string;
   };
 };
 
-type MagicData = {
-  [key: string]: Magic;
+type MiracleData = {
+  [key: string]: Miracle;
 };
 
-const getMagicData = async (cheerioRoot: cheerio.Root): Promise<Magic> => {
+const getMiracleData = async (cheerioRoot: cheerio.Root): Promise<Miracle> => {
   const $ = cheerioRoot;
 
   await browser.close();
 
-  const magicData: Magic = {};
+  const miracleData: Miracle = {};
   const table = $(".wiki_table").eq(0);
   const rows = table.find("tr").slice(1);
 
@@ -53,36 +46,36 @@ const getMagicData = async (cheerioRoot: cheerio.Root): Promise<Magic> => {
     const name = $(row).find("td").eq(0).text();
     const uses = $(row).find("td").eq(1).text();
     const slots = $(row).find("td").eq(2).text();
-    const intelligence = $(row).find("td").eq(3).text();
+    const faith = $(row).find("td").eq(3).text();
     const description = $(row).find("td").eq(4).text();
     const acquisition = nodesToText($, $(row).find("td").eq(5));
 
     const type = $(row).find("td").eq(6).text();
 
-    magicData[name] = {
+    miracleData[name] = {
       uses,
       slots,
-      intelligence,
+      faith,
       description,
       acquisition,
       type,
     };
   }
 
-  return magicData;
+  return miracleData;
 };
 
-const scrapeAndSave = async (output: string = "magic"): Promise<void> => {
-  const magicRoot = await getMagicRoot();
-  if (!magicRoot) {
-    console.log("Failed to get weapon urls");
+const scrapeAndSave = async (output: string = "miracles"): Promise<void> => {
+  const miracleRoot = await getMiracleRoot();
+  if (!miracleRoot) {
+    console.log("Failed to get miracles urls");
     return;
   }
 
-  const magicData = await getMagicData(magicRoot);
+  const magicData = await getMiracleData(miracleRoot);
 
   fs.writeFileSync(
-    `${__dirname}/out/${output}.json`,
+    `${__dirname}/${output}.json`,
     JSON.stringify(magicData, null, 2)
   );
 };

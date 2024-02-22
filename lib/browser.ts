@@ -38,6 +38,7 @@ const start_browser = async () => {
   ];
 
   await page.setUserAgent(uas[1]);
+  return { browser, page };
 };
 
 export { browser, page, start_browser };
