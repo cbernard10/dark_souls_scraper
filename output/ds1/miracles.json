@@ -1,8 +1,8 @@
 {
   "Heal": {
-    "uses": "5",
-    "slots": "1",
-    "faith": "12",
+    "uses": 5,
+    "slots": 1,
+    "faith": 12,
     "description": "Heals a moderate amount of the casters HP, depending on faith.",
     "acquisition": [
       "Cleric Default",
@@ -13,9 +13,9 @@
     "type": "Heal"
   },
   "Great Heal Excerpt": {
-    "uses": "1",
-    "slots": "1",
-    "faith": "14",
+    "uses": 1,
+    "slots": 1,
+    "faith": 14,
     "description": "Cut down version of Great Heal. Heals large amount of HP to the caster. (NOTE: This spell does not affect allies as the erroneous load screen info would have you believe.)",
     "acquisition": [
       "Petrus of Thorolund 10,000 Souls",
@@ -25,9 +25,9 @@
     "type": "Heal"
   },
   "Great Heal": {
-    "uses": "3",
-    "slots": "1",
-    "faith": "24",
+    "uses": 3,
+    "slots": 1,
+    "faith": 24,
     "description": "Heals a large amount of the casters HP, depending on faith.",
     "acquisition": [
       "Reah of Thorolund 10,000 Souls"
@@ -35,9 +35,9 @@
     "type": "Heal"
   },
   "Soothing Sunlight": {
-    "uses": "3",
-    "slots": "2",
-    "faith": "48",
+    "uses": 3,
+    "slots": 2,
+    "faith": 48,
     "description": "Heals large amount of HP to the caster and nearby allies. Scales with faith. Must be part of the Princess's Guard to use.   ",
     "acquisition": [
       "Pisaca - Elder Sister"
@@ -45,9 +45,9 @@
     "type": "Heal"
   },
   "Replenishment": {
-    "uses": "2",
-    "slots": "1",
-    "faith": "16",
+    "uses": 2,
+    "slots": 1,
+    "faith": 16,
     "description": "Gradually restores HP over time for a short duration.",
     "acquisition": [
       "Received from Reah of Thorolund after rescuing her from the two hollows in the Tomb of the Giants."
@@ -55,9 +55,9 @@
     "type": "Heal (Buff)"
   },
   "Bountiful Sunlight": {
-    "uses": "2",
-    "slots": "2",
-    "faith": "36",
+    "uses": 2,
+    "slots": 2,
+    "faith": 36,
     "description": "Gradually restores HP over time for a short duration to you and nearby allies. Must be part of the Princess's Guard to use.",
     "acquisition": [
       "Pisaca - Little Sister"
@@ -65,9 +65,9 @@
     "type": "Heal"
   },
   "Force": {
-    "uses": "21",
-    "slots": "1",
-    "faith": "12",
+    "uses": 21,
+    "slots": 1,
+    "faith": 12,
     "description": "AoE effect that does no damage but knocks back most surrounding enemies Must be very close to cause knockdown Can deflect sorceries such as Homing Soulmass.",
     "acquisition": [
       "Petrus of Thorolund 4,000 Souls",
@@ -76,9 +76,9 @@
     "type": "AoE Attack"
   },
   "Wrath of the Gods": {
-    "uses": "3",
-    "slots": "1",
-    "faith": "28",
+    "uses": 3,
+    "slots": 1,
+    "faith": 28,
     "description": "A fast casting force spell that deals high damage in a bubble around you. One of the most powerful offensive miracles in the game. Can deflect sorceries.",
     "acquisition": [
       "Reah of Thorolund 10,000 Souls"
@@ -86,9 +86,9 @@
     "type": "AoE Attack"
   },
   "Emit Force": {
-    "uses": "6",
-    "slots": "1",
-    "faith": "18",
+    "uses": 6,
+    "slots": 1,
+    "faith": 18,
     "description": "Shoots a large ball of force energy to explode on the target causing damage to the target and close surrounding enemies. Can deflect sorceries.",
     "acquisition": [
       "After you clear Anor Londo, Siegmeyer of Catarina will appear at Firelink Shrine. When you talk to him he will ask if you opened the gates to Sen's Fortress. Say \"yes\" and you will receive the miracle."
@@ -96,9 +96,9 @@
     "type": "AoE Attack"
   },
   "Magic Barrier": {
-    "uses": "4",
-    "slots": "1",
-    "faith": "14",
+    "uses": 4,
+    "slots": 1,
+    "faith": 14,
     "description": "Reduces incoming magic damage for a short duration. (70%)?",
     "acquisition": [
       "Reah of Thorolund 6,000 Souls"
@@ -106,9 +106,9 @@
     "type": "Support (Buff)"
   },
   "Great Magic Barrier": {
-    "uses": "2",
-    "slots": "1",
-    "faith": "24",
+    "uses": 2,
+    "slots": 1,
+    "faith": 24,
     "description": "As Magic Barrier but reduces even more magic damage. (90%)?",
     "acquisition": [
       "The Great Hollow - Ash Lake"
@@ -116,9 +116,9 @@
     "type": "Support (Buff)"
   },
   "Homeward": {
-    "uses": "1",
-    "slots": "1",
-    "faith": "18",
+    "uses": 1,
+    "slots": 1,
+    "faith": 18,
     "description": "Transports you back to the last used bonfire.",
     "acquisition": [
       "Petrus of Thorolund 8,000 Souls",
@@ -127,9 +127,9 @@
     "type": "Support"
   },
   "Seek Guidance": {
-    "uses": "5",
-    "slots": "1",
-    "faith": "12",
+    "uses": 5,
+    "slots": 1,
+    "faith": 12,
     "description": "The Seek Guidance miracle allows the player to see more messages on the ground as well as their positive and negative ratings. Additional developer messages, providing hints, can also be seen in some areas.",
     "acquisition": [
       "Petrus of Thorolund 2,000 Souls",
@@ -138,9 +138,9 @@
     "type": "Support (Buff)"
   },
   "Karmic Justice": {
-    "uses": "4",
-    "slots": "1",
-    "faith": "20",
+    "uses": 4,
+    "slots": 1,
+    "faith": 20,
     "description": "Karmic Justice is a self-buff that lasts for 1 minute. If the player takes successive hits in PHYSICAL damage (meaning melee and non-magical), the spell explodes, dealing massive damage to all nearby enemies and knocking them all down. A very effective miracle for players who wear cloth armor with no poise. If they get stunlocked by a combo, this spell can save you from certain death.",
     "acquisition": [
       "Oswald of Carim 40,000 Souls"
@@ -148,9 +148,9 @@
     "type": "Support (Buff)"
   },
   "Vow of Silence": {
-    "uses": "2",
-    "slots": "2",
-    "faith": "30",
+    "uses": 2,
+    "slots": 2,
+    "faith": 30,
     "description": "An AoE silence around you that stops all casting in the area, including your own, for about 25 seconds. Does not scale with faith.",
     "acquisition": [
       "Painted World of Ariamis"
@@ -158,9 +158,9 @@
     "type": "Support"
   },
   "Tranquil Walk of Peace": {
-    "uses": "5",
-    "slots": "1",
-    "faith": "18",
+    "uses": 5,
+    "slots": 1,
+    "faith": 18,
     "description": "Applies a debuff to nearby enemies which slows movement speed, that lasts for about 10 seconds.",
     "acquisition": [
       "Catacombs - From the second bonfire, go across the bridge to the spiral tower with two skeletons. There's a breakable wall with a big skeleton behind it. Go through a hole on the right side of the room and follow it up until you get to a necromancer. There's an easily missable ladder and the miracle is at the top.."
@@ -168,9 +168,9 @@
     "type": "Support"
   },
   "Lightning Spear": {
-    "uses": "10",
-    "slots": "1",
-    "faith": "20",
+    "uses": 10,
+    "slots": 1,
+    "faith": 20,
     "description": "A powerful spear of light that inflicts lightning damage. Scales with faith. Can be thrown into bodies of water to cause AoE. (Puddles, lakes,etc.)",
     "acquisition": [
       "Covenant: Warrior of Sunlight"
@@ -178,9 +178,9 @@
     "type": "Ranged Attack"
   },
   "Great Lightning Spear": {
-    "uses": "10",
-    "slots": "1",
-    "faith": "30",
+    "uses": 10,
+    "slots": 1,
+    "faith": 30,
     "description": "A larger, more powerful spear of light that inflicts lightning damage. Scales with faith. Can be thrown into water to cause AoE. (Puddles, lakes,etc.)",
     "acquisition": [
       "Covenant: Warrior of Sunlight",
@@ -189,9 +189,9 @@
     "type": "Ranged Attack"
   },
   "Sunlight Spear": {
-    "uses": "5",
-    "slots": "2",
-    "faith": "50",
+    "uses": 5,
+    "slots": 2,
+    "faith": 50,
     "description": "A very powerful version of the lightning spear. Fewer charges but a lot more damage. Scales with faith. Can be thrown into water to cause AoE. (Puddles, lakes,etc.) Must remain part of Warriors of Sunlight to use.",
     "acquisition": [
       "Covenant: Warrior of Sunlight",
@@ -200,9 +200,9 @@
     "type": "Ranged Attack"
   },
   "Sunlight Blade": {
-    "uses": "1",
-    "slots": "1",
-    "faith": "30",
+    "uses": 1,
+    "slots": 1,
+    "faith": 30,
     "description": "Coats right hand weapon in lightning. Adds 1.8x your talisman's Magic Adjustment value as Lightning Damage.",
     "acquisition": [
       "Defeat Dark Sun Gwyndolin by entering the fog at the Blade of the Darkmoon altar. This will irreversibly cause the Anor Londo firekeeper to become hostile and will break your oath with Blade of the Darkmoon. You will be unable to join the covenant until the next playthrough."
@@ -210,9 +210,9 @@
     "type": "Weapon Buff"
   },
   "Darkmoon Blade": {
-    "uses": "1",
-    "slots": "1",
-    "faith": "30",
+    "uses": 1,
+    "slots": 1,
+    "faith": 30,
     "description": "Boosts right hand weapon with rays of Darkmoon. Adds 1.8x your talisman's Magic Adjustment value as Magic Damage at Covenant Rank 0. Scaling increases by 0.1x for each rank to a maximum of 2.1x at Covenant Rank 3. • Must be member of Darkmoon covenant to use.",
     "acquisition": [
       "Covenant: Darkmoon",
@@ -221,9 +221,9 @@
     "type": "Weapon Buff"
   },
   "Gravelord Sword Dance": {
-    "uses": "40",
-    "slots": "1",
-    "faith": "0",
+    "uses": 40,
+    "slots": 1,
+    "faith": 0,
     "description": "AoE miracle similar to Gravelord Nito's \"scream sword\" attack. Several swords will pierce the ground impaling enemies in the area. Miracle is very effective when used in close quarters such as hallways or bridges as several swords may impale the same enemy.",
     "acquisition": [
       "Covenant: Gravelord Servant",
@@ -232,9 +232,9 @@
     "type": "AoE Attack"
   },
   "Gravelord Greatsword Dance": {
-    "uses": "40",
-    "slots": "1",
-    "faith": "0",
+    "uses": 40,
+    "slots": 1,
+    "faith": 0,
     "description": "Upgraded version of Gravelord Sword Dance miracle. Area of effect is expanded and increased damage.",
     "acquisition": [
       "Covenant: Gravelord Servant",
@@ -243,9 +243,9 @@
     "type": "AoE Attack"
   },
   "Escape Death": {
-    "uses": "1",
-    "slots": "1",
-    "faith": "0",
+    "uses": 1,
+    "slots": 1,
+    "faith": 0,
     "description": "Escape Death is a self-buff that prevents the user from losing souls and humanity after death. The miracle will not work if the user has two other self-buffs active (i.e. having both the Green Blossom stamina regen effect and the Transient Curse's effect will prevent the use of this miracle). Upon death, the message \"Magic Revived\" appears in green lettering identical to the \"Ring Revival\" message produced when a player dies with a Ring of Sacrifice equipped.",
     "acquisition": [
       "Unobtainable by normal means; the miracle lacks an icon when viewed on the Attune Magic page or in the player's spell slots, so the game developers likely did not finish it."

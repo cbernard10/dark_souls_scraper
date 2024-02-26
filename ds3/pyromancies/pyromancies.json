@@ -1,0 +1,317 @@
+{
+  "Fireball": {
+    "description": "Hurls a fireball.",
+    "FP": "10",
+    "slots": "1",
+    "int": "6",
+    "fth": "6",
+    "acquisition": [
+      "Pyromancer class starting spell",
+      "Purchased from Cornyx of the Great Swamp for 1000 souls"
+    ]
+  },
+  "Fire Orb": {
+    "description": "Hurls a giant fire orb.",
+    "FP": "14",
+    "slots": "1",
+    "int": "8",
+    "fth": "8",
+    "acquisition": [
+      "Purchased from Cornyx of the Great Swamp for 3000 souls",
+      "Requires Great Swamp Pyromancy Tome"
+    ]
+  },
+  "Bursting Fireball": {
+    "description": "Hurls an exploding fireball.",
+    "FP": "14",
+    "slots": "1",
+    "int": "18",
+    "fth": "12",
+    "acquisition": [
+      "Purchased from Cornyx of the Great Swamp for 5000 souls",
+      "Requires Great Swamp Pyromancy Tome"
+    ]
+  },
+  "Great Chaos Fire Orb": {
+    "description": "Hurls a great chaos fire orb.",
+    "FP": "32",
+    "slots": "2",
+    "int": "0",
+    "fth": "0",
+    "acquisition": [
+      "Purchased from Cornyx of the Great Swamp for 10000 souls",
+      "Requires Izalith Pyromancy Tome"
+    ]
+  },
+  "Chaos Bed Vestiges": {
+    "description": "Hurls chaos flame that scorches vicinity.",
+    "FP": "35",
+    "slots": "2",
+    "int": "20",
+    "fth": "10",
+    "acquisition": [
+      "Transposed from Soul of the Old Demon King for 5000 souls"
+    ]
+  },
+  "Fire Surge": {
+    "description": "Emits a constant stream of fire.",
+    "FP": "2",
+    "slots": "1",
+    "int": "6",
+    "fth": "0",
+    "acquisition": [
+      "Purchased from Cornyx of the Great Swamp for 1000 souls"
+    ]
+  },
+  "Fire Whip": {
+    "description": "The caster manipulates the flames at will, making this an extremely difficult spell to use.",
+    "FP": "2",
+    "slots": "1",
+    "int": "13",
+    "fth": "8",
+    "acquisition": [
+      "Purchased from Karla for 10000 souls",
+      "Requires Quelana Pyromancy Tome"
+    ]
+  },
+  "Firestorm": {
+    "description": "Surrounds the caster with multiple pillars of flame.",
+    "FP": "2",
+    "slots": "1",
+    "int": "18",
+    "fth": "0",
+    "acquisition": [
+      "Purchased from Karla for 15000 souls",
+      "Requires Quelana Pyromancy Tome"
+    ]
+  },
+  "Chaos Storm": {
+    "description": "Chaotic flame melts even great boulders, and creates a brief surge of molten lava on impact.",
+    "FP": "3",
+    "slots": "2",
+    "int": "0",
+    "fth": "0",
+    "acquisition": [
+      "Purchased from Cornyx of the Great Swamp for 12000 souls",
+      "Requires Izalith Pyromancy Tome"
+    ]
+  },
+  "Great Combustion": {
+    "description": "Creates a powerful, giant flame in hand.",
+    "FP": "17",
+    "slots": "1",
+    "int": "10",
+    "fth": "10",
+    "acquisition": [
+      "Purchased from Cornyx of the Great Swamp for 3000 souls"
+    ]
+  },
+  "Sacred Flame": {
+    "description": "Flame burrows inside foes and ignites.",
+    "FP": "25",
+    "slots": "1",
+    "int": "8",
+    "fth": "8",
+    "acquisition": [
+      "Found within the lava area of Smouldering Lake where you fight Knight Slayer Tsorig"
+    ]
+  },
+  "Profaned Flame": {
+    "description": "Engulfs foes at range and burns them to ashes.",
+    "FP": "30",
+    "slots": "1",
+    "int": "25",
+    "fth": "0",
+    "acquisition": [
+      "Found at the foot of the Giant in Irythyll Dungeon."
+    ]
+  },
+  "Poison Mist": {
+    "description": "Creates a poison mist.",
+    "FP": "18",
+    "slots": "1",
+    "int": "0",
+    "fth": "10",
+    "acquisition": [
+      "Purchased from Cornyx of the Great Swamp for 2000 souls",
+      "Requires Great Swamp Pyromancy Tome"
+    ]
+  },
+  "Toxic Mist": {
+    "description": "Creates an intense poison mist.",
+    "FP": "24",
+    "slots": "1",
+    "int": "0",
+    "fth": "15",
+    "acquisition": [
+      "Found on corpse in lava area of the Smouldering Lake"
+    ]
+  },
+  "Acid Surge": {
+    "description": "Emits an acid which corrodes weapons and armor.",
+    "FP": "24",
+    "slots": "1",
+    "int": "0",
+    "fth": "13",
+    "acquisition": [
+      "Purchased from Cornyx of the Great Swamp for 6000 souls",
+      "Requires Carthus Pyromancy Tome"
+    ]
+  },
+  "Flash Sweat": {
+    "description": "Intense sweating increases fire damage absoprtion.",
+    "FP": "20",
+    "slots": "1",
+    "int": "6",
+    "fth": "6",
+    "acquisition": [
+      "Purchased from Cornyx of the Great Swamp for 1500 souls"
+    ]
+  },
+  "Profuse Sweat": {
+    "description": "Profuse sweating temporarily boosts resistance to bleeding, poison, frost, and curses.",
+    "FP": "20",
+    "slots": "1",
+    "int": "6",
+    "fth": "6",
+    "acquisition": [
+      "Purchased from Cornyx of the Great Swamp for 2000 souls",
+      "Requires Great Swamp Pyromancy Tome"
+    ]
+  },
+  "Iron Flesh": {
+    "description": "Iron flesh boosts damage absorption and resistance, but significantly increases weight.",
+    "FP": "40",
+    "slots": "1",
+    "int": "8",
+    "fth": "0",
+    "acquisition": [
+      "Found in the Farron Keep swamp"
+    ]
+  },
+  "Power Within": {
+    "description": "Temporarily boosts attack, but gradually lose HP.",
+    "FP": "30",
+    "slots": "1",
+    "int": "10",
+    "fth": "10",
+    "acquisition": [
+      "Found on a corpse behind a hidden wall in Grand Archives."
+    ]
+  },
+  "Carthus Beacon": {
+    "description": "Damage increases with consecutive attacks.",
+    "FP": "35",
+    "slots": "2",
+    "int": "12",
+    "fth": "12",
+    "acquisition": [
+      "Purchased from Cornyx of the Great Swamp for 8000 souls",
+      "Requires Carthus Pyromancy Tome"
+    ]
+  },
+  "Carthus Flame Arc": {
+    "description": "Reinforces right weapon with flame.",
+    "FP": "30",
+    "slots": "1",
+    "int": "10",
+    "fth": "10",
+    "acquisition": [
+      "Purchased from Cornyx of the Great Swamp for 10000 souls",
+      "Requires Carthus Pyromancy Tome"
+    ]
+  },
+  "Warmth": {
+    "description": "Creates a gentle, warm flame that heals those who touch it.",
+    "FP": "50",
+    "slots": "2",
+    "int": "0",
+    "fth": "25",
+    "acquisition": [
+      "Mound Makers Rank 2 reward"
+    ]
+  },
+  "Rapport": {
+    "description": "Charms the enemy, making them a temporary ally.",
+    "FP": "30",
+    "slots": "1",
+    "int": "15",
+    "fth": "0",
+    "acquisition": [
+      "Purchased from Karla for 7000 souls",
+      "Requires Quelana Pyromancy Tome"
+    ]
+  },
+  "Boulder Heave": {
+    "description": "Spews a boulder from one's mouth.",
+    "FP": "17",
+    "slots": "1",
+    "int": "8",
+    "fth": "12",
+    "acquisition": [
+      "Soul of a Stray Demon"
+    ]
+  },
+  "Black Flame": {
+    "description": "Creates a giant, black flame in hand.",
+    "FP": "25",
+    "slots": "1",
+    "int": "15",
+    "fth": "15",
+    "acquisition": [
+      "Purchased from Karla for 10000 souls",
+      "Requires Grave Warden Pyromancy Tome"
+    ]
+  },
+  "Black Fire Orb": {
+    "description": "Hurls a black fireball.",
+    "FP": "22",
+    "slots": "1",
+    "int": "20",
+    "fth": "20",
+    "acquisition": [
+      "Purchased from Karla for 10000 souls",
+      "Requires Grave Warden Pyromancy Tome"
+    ]
+  },
+  "Black Serpent": {
+    "description": "Releases undulating black flames that trace the ground.",
+    "FP": "19",
+    "slots": "1",
+    "int": "15",
+    "fth": "15",
+    "acquisition": [
+      "Soul of High Lord Wolnir"
+    ]
+  },
+  "Floating Chaos": {
+    "description": "Summons fire-spitting chaos orb",
+    "FP": "20",
+    "slots": "1",
+    "int": "16",
+    "fth": "16",
+    "acquisition": [
+      "Ashes of Ariandel DLC: Defeat Livid Pyromancer Dunnel"
+    ]
+  },
+  "Seething Chaos": {
+    "description": "Hurl chaos clump that seethes and explodes",
+    "FP": "28",
+    "slots": "1",
+    "int": "18",
+    "fth": "18",
+    "acquisition": [
+      "The Ringed City DLC: Transposed with Soul of the Demon Prince"
+    ]
+  },
+  "Flame Fan": {
+    "description": "Unleash a fan of flames ahead of you.",
+    "FP": "9",
+    "slots": "1",
+    "int": "15",
+    "fth": "15",
+    "acquisition": [
+      "The Ringed City DLC: Drop from Desert Pyromancer Zoey"
+    ]
+  }
+}

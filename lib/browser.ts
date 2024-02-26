@@ -21,7 +21,7 @@ const config: PuppeteerLaunchOptions =
         ],
       }
     : {
-        headless: true,
+        headless: false,
         args: ["--lang=en-US"],
       };
 

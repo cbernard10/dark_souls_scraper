@@ -1,7 +1,7 @@
 {
   "Fireball": {
-    "uses": "8",
-    "slots": "1",
+    "uses": 8,
+    "slots": 1,
     "description": "Standard pyromancy of the Great Swamp. Hurl fireball.",
     "acquisition": [
       "Laurentius, Quelana and starting spell for the&nbsp;Pyromancer class."
@@ -10,8 +10,8 @@
     "type": "Ranged Attack Very Small AOE"
   },
   "Fire Orb": {
-    "uses": "6",
-    "slots": "1",
+    "uses": 6,
+    "slots": 1,
     "description": "Pyromancy which improves upon Fireball. Hurl fire orb.",
     "acquisition": [
       "Laurentius and Quelana"
@@ -20,8 +20,8 @@
     "type": "Ranged Attack Small AOE"
   },
   "Great Fireball": {
-    "uses": "4",
-    "slots": "1",
+    "uses": 4,
+    "slots": 1,
     "description": "Ultimate fireball pyromancy. Hurl giant fireball.",
     "acquisition": [
       "Quelana"
@@ -30,8 +30,8 @@
     "type": "Ranged Attack AOE"
   },
   "Great Chaos Fireball": {
-    "uses": "4",
-    "slots": "2",
+    "uses": 4,
+    "slots": 2,
     "description": "Hurl giant chaos fireball, leaving a large amount of temporary lava",
     "acquisition": [
       "Joining Chaos Servant covenant (Daughter of Chaos&nbsp;after Quelaag)"
@@ -40,8 +40,8 @@
     "type": "Ranged AoE Attack"
   },
   "Firestorm": {
-    "uses": "20",
-    "slots": "1",
+    "uses": 20,
+    "slots": 1,
     "description": "Primal pyromancy taught by Quelana of Izalith. Erect fire pillars in vicinity. Note: Uses 17 uses per cast.",
     "acquisition": [
       "Quelana"
@@ -50,8 +50,8 @@
     "type": "Big AoE Attack"
   },
   "Fire Tempest": {
-    "uses": "20",
-    "slots": "1",
+    "uses": 20,
+    "slots": 1,
     "description": "Primal pyromancy of Quelana of Izalith. Erect giant fire pillars in vicinity.",
     "acquisition": [
       "Quelana&nbsp; gives it to you after finishing her favor."
@@ -60,8 +60,8 @@
     "type": "Big AoE Attack"
   },
   "Chaos Storm": {
-    "uses": "20",
-    "slots": "2",
+    "uses": 20,
+    "slots": 2,
     "description": "Erect localized chaos fire pillars which leave blobs of temporary lava Note: Like firestorm and leaves a little lava behind.",
     "acquisition": [
       "Rank 2 in Chaos Servant (30 humanities total)"
@@ -70,8 +70,8 @@
     "type": "Big AoE Attack"
   },
   "Combustion": {
-    "uses": "16",
-    "slots": "1",
+    "uses": 16,
+    "slots": 1,
     "description": "Elementary pyromancy. Create powerful flame in hand Note: Good 'melee' range spell, very quick too.",
     "acquisition": [
       "Laurentius and Quelana"
@@ -80,8 +80,8 @@
     "type": "Melee Range Attack"
   },
   "Great Combustion": {
-    "uses": "8",
-    "slots": "1",
+    "uses": 8,
+    "slots": 1,
     "description": "Pyromancy which improves upon Combustion. Create powerful, giant flame in hand. Note: Very good melee range spell.",
     "acquisition": [
       "Quelana"
@@ -90,8 +90,8 @@
     "type": "Melee Range Attack"
   },
   "Fire Surge": {
-    "uses": "80",
-    "slots": "1",
+    "uses": 80,
+    "slots": 1,
     "description": "Pyromancy foreign to the Great Swamp. Create a surge of flame from palm of hand. Note: Rapid fire spell you can cast while moving.",
     "acquisition": [
       "Drop from the Bloated Dredge located after passing two illusory walls under the well, in Painted World of Ariamis."
@@ -100,8 +100,8 @@
     "type": "Short-Ranged Attack"
   },
   "Fire Whip": {
-    "uses": "80",
-    "slots": "1",
+    "uses": 80,
+    "slots": 1,
     "description": "Primal pyromancy taught by Quelana of Izalith. Sweep foes with fire whip. Note: Uses 21 uses per cast. Note:Hits twice/cast",
     "acquisition": [
       "Quelana"
@@ -110,8 +110,8 @@
     "type": "Short-Ranged Attack"
   },
   "Chaos Fire Whip": {
-    "uses": "80",
-    "slots": "2",
+    "uses": 80,
+    "slots": 2,
     "description": "Sweep foes with chaos fire whip with lava traces Note: Leaves lava behind for a bit. Follows same mechanics as Fire Whip.",
     "acquisition": [
       "Chest in Lost Izalith - turn right at the boss fog, it is down the path and around the corner guarded by a Chaos Eater."
@@ -120,8 +120,8 @@
     "type": "Short-Ranged Attack"
   },
   "Poison Mist": {
-    "uses": "3",
-    "slots": "1",
+    "uses": 3,
+    "slots": 1,
     "description": "Breathes out a cone of poison mist that fills the surrounding area causing poison status.",
     "acquisition": [
       "Swamp in Blighttown, Eingyi, the Egg-burdened NPC near the Daughter of Chaos sells this. (You need to be an Egg-head to be able to purchase this.)"
@@ -130,8 +130,8 @@
     "type": "AoE"
   },
   "Toxic Mist": {
-    "uses": "1",
-    "slots": "1",
+    "uses": 1,
+    "slots": 1,
     "description": "Breathes out a cone of toxic mist that fills the surrounding area causing toxic status.",
     "acquisition": [
       "Eingyi, the Egg Burdened NPC near the Daughter of Chaos. (You need to&nbsp;be an Egg-head to be able to purchase this.)"
@@ -140,8 +140,8 @@
     "type": "AoE"
   },
   "Acid Surge": {
-    "uses": "2",
-    "slots": "1",
+    "uses": 2,
+    "slots": 1,
     "description": "Pyromancy foreign to the Great Swamp. Emit acid which corrodes weapons and armor damaging their durability. Does not affect user.",
     "acquisition": [
       "In the graveyard area to the right side as you enter near the edge of the cliff in the Painted World of Ariamis."
@@ -150,8 +150,8 @@
     "type": "AoE Attack"
   },
   "Flash Sweat": {
-    "uses": "3",
-    "slots": "1",
+    "uses": 3,
+    "slots": 1,
     "description": "Covers the player in water, reduces fire damage.",
     "acquisition": [
       "Laurentius"
@@ -160,8 +160,8 @@
     "type": "Buff"
   },
   "Iron Flesh": {
-    "uses": "3",
-    "slots": "1",
+    "uses": 3,
+    "slots": 1,
     "description": "Self-buff, raises defenses and poise. Note: User becomes heavy and unable to move freely: can only walk, can't run, sprint, roll, or jump.",
     "acquisition": [
       "Laurentius"
@@ -170,8 +170,8 @@
     "type": "Buff"
   },
   "Power Within": {
-    "uses": "1",
-    "slots": "1",
+    "uses": 1,
+    "slots": 1,
     "description": "Increases Attack and Defense but gradually drains HP",
     "acquisition": [
       "Blighttown&nbsp;(Underneath the&nbsp; Parasitic Wall Hugger)"
@@ -180,8 +180,8 @@
     "type": "Buff"
   },
   "Undead Rapport": {
-    "uses": "7",
-    "slots": "1",
+    "uses": 7,
+    "slots": 1,
     "description": "Advanced pyromancy of Quelana of Izalith. Charm undead and gain temporary allies. Melee ranged support spell with about 2 second cast time.",
     "acquisition": [
       "Quelana"
@@ -190,8 +190,8 @@
     "type": "Melee Range Attack"
   },
   "Black Flame": {
-    "uses": "8",
-    "slots": "1",
+    "uses": 8,
+    "slots": 1,
     "description": "Similar to Great Combustion. Melee-range pyromancy. Main difference with Great Combustion is that when Black Flame is blocked, it consumes a much higher amount of stamina than Great Combustion, making this pyromancy great for breaking guards.",
     "acquisition": [
       "Found on a corpse in the Chasm of the Abyss.",

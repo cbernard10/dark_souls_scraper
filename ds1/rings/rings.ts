@@ -1,7 +1,7 @@
 import getHtml from "../../lib/getHtml";
 import { browser, start_browser } from "../../lib/browser";
-import fs from "fs";
 import { nodesToText } from "../../lib/utils";
+import { tdToNumber } from "../../lib/utils";
 
 const BASE_URL = "https://darksouls.wiki.fextralife.com";
 
@@ -31,12 +31,11 @@ type Ring = {
   };
 };
 
-type RingData = {
-  [key: string]: Ring;
-};
-
-const getMagicData = async (cheerioRoot: cheerio.Root): Promise<Ring> => {
-  const $ = cheerioRoot;
+const getRingData = async (): Promise<Ring> => {
+  const $ = await getMagicRoot()!;
+  if (!$) {
+    throw new Error("Failed to get root");
+  }
 
   await browser.close();
 
@@ -47,7 +46,7 @@ const getMagicData = async (cheerioRoot: cheerio.Root): Promise<Ring> => {
   for (const row of rows) {
     const name = $(row).find("td").eq(0).text();
     const effects = nodesToText($, $(row).find("td").eq(1));
-    const acquisition = nodesToText($, $(row).find("td").eq(2))
+    const acquisition = nodesToText($, $(row).find("td").eq(2));
 
     rings[name] = {
       effects,
@@ -58,21 +57,4 @@ const getMagicData = async (cheerioRoot: cheerio.Root): Promise<Ring> => {
   return rings;
 };
 
-const scrapeAndSave = async (output: string = "rings"): Promise<void> => {
-  const magicRoot = await getMagicRoot();
-  if (!magicRoot) {
-    console.log("Failed to get root");
-    return;
-  }
-
-  const magicData = await getMagicData(magicRoot);
-
-  fs.writeFileSync(
-    `${__dirname}/out/${output}.json`,
-    JSON.stringify(magicData, null, 2)
-  );
-};
-
-(async () => {
-  await scrapeAndSave();
-})();
+export default getRingData;

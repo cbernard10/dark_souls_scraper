@@ -1,0 +1,4124 @@
+{
+  "Anklet of the Great Lord": {
+    "type": "Leggings",
+    "durability": 400,
+    "weight": 2,
+    "protection": {
+      "physical": 15,
+      "strike": 16,
+      "slash": 17,
+      "thrust": 13,
+      "magic": 15,
+      "fire": 19,
+      "lightning": 19,
+      "bleed": 14,
+      "poison": 7,
+      "curse": 18
+    },
+    "poise": 0
+  },
+  "Antiquated Dress": {
+    "type": "Chest Armor",
+    "durability": 150,
+    "weight": 1,
+    "protection": {
+      "physical": 14,
+      "strike": 14,
+      "slash": 14,
+      "thrust": 14,
+      "magic": 33,
+      "fire": 6,
+      "lightning": 19,
+      "bleed": 14,
+      "poison": 14,
+      "curse": 26
+    },
+    "poise": 0
+  },
+  "Antiquated Gloves": {
+    "type": "Gauntlets",
+    "durability": 150,
+    "weight": 0,
+    "protection": {
+      "physical": 8,
+      "strike": 8,
+      "slash": 8,
+      "thrust": 8,
+      "magic": 19,
+      "fire": 3,
+      "lightning": 11,
+      "bleed": 8,
+      "poison": 8,
+      "curse": 16
+    },
+    "poise": 0
+  },
+  "Antiquated Skirt": {
+    "type": "Leggings",
+    "durability": 150,
+    "weight": 3,
+    "protection": {
+      "physical": 15,
+      "strike": 15,
+      "slash": 15,
+      "thrust": 15,
+      "magic": 35,
+      "fire": 17,
+      "lightning": 21,
+      "bleed": 20,
+      "poison": 20,
+      "curse": 52
+    },
+    "poise": 0
+  },
+  "Armor of Artorias": {
+    "type": "Chest Armor",
+    "durability": 600,
+    "weight": 10,
+    "protection": {
+      "physical": 42,
+      "strike": 37,
+      "slash": 48,
+      "thrust": 44,
+      "magic": 22,
+      "fire": 46,
+      "lightning": 22,
+      "bleed": 22,
+      "poison": 22,
+      "curse": 20
+    },
+    "poise": 15
+  },
+  "Armor of Thorns": {
+    "type": "Chest Armor",
+    "durability": 250,
+    "weight": 10,
+    "protection": {
+      "physical": 45,
+      "strike": 42,
+      "slash": 49,
+      "thrust": 45,
+      "magic": 28,
+      "fire": 33,
+      "lightning": 20,
+      "bleed": 26,
+      "poison": 18,
+      "curse": 0
+    },
+    "poise": 16
+  },
+  "Armor of the Glorious": {
+    "type": "Chest Armor",
+    "durability": 500,
+    "weight": 13,
+    "protection": {
+      "physical": 47,
+      "strike": 44,
+      "slash": 54,
+      "thrust": 47,
+      "magic": 31,
+      "fire": 34,
+      "lightning": 25,
+      "bleed": 28,
+      "poison": 19,
+      "curse": 24
+    },
+    "poise": 20
+  },
+  "Armor of the Sun": {
+    "type": "Chest Armor",
+    "durability": 350,
+    "weight": 9,
+    "protection": {
+      "physical": 35,
+      "strike": 35,
+      "slash": 35,
+      "thrust": 34,
+      "magic": 21,
+      "fire": 21,
+      "lightning": 19,
+      "bleed": 23,
+      "poison": 16,
+      "curse": 10
+    },
+    "poise": 16
+  },
+  "Balder Armor": {
+    "type": "Chest Armor",
+    "durability": 450,
+    "weight": 10,
+    "protection": {
+      "physical": 37,
+      "strike": 36,
+      "slash": 45,
+      "thrust": 35,
+      "magic": 15,
+      "fire": 18,
+      "lightning": 15,
+      "bleed": 20,
+      "poison": 16,
+      "curse": 0
+    },
+    "poise": 16
+  },
+  "Balder Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 450,
+    "weight": 3,
+    "protection": {
+      "physical": 17,
+      "strike": 16,
+      "slash": 20,
+      "thrust": 16,
+      "magic": 7,
+      "fire": 8,
+      "lightning": 5,
+      "bleed": 6,
+      "poison": 5,
+      "curse": 0
+    },
+    "poise": 5
+  },
+  "Balder Helm": {
+    "type": "Helms",
+    "durability": 450,
+    "weight": 4,
+    "protection": {
+      "physical": 14,
+      "strike": 14,
+      "slash": 17,
+      "thrust": 13,
+      "magic": 8,
+      "fire": 9,
+      "lightning": 6,
+      "bleed": 8,
+      "poison": 8,
+      "curse": 6
+    },
+    "poise": 0
+  },
+  "Balder Leggings": {
+    "type": "Leggings",
+    "durability": 450,
+    "weight": 6,
+    "protection": {
+      "physical": 22,
+      "strike": 21,
+      "slash": 26,
+      "thrust": 21,
+      "magic": 12,
+      "fire": 14,
+      "lightning": 9,
+      "bleed": 14,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 9
+  },
+  "Big Hat": {
+    "type": "Helms",
+    "durability": 250,
+    "weight": 3,
+    "protection": {
+      "physical": 14,
+      "strike": 15,
+      "slash": 15,
+      "thrust": 12,
+      "magic": 5,
+      "fire": 6,
+      "lightning": 6,
+      "bleed": 15,
+      "poison": 18,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Black Cleric Robe": {
+    "type": "Chest Armor",
+    "durability": 400,
+    "weight": 3,
+    "protection": {
+      "physical": 23,
+      "strike": 25,
+      "slash": 23,
+      "thrust": 23,
+      "magic": 29,
+      "fire": 25,
+      "lightning": 19,
+      "bleed": 22,
+      "poison": 22,
+      "curse": 13
+    },
+    "poise": 0
+  },
+  "Black Iron Armor": {
+    "type": "Chest Armor",
+    "durability": 600,
+    "weight": 15,
+    "protection": {
+      "physical": 68,
+      "strike": 64,
+      "slash": 78,
+      "thrust": 68,
+      "magic": 30,
+      "fire": 51,
+      "lightning": 21,
+      "bleed": 43,
+      "poison": 25,
+      "curse": 13
+    },
+    "poise": 31
+  },
+  "Black Iron Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 600,
+    "weight": 9,
+    "protection": {
+      "physical": 40,
+      "strike": 38,
+      "slash": 46,
+      "thrust": 40,
+      "magic": 17,
+      "fire": 30,
+      "lightning": 13,
+      "bleed": 25,
+      "poison": 14,
+      "curse": 8
+    },
+    "poise": 18
+  },
+  "Black Iron Helm": {
+    "type": "Helms",
+    "durability": 600,
+    "weight": 6,
+    "protection": {
+      "physical": 27,
+      "strike": 26,
+      "slash": 31,
+      "thrust": 27,
+      "magic": 11,
+      "fire": 19,
+      "lightning": 8,
+      "bleed": 15,
+      "poison": 10,
+      "curse": 5
+    },
+    "poise": 12
+  },
+  "Black Iron Leggings": {
+    "type": "Leggings",
+    "durability": 600,
+    "weight": 9,
+    "protection": {
+      "physical": 40,
+      "strike": 38,
+      "slash": 46,
+      "thrust": 40,
+      "magic": 17,
+      "fire": 30,
+      "lightning": 13,
+      "bleed": 25,
+      "poison": 14,
+      "curse": 8
+    },
+    "poise": 18
+  },
+  "Black Knight Armor": {
+    "type": "Chest Armor",
+    "durability": 550,
+    "weight": 13,
+    "protection": {
+      "physical": 57,
+      "strike": 54,
+      "slash": 64,
+      "thrust": 55,
+      "magic": 29,
+      "fire": 48,
+      "lightning": 17,
+      "bleed": 32,
+      "poison": 15,
+      "curse": 0
+    },
+    "poise": 21
+  },
+  "Black Knight Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 550,
+    "weight": 6,
+    "protection": {
+      "physical": 26,
+      "strike": 24,
+      "slash": 29,
+      "thrust": 25,
+      "magic": 14,
+      "fire": 23,
+      "lightning": 8,
+      "bleed": 15,
+      "poison": 8,
+      "curse": 0
+    },
+    "poise": 10
+  },
+  "Black Knight Helm": {
+    "type": "Helms",
+    "durability": 550,
+    "weight": 5,
+    "protection": {
+      "physical": 21,
+      "strike": 19,
+      "slash": 23,
+      "thrust": 20,
+      "magic": 11,
+      "fire": 18,
+      "lightning": 6,
+      "bleed": 12,
+      "poison": 6,
+      "curse": 0
+    },
+    "poise": 8
+  },
+  "Black Knight Leggings": {
+    "type": "Leggings",
+    "durability": 550,
+    "weight": 7,
+    "protection": {
+      "physical": 30,
+      "strike": 28,
+      "slash": 33,
+      "thrust": 29,
+      "magic": 15,
+      "fire": 26,
+      "lightning": 9,
+      "bleed": 17,
+      "poison": 9,
+      "curse": 0
+    },
+    "poise": 11
+  },
+  "Black Leather Armor": {
+    "type": "Chest Armor",
+    "durability": 250,
+    "weight": 3,
+    "protection": {
+      "physical": 23,
+      "strike": 24,
+      "slash": 23,
+      "thrust": 23,
+      "magic": 20,
+      "fire": 14,
+      "lightning": 16,
+      "bleed": 23,
+      "poison": 31,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Black Leather Boots": {
+    "type": "Leggings",
+    "durability": 250,
+    "weight": 3,
+    "protection": {
+      "physical": 12,
+      "strike": 12,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 19,
+      "fire": 13,
+      "lightning": 15,
+      "bleed": 23,
+      "poison": 31,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Black Leather Gloves": {
+    "type": "Gauntlets",
+    "durability": 250,
+    "weight": 1,
+    "protection": {
+      "physical": 13,
+      "strike": 13,
+      "slash": 13,
+      "thrust": 13,
+      "magic": 12,
+      "fire": 8,
+      "lightning": 9,
+      "bleed": 14,
+      "poison": 18,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Black Manchette": {
+    "type": "Gauntlets",
+    "durability": 400,
+    "weight": 1,
+    "protection": {
+      "physical": 11,
+      "strike": 12,
+      "slash": 11,
+      "thrust": 11,
+      "magic": 14,
+      "fire": 11,
+      "lightning": 9,
+      "bleed": 10,
+      "poison": 10,
+      "curse": 5
+    },
+    "poise": 0
+  },
+  "Black Sorcerer Boots": {
+    "type": "Leggings",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 8,
+      "strike": 8,
+      "slash": 8,
+      "thrust": 8,
+      "magic": 17,
+      "fire": 12,
+      "lightning": 12,
+      "bleed": 18,
+      "poison": 18,
+      "curse": 2
+    },
+    "poise": 0
+  },
+  "Black Sorcerer Cloak": {
+    "type": "Chest Armor",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 13,
+      "strike": 13,
+      "slash": 14,
+      "thrust": 13,
+      "magic": 28,
+      "fire": 21,
+      "lightning": 21,
+      "bleed": 31,
+      "poison": 31,
+      "curse": 4
+    },
+    "poise": 0
+  },
+  "Black Sorcerer Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 8,
+      "strike": 8,
+      "slash": 8,
+      "thrust": 8,
+      "magic": 17,
+      "fire": 12,
+      "lightning": 12,
+      "bleed": 18,
+      "poison": 18,
+      "curse": 2
+    },
+    "poise": 0
+  },
+  "Black Sorcerer Hat": {
+    "type": "Helms",
+    "durability": 200,
+    "weight": 0,
+    "protection": {
+      "physical": 5,
+      "strike": 5,
+      "slash": 6,
+      "thrust": 5,
+      "magic": 11,
+      "fire": 8,
+      "lightning": 8,
+      "bleed": 12,
+      "poison": 12,
+      "curse": 2
+    },
+    "poise": 0
+  },
+  "Black Tights": {
+    "type": "Leggings",
+    "durability": 400,
+    "weight": 2,
+    "protection": {
+      "physical": 16,
+      "strike": 17,
+      "slash": 16,
+      "thrust": 16,
+      "magic": 22,
+      "fire": 17,
+      "lightning": 13,
+      "bleed": 15,
+      "poison": 15,
+      "curse": 9
+    },
+    "poise": 0
+  },
+  "Bloated Head": {
+    "type": "Helms",
+    "durability": 150,
+    "weight": 2,
+    "protection": {
+      "physical": 17,
+      "strike": 17,
+      "slash": 17,
+      "thrust": 17,
+      "magic": 17,
+      "fire": 9,
+      "lightning": 11,
+      "bleed": 16,
+      "poison": 32,
+      "curse": 10
+    },
+    "poise": 0
+  },
+  "Bloated Sorcerer Head": {
+    "type": "Helms",
+    "durability": 150,
+    "weight": 2,
+    "protection": {
+      "physical": 14,
+      "strike": 14,
+      "slash": 14,
+      "thrust": 14,
+      "magic": 22,
+      "fire": 9,
+      "lightning": 13,
+      "bleed": 8,
+      "poison": 38,
+      "curse": 15
+    },
+    "poise": 0
+  },
+  "Blood-Stained Skirt": {
+    "type": "Leggings",
+    "durability": 150,
+    "weight": 2,
+    "protection": {
+      "physical": 13,
+      "strike": 16,
+      "slash": 13,
+      "thrust": 13,
+      "magic": 27,
+      "fire": 16,
+      "lightning": 21,
+      "bleed": 29,
+      "poison": 22,
+      "curse": 29
+    },
+    "poise": 0
+  },
+  "Boots of the Explorer": {
+    "type": "Leggings",
+    "durability": 500,
+    "weight": 4,
+    "protection": {
+      "physical": 14,
+      "strike": 13,
+      "slash": 16,
+      "thrust": 14,
+      "magic": 10,
+      "fire": 11,
+      "lightning": 7,
+      "bleed": 8,
+      "poison": 6,
+      "curse": 5
+    },
+    "poise": 6
+  },
+  "Bracelet of the Great Lord": {
+    "type": "Gauntlets",
+    "durability": 400,
+    "weight": 2,
+    "protection": {
+      "physical": 15,
+      "strike": 16,
+      "slash": 17,
+      "thrust": 13,
+      "magic": 15,
+      "fire": 19,
+      "lightning": 19,
+      "bleed": 14,
+      "poison": 7,
+      "curse": 18
+    },
+    "poise": 0
+  },
+  "Brass Armor": {
+    "type": "Chest Armor",
+    "durability": 600,
+    "weight": 10,
+    "protection": {
+      "physical": 37,
+      "strike": 35,
+      "slash": 41,
+      "thrust": 37,
+      "magic": 27,
+      "fire": 25,
+      "lightning": 25,
+      "bleed": 24,
+      "poison": 20,
+      "curse": 11
+    },
+    "poise": 16
+  },
+  "Brass Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 600,
+    "weight": 5,
+    "protection": {
+      "physical": 19,
+      "strike": 18,
+      "slash": 21,
+      "thrust": 19,
+      "magic": 14,
+      "fire": 12,
+      "lightning": 12,
+      "bleed": 12,
+      "poison": 10,
+      "curse": 6
+    },
+    "poise": 8
+  },
+  "Brass Helm": {
+    "type": "Helms",
+    "durability": 600,
+    "weight": 5,
+    "protection": {
+      "physical": 22,
+      "strike": 21,
+      "slash": 24,
+      "thrust": 22,
+      "magic": 12,
+      "fire": 11,
+      "lightning": 11,
+      "bleed": 11,
+      "poison": 9,
+      "curse": 6
+    },
+    "poise": 8
+  },
+  "Brass Leggings": {
+    "type": "Leggings",
+    "durability": 600,
+    "weight": 6,
+    "protection": {
+      "physical": 23,
+      "strike": 22,
+      "slash": 26,
+      "thrust": 23,
+      "magic": 16,
+      "fire": 15,
+      "lightning": 15,
+      "bleed": 14,
+      "poison": 12,
+      "curse": 7
+    },
+    "poise": 9
+  },
+  "Brigand Armor": {
+    "type": "Chest Armor",
+    "durability": 200,
+    "weight": 3,
+    "protection": {
+      "physical": 23,
+      "strike": 25,
+      "slash": 23,
+      "thrust": 20,
+      "magic": 20,
+      "fire": 13,
+      "lightning": 17,
+      "bleed": 20,
+      "poison": 20,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Brigand Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 14,
+      "strike": 15,
+      "slash": 14,
+      "thrust": 12,
+      "magic": 12,
+      "fire": 8,
+      "lightning": 10,
+      "bleed": 12,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Brigand Hood": {
+    "type": "Helms",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 9,
+      "strike": 10,
+      "slash": 10,
+      "thrust": 9,
+      "magic": 8,
+      "fire": 5,
+      "lightning": 6,
+      "bleed": 8,
+      "poison": 8,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Brigand Trousers": {
+    "type": "Leggings",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 14,
+      "strike": 15,
+      "slash": 14,
+      "thrust": 12,
+      "magic": 12,
+      "fire": 8,
+      "lightning": 10,
+      "bleed": 12,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Catarina Armor": {
+    "type": "Chest Armor",
+    "durability": 400,
+    "weight": 11,
+    "protection": {
+      "physical": 57,
+      "strike": 56,
+      "slash": 65,
+      "thrust": 57,
+      "magic": 31,
+      "fire": 37,
+      "lightning": 19,
+      "bleed": 32,
+      "poison": 24,
+      "curse": 0
+    },
+    "poise": 21
+  },
+  "Catarina Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 400,
+    "weight": 6,
+    "protection": {
+      "physical": 34,
+      "strike": 33,
+      "slash": 39,
+      "thrust": 34,
+      "magic": 18,
+      "fire": 21,
+      "lightning": 12,
+      "bleed": 21,
+      "poison": 13,
+      "curse": 0
+    },
+    "poise": 13
+  },
+  "Catarina Helm": {
+    "type": "Helms",
+    "durability": 400,
+    "weight": 4,
+    "protection": {
+      "physical": 22,
+      "strike": 22,
+      "slash": 25,
+      "thrust": 22,
+      "magic": 12,
+      "fire": 13,
+      "lightning": 7,
+      "bleed": 13,
+      "poison": 9,
+      "curse": 0
+    },
+    "poise": 8
+  },
+  "Catarina Leggings": {
+    "type": "Leggings",
+    "durability": 400,
+    "weight": 6,
+    "protection": {
+      "physical": 34,
+      "strike": 33,
+      "slash": 39,
+      "thrust": 34,
+      "magic": 18,
+      "fire": 21,
+      "lightning": 12,
+      "bleed": 21,
+      "poison": 13,
+      "curse": 0
+    },
+    "poise": 13
+  },
+  "Chain Armor": {
+    "type": "Chest Armor",
+    "durability": 300,
+    "weight": 6,
+    "protection": {
+      "physical": 30,
+      "strike": 30,
+      "slash": 36,
+      "thrust": 29,
+      "magic": 21,
+      "fire": 16,
+      "lightning": 7,
+      "bleed": 20,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 9
+  },
+  "Chain Helm": {
+    "type": "Helms",
+    "durability": 300,
+    "weight": 3,
+    "protection": {
+      "physical": 12,
+      "strike": 12,
+      "slash": 14,
+      "thrust": 11,
+      "magic": 10,
+      "fire": 8,
+      "lightning": 3,
+      "bleed": 10,
+      "poison": 6,
+      "curse": 0
+    },
+    "poise": 5
+  },
+  "Chain Leggings": {
+    "type": "Leggings",
+    "durability": 300,
+    "weight": 4,
+    "protection": {
+      "physical": 18,
+      "strike": 18,
+      "slash": 21,
+      "thrust": 17,
+      "magic": 14,
+      "fire": 12,
+      "lightning": 5,
+      "bleed": 15,
+      "poison": 9,
+      "curse": 0
+    },
+    "poise": 7
+  },
+  "Chester's Gloves": {
+    "type": "Gauntlets",
+    "durability": 300,
+    "weight": 1,
+    "protection": {
+      "physical": 10,
+      "strike": 13,
+      "slash": 10,
+      "thrust": 10,
+      "magic": 10,
+      "fire": 7,
+      "lightning": 10,
+      "bleed": 15,
+      "poison": 11,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Chester's Long Coat": {
+    "type": "Chest Armor",
+    "durability": 300,
+    "weight": 4,
+    "protection": {
+      "physical": 27,
+      "strike": 36,
+      "slash": 27,
+      "thrust": 27,
+      "magic": 30,
+      "fire": 21,
+      "lightning": 28,
+      "bleed": 44,
+      "poison": 32,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Chester's Trousers": {
+    "type": "Leggings",
+    "durability": 300,
+    "weight": 3,
+    "protection": {
+      "physical": 19,
+      "strike": 25,
+      "slash": 19,
+      "thrust": 19,
+      "magic": 21,
+      "fire": 15,
+      "lightning": 20,
+      "bleed": 31,
+      "poison": 23,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Cleric Armor": {
+    "type": "Chest Armor",
+    "durability": 500,
+    "weight": 12,
+    "protection": {
+      "physical": 40,
+      "strike": 40,
+      "slash": 46,
+      "thrust": 40,
+      "magic": 23,
+      "fire": 21,
+      "lightning": 15,
+      "bleed": 23,
+      "poison": 16,
+      "curse": 0
+    },
+    "poise": 16
+  },
+  "Cleric Helm": {
+    "type": "Helms",
+    "durability": 500,
+    "weight": 4,
+    "protection": {
+      "physical": 36,
+      "strike": 36,
+      "slash": 41,
+      "thrust": 36,
+      "magic": 21,
+      "fire": 19,
+      "lightning": 14,
+      "bleed": 12,
+      "poison": 8,
+      "curse": 0
+    },
+    "poise": 8
+  },
+  "Crimson Gloves": {
+    "type": "Gauntlets",
+    "durability": 400,
+    "weight": 0,
+    "protection": {
+      "physical": 7,
+      "strike": 7,
+      "slash": 7,
+      "thrust": 7,
+      "magic": 7,
+      "fire": 4,
+      "lightning": 5,
+      "bleed": 4,
+      "poison": 4,
+      "curse": 4
+    },
+    "poise": 0
+  },
+  "Crimson Robe": {
+    "type": "Chest Armor",
+    "durability": 400,
+    "weight": 3,
+    "protection": {
+      "physical": 32,
+      "strike": 35,
+      "slash": 32,
+      "thrust": 32,
+      "magic": 33,
+      "fire": 19,
+      "lightning": 24,
+      "bleed": 21,
+      "poison": 21,
+      "curse": 21
+    },
+    "poise": 0
+  },
+  "Crimson Waistcloth": {
+    "type": "Leggings",
+    "durability": 400,
+    "weight": 3,
+    "protection": {
+      "physical": 29,
+      "strike": 31,
+      "slash": 29,
+      "thrust": 29,
+      "magic": 29,
+      "fire": 17,
+      "lightning": 21,
+      "bleed": 19,
+      "poison": 19,
+      "curse": 19
+    },
+    "poise": 0
+  },
+  "Crown of Dusk": {
+    "type": "Helms",
+    "durability": 150,
+    "weight": 0,
+    "protection": {
+      "physical": 5,
+      "strike": 5,
+      "slash": 5,
+      "thrust": 5,
+      "magic": 11,
+      "fire": 2,
+      "lightning": 6,
+      "bleed": 5,
+      "poison": 5,
+      "curse": 20
+    },
+    "poise": 0
+  },
+  "Crown of the Dark Sun": {
+    "type": "Helms",
+    "durability": 300,
+    "weight": 3,
+    "protection": {
+      "physical": 12,
+      "strike": 12,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 12,
+      "fire": 6,
+      "lightning": 6,
+      "bleed": 9,
+      "poison": 9,
+      "curse": 12
+    },
+    "poise": 0
+  },
+  "Crown of the Great Lord": {
+    "type": "Helms",
+    "durability": 900,
+    "weight": 3,
+    "protection": {
+      "physical": 16,
+      "strike": 17,
+      "slash": 18,
+      "thrust": 14,
+      "magic": 16,
+      "fire": 21,
+      "lightning": 21,
+      "bleed": 15,
+      "poison": 8,
+      "curse": 20
+    },
+    "poise": 0
+  },
+  "Crystalline Armor": {
+    "type": "Chest Armor",
+    "durability": 150,
+    "weight": 10,
+    "protection": {
+      "physical": 59,
+      "strike": 50,
+      "slash": 67,
+      "thrust": 59,
+      "magic": 21,
+      "fire": 15,
+      "lightning": 7,
+      "bleed": 15,
+      "poison": 0,
+      "curse": 0
+    },
+    "poise": 16
+  },
+  "Crystalline Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 150,
+    "weight": 6,
+    "protection": {
+      "physical": 37,
+      "strike": 31,
+      "slash": 42,
+      "thrust": 37,
+      "magic": 12,
+      "fire": 9,
+      "lightning": 4,
+      "bleed": 9,
+      "poison": 0,
+      "curse": 0
+    },
+    "poise": 9
+  },
+  "Crystalline Helm": {
+    "type": "Helms",
+    "durability": 150,
+    "weight": 4,
+    "protection": {
+      "physical": 11,
+      "strike": 9,
+      "slash": 13,
+      "thrust": 11,
+      "magic": 8,
+      "fire": 6,
+      "lightning": 2,
+      "bleed": 6,
+      "poison": 0,
+      "curse": 0
+    },
+    "poise": 6
+  },
+  "Crystalline Leggings": {
+    "type": "Leggings",
+    "durability": 150,
+    "weight": 6,
+    "protection": {
+      "physical": 37,
+      "strike": 31,
+      "slash": 42,
+      "thrust": 37,
+      "magic": 12,
+      "fire": 9,
+      "lightning": 4,
+      "bleed": 9,
+      "poison": 0,
+      "curse": 0
+    },
+    "poise": 9
+  },
+  "Dark Armor": {
+    "type": "Chest Armor",
+    "durability": 300,
+    "weight": 9,
+    "protection": {
+      "physical": 45,
+      "strike": 45,
+      "slash": 49,
+      "thrust": 42,
+      "magic": 30,
+      "fire": 31,
+      "lightning": 27,
+      "bleed": 30,
+      "poison": 21,
+      "curse": 0
+    },
+    "poise": 16
+  },
+  "Dark Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 300,
+    "weight": 5,
+    "protection": {
+      "physical": 27,
+      "strike": 27,
+      "slash": 29,
+      "thrust": 25,
+      "magic": 18,
+      "fire": 18,
+      "lightning": 15,
+      "bleed": 18,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 9
+  },
+  "Dark Leggings": {
+    "type": "Leggings",
+    "durability": 300,
+    "weight": 5,
+    "protection": {
+      "physical": 27,
+      "strike": 27,
+      "slash": 29,
+      "thrust": 25,
+      "magic": 18,
+      "fire": 18,
+      "lightning": 15,
+      "bleed": 18,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 9
+  },
+  "Dark Mask": {
+    "type": "Helms",
+    "durability": 300,
+    "weight": 3,
+    "protection": {
+      "physical": 18,
+      "strike": 18,
+      "slash": 19,
+      "thrust": 16,
+      "magic": 12,
+      "fire": 12,
+      "lightning": 10,
+      "bleed": 12,
+      "poison": 8,
+      "curse": 0
+    },
+    "poise": 6
+  },
+  "Dingy Gloves": {
+    "type": "Gauntlets",
+    "durability": 150,
+    "weight": 1,
+    "protection": {
+      "physical": 9,
+      "strike": 11,
+      "slash": 9,
+      "thrust": 9,
+      "magic": 13,
+      "fire": 8,
+      "lightning": 10,
+      "bleed": 14,
+      "poison": 10,
+      "curse": 14
+    },
+    "poise": 0
+  },
+  "Dingy Hood": {
+    "type": "Helms",
+    "durability": 150,
+    "weight": 0,
+    "protection": {
+      "physical": 6,
+      "strike": 8,
+      "slash": 6,
+      "thrust": 6,
+      "magic": 8,
+      "fire": 5,
+      "lightning": 6,
+      "bleed": 9,
+      "poison": 7,
+      "curse": 9
+    },
+    "poise": 0
+  },
+  "Dingy Robe": {
+    "type": "Chest Armor",
+    "durability": 150,
+    "weight": 3,
+    "protection": {
+      "physical": 23,
+      "strike": 28,
+      "slash": 23,
+      "thrust": 23,
+      "magic": 33,
+      "fire": 19,
+      "lightning": 25,
+      "bleed": 35,
+      "poison": 26,
+      "curse": 35
+    },
+    "poise": 0
+  },
+  "Eastern Armor": {
+    "type": "Chest Armor",
+    "durability": 450,
+    "weight": 12,
+    "protection": {
+      "physical": 45,
+      "strike": 42,
+      "slash": 55,
+      "thrust": 43,
+      "magic": 15,
+      "fire": 33,
+      "lightning": 18,
+      "bleed": 38,
+      "poison": 28,
+      "curse": 0
+    },
+    "poise": 20
+  },
+  "Eastern Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 450,
+    "weight": 1,
+    "protection": {
+      "physical": 6,
+      "strike": 5,
+      "slash": 7,
+      "thrust": 5,
+      "magic": 1,
+      "fire": 4,
+      "lightning": 2,
+      "bleed": 5,
+      "poison": 4,
+      "curse": 0
+    },
+    "poise": 2
+  },
+  "Eastern Helm": {
+    "type": "Helms",
+    "durability": 450,
+    "weight": 4,
+    "protection": {
+      "physical": 17,
+      "strike": 16,
+      "slash": 21,
+      "thrust": 16,
+      "magic": 6,
+      "fire": 12,
+      "lightning": 7,
+      "bleed": 15,
+      "poison": 11,
+      "curse": 0
+    },
+    "poise": 8
+  },
+  "Eastern Leggings": {
+    "type": "Leggings",
+    "durability": 450,
+    "weight": 4,
+    "protection": {
+      "physical": 15,
+      "strike": 14,
+      "slash": 18,
+      "thrust": 14,
+      "magic": 5,
+      "fire": 11,
+      "lightning": 6,
+      "bleed": 12,
+      "poison": 10,
+      "curse": 0
+    },
+    "poise": 6
+  },
+  "Elite Knight Armor": {
+    "type": "Chest Armor",
+    "durability": 450,
+    "weight": 11,
+    "protection": {
+      "physical": 39,
+      "strike": 37,
+      "slash": 45,
+      "thrust": 39,
+      "magic": 17,
+      "fire": 18,
+      "lightning": 15,
+      "bleed": 23,
+      "poison": 16,
+      "curse": 0
+    },
+    "poise": 20
+  },
+  "Elite Knight Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 450,
+    "weight": 3,
+    "protection": {
+      "physical": 18,
+      "strike": 17,
+      "slash": 20,
+      "thrust": 18,
+      "magic": 7,
+      "fire": 8,
+      "lightning": 5,
+      "bleed": 7,
+      "poison": 5,
+      "curse": 0
+    },
+    "poise": 6
+  },
+  "Elite Knight Helm": {
+    "type": "Helms",
+    "durability": 450,
+    "weight": 4,
+    "protection": {
+      "physical": 17,
+      "strike": 16,
+      "slash": 21,
+      "thrust": 17,
+      "magic": 9,
+      "fire": 9,
+      "lightning": 6,
+      "bleed": 9,
+      "poison": 6,
+      "curse": 0
+    },
+    "poise": 8
+  },
+  "Elite Knight Leggings": {
+    "type": "Leggings",
+    "durability": 450,
+    "weight": 6,
+    "protection": {
+      "physical": 23,
+      "strike": 22,
+      "slash": 26,
+      "thrust": 23,
+      "magic": 11,
+      "fire": 11,
+      "lightning": 9,
+      "bleed": 14,
+      "poison": 9,
+      "curse": 0
+    },
+    "poise": 12
+  },
+  "Embraced Armor of Favor": {
+    "type": "Chest Armor",
+    "durability": 500,
+    "weight": 11,
+    "protection": {
+      "physical": 48,
+      "strike": 45,
+      "slash": 55,
+      "thrust": 48,
+      "magic": 23,
+      "fire": 30,
+      "lightning": 19,
+      "bleed": 28,
+      "poison": 22,
+      "curse": 22
+    },
+    "poise": 20
+  },
+  "Fang Boar Helm": {
+    "type": "Helms",
+    "durability": 600,
+    "weight": 8,
+    "protection": {
+      "physical": 26,
+      "strike": 23,
+      "slash": 31,
+      "thrust": 26,
+      "magic": 5,
+      "fire": 4,
+      "lightning": 4,
+      "bleed": 13,
+      "poison": 8,
+      "curse": 0
+    },
+    "poise": 12
+  },
+  "Gargoyle Helm": {
+    "type": "Helms",
+    "durability": 200,
+    "weight": 3,
+    "protection": {
+      "physical": 15,
+      "strike": 12,
+      "slash": 19,
+      "thrust": 13,
+      "magic": 15,
+      "fire": 15,
+      "lightning": 15,
+      "bleed": 22,
+      "poison": 19,
+      "curse": 0
+    },
+    "poise": 8
+  },
+  "Gauntlets of Artorias": {
+    "type": "Gauntlets",
+    "durability": 600,
+    "weight": 4,
+    "protection": {
+      "physical": 20,
+      "strike": 18,
+      "slash": 23,
+      "thrust": 21,
+      "magic": 10,
+      "fire": 21,
+      "lightning": 10,
+      "bleed": 10,
+      "poison": 10,
+      "curse": 9
+    },
+    "poise": 7
+  },
+  "Gauntlets of Favor": {
+    "type": "Gauntlets",
+    "durability": 500,
+    "weight": 5,
+    "protection": {
+      "physical": 21,
+      "strike": 19,
+      "slash": 24,
+      "thrust": 21,
+      "magic": 10,
+      "fire": 12,
+      "lightning": 8,
+      "bleed": 11,
+      "poison": 10,
+      "curse": 10
+    },
+    "poise": 8
+  },
+  "Gauntlets of Thorns": {
+    "type": "Gauntlets",
+    "durability": 250,
+    "weight": 6,
+    "protection": {
+      "physical": 26,
+      "strike": 24,
+      "slash": 28,
+      "thrust": 26,
+      "magic": 16,
+      "fire": 18,
+      "lightning": 12,
+      "bleed": 16,
+      "poison": 10,
+      "curse": 0
+    },
+    "poise": 9
+  },
+  "Gauntlets of the Channelers": {
+    "type": "Gauntlets",
+    "durability": 300,
+    "weight": 3,
+    "protection": {
+      "physical": 17,
+      "strike": 16,
+      "slash": 19,
+      "thrust": 17,
+      "magic": 13,
+      "fire": 13,
+      "lightning": 0,
+      "bleed": 12,
+      "poison": 10,
+      "curse": 0
+    },
+    "poise": 3
+  },
+  "Gauntlets of the Vanquisher": {
+    "type": "Gauntlets",
+    "durability": 500,
+    "weight": 3,
+    "protection": {
+      "physical": 11,
+      "strike": 10,
+      "slash": 12,
+      "thrust": 11,
+      "magic": 7,
+      "fire": 7,
+      "lightning": 6,
+      "bleed": 6,
+      "poison": 5,
+      "curse": 4
+    },
+    "poise": 4
+  },
+  "Giant Armor": {
+    "type": "Chest Armor",
+    "durability": 600,
+    "weight": 16,
+    "protection": {
+      "physical": 72,
+      "strike": 66,
+      "slash": 81,
+      "thrust": 72,
+      "magic": 32,
+      "fire": 48,
+      "lightning": 33,
+      "bleed": 32,
+      "poison": 19,
+      "curse": 0
+    },
+    "poise": 35
+  },
+  "Giant Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 600,
+    "weight": 9,
+    "protection": {
+      "physical": 41,
+      "strike": 37,
+      "slash": 46,
+      "thrust": 41,
+      "magic": 19,
+      "fire": 29,
+      "lightning": 19,
+      "bleed": 19,
+      "poison": 11,
+      "curse": 0
+    },
+    "poise": 21
+  },
+  "Giant Helm": {
+    "type": "Helms",
+    "durability": 600,
+    "weight": 6,
+    "protection": {
+      "physical": 27,
+      "strike": 24,
+      "slash": 30,
+      "thrust": 27,
+      "magic": 13,
+      "fire": 19,
+      "lightning": 13,
+      "bleed": 13,
+      "poison": 8,
+      "curse": 0
+    },
+    "poise": 14
+  },
+  "Giant Leggings": {
+    "type": "Leggings",
+    "durability": 600,
+    "weight": 9,
+    "protection": {
+      "physical": 41,
+      "strike": 37,
+      "slash": 46,
+      "thrust": 41,
+      "magic": 19,
+      "fire": 29,
+      "lightning": 19,
+      "bleed": 19,
+      "poison": 11,
+      "curse": 0
+    },
+    "poise": 21
+  },
+  "Gold-Hemmed Black Cloak": {
+    "type": "Chest Armor",
+    "durability": 400,
+    "weight": 3,
+    "protection": {
+      "physical": 31,
+      "strike": 33,
+      "slash": 31,
+      "thrust": 31,
+      "magic": 38,
+      "fire": 58,
+      "lightning": 21,
+      "bleed": 40,
+      "poison": 94,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Gold-Hemmed Black Gloves": {
+    "type": "Gauntlets",
+    "durability": 400,
+    "weight": 1,
+    "protection": {
+      "physical": 12,
+      "strike": 12,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 13,
+      "fire": 24,
+      "lightning": 8,
+      "bleed": 14,
+      "poison": 32,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Gold-Hemmed Black Hood": {
+    "type": "Helms",
+    "durability": 400,
+    "weight": 1,
+    "protection": {
+      "physical": 11,
+      "strike": 11,
+      "slash": 11,
+      "thrust": 11,
+      "magic": 15,
+      "fire": 22,
+      "lightning": 8,
+      "bleed": 16,
+      "poison": 36,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Gold-Hemmed Black Skirt": {
+    "type": "Leggings",
+    "durability": 400,
+    "weight": 3,
+    "protection": {
+      "physical": 23,
+      "strike": 24,
+      "slash": 23,
+      "thrust": 23,
+      "magic": 27,
+      "fire": 49,
+      "lightning": 17,
+      "bleed": 32,
+      "poison": 78,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Golem Armor": {
+    "type": "Chest Armor",
+    "durability": 700,
+    "weight": 16,
+    "protection": {
+      "physical": 91,
+      "strike": 83,
+      "slash": 106,
+      "thrust": 91,
+      "magic": 45,
+      "fire": 41,
+      "lightning": 17,
+      "bleed": 45,
+      "poison": 31,
+      "curse": 0
+    },
+    "poise": 33
+  },
+  "Golem Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 700,
+    "weight": 9,
+    "protection": {
+      "physical": 54,
+      "strike": 49,
+      "slash": 63,
+      "thrust": 54,
+      "magic": 25,
+      "fire": 33,
+      "lightning": 10,
+      "bleed": 27,
+      "poison": 17,
+      "curse": 0
+    },
+    "poise": 20
+  },
+  "Golem Helm": {
+    "type": "Helms",
+    "durability": 700,
+    "weight": 6,
+    "protection": {
+      "physical": 35,
+      "strike": 32,
+      "slash": 40,
+      "thrust": 35,
+      "magic": 17,
+      "fire": 16,
+      "lightning": 6,
+      "bleed": 17,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 13
+  },
+  "Golem Leggings": {
+    "type": "Leggings",
+    "durability": 700,
+    "weight": 9,
+    "protection": {
+      "physical": 54,
+      "strike": 49,
+      "slash": 63,
+      "thrust": 54,
+      "magic": 25,
+      "fire": 33,
+      "lightning": 10,
+      "bleed": 27,
+      "poison": 17,
+      "curse": 0
+    },
+    "poise": 20
+  },
+  "Gough's Armor": {
+    "type": "Chest Armor",
+    "durability": 450,
+    "weight": 13,
+    "protection": {
+      "physical": 50,
+      "strike": 50,
+      "slash": 52,
+      "thrust": 47,
+      "magic": 28,
+      "fire": 41,
+      "lightning": 21,
+      "bleed": 21,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 19
+  },
+  "Gough's Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 450,
+    "weight": 7,
+    "protection": {
+      "physical": 27,
+      "strike": 27,
+      "slash": 28,
+      "thrust": 25,
+      "magic": 15,
+      "fire": 22,
+      "lightning": 11,
+      "bleed": 11,
+      "poison": 6,
+      "curse": 0
+    },
+    "poise": 12
+  },
+  "Gough's Helm": {
+    "type": "Helms",
+    "durability": 450,
+    "weight": 6,
+    "protection": {
+      "physical": 25,
+      "strike": 25,
+      "slash": 26,
+      "thrust": 23,
+      "magic": 14,
+      "fire": 21,
+      "lightning": 11,
+      "bleed": 11,
+      "poison": 6,
+      "curse": 0
+    },
+    "poise": 9
+  },
+  "Gough's Leggings": {
+    "type": "Leggings",
+    "durability": 450,
+    "weight": 8,
+    "protection": {
+      "physical": 31,
+      "strike": 31,
+      "slash": 32,
+      "thrust": 29,
+      "magic": 17,
+      "fire": 25,
+      "lightning": 13,
+      "bleed": 13,
+      "poison": 7,
+      "curse": 0
+    },
+    "poise": 13
+  },
+  "Guardian Armor": {
+    "type": "Chest Armor",
+    "durability": 800,
+    "weight": 17,
+    "protection": {
+      "physical": 86,
+      "strike": 80,
+      "slash": 98,
+      "thrust": 86,
+      "magic": 50,
+      "fire": 42,
+      "lightning": 50,
+      "bleed": 42,
+      "poison": 14,
+      "curse": 0
+    },
+    "poise": 37
+  },
+  "Guardian Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 800,
+    "weight": 10,
+    "protection": {
+      "physical": 54,
+      "strike": 50,
+      "slash": 62,
+      "thrust": 54,
+      "magic": 33,
+      "fire": 27,
+      "lightning": 33,
+      "bleed": 27,
+      "poison": 10,
+      "curse": 0
+    },
+    "poise": 23
+  },
+  "Guardian Helm": {
+    "type": "Helms",
+    "durability": 800,
+    "weight": 7,
+    "protection": {
+      "physical": 41,
+      "strike": 38,
+      "slash": 47,
+      "thrust": 41,
+      "magic": 23,
+      "fire": 19,
+      "lightning": 23,
+      "bleed": 17,
+      "poison": 6,
+      "curse": 0
+    },
+    "poise": 15
+  },
+  "Guardian Leggings": {
+    "type": "Leggings",
+    "durability": 800,
+    "weight": 10,
+    "protection": {
+      "physical": 54,
+      "strike": 50,
+      "slash": 62,
+      "thrust": 54,
+      "magic": 33,
+      "fire": 27,
+      "lightning": 33,
+      "bleed": 27,
+      "poison": 10,
+      "curse": 0
+    },
+    "poise": 23
+  },
+  "Hard Leather Armor": {
+    "type": "Chest Armor",
+    "durability": 250,
+    "weight": 5,
+    "protection": {
+      "physical": 26,
+      "strike": 27,
+      "slash": 26,
+      "thrust": 26,
+      "magic": 20,
+      "fire": 13,
+      "lightning": 23,
+      "bleed": 23,
+      "poison": 20,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Hard Leather Boots": {
+    "type": "Leggings",
+    "durability": 250,
+    "weight": 3,
+    "protection": {
+      "physical": 13,
+      "strike": 13,
+      "slash": 13,
+      "thrust": 13,
+      "magic": 12,
+      "fire": 7,
+      "lightning": 13,
+      "bleed": 14,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Hard Leather Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 250,
+    "weight": 3,
+    "protection": {
+      "physical": 13,
+      "strike": 13,
+      "slash": 13,
+      "thrust": 13,
+      "magic": 12,
+      "fire": 7,
+      "lightning": 13,
+      "bleed": 14,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Havel's Armor": {
+    "type": "Chest Armor",
+    "durability": 900,
+    "weight": 19,
+    "protection": {
+      "physical": 92,
+      "strike": 78,
+      "slash": 105,
+      "thrust": 92,
+      "magic": 56,
+      "fire": 54,
+      "lightning": 49,
+      "bleed": 45,
+      "poison": 11,
+      "curse": 22
+    },
+    "poise": 47
+  },
+  "Havel's Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 900,
+    "weight": 11,
+    "protection": {
+      "physical": 54,
+      "strike": 45,
+      "slash": 62,
+      "thrust": 54,
+      "magic": 32,
+      "fire": 32,
+      "lightning": 29,
+      "bleed": 27,
+      "poison": 5,
+      "curse": 13
+    },
+    "poise": 28
+  },
+  "Havel's Helm": {
+    "type": "Helms",
+    "durability": 900,
+    "weight": 7,
+    "protection": {
+      "physical": 36,
+      "strike": 30,
+      "slash": 41,
+      "thrust": 36,
+      "magic": 22,
+      "fire": 22,
+      "lightning": 18,
+      "bleed": 18,
+      "poison": 4,
+      "curse": 9
+    },
+    "poise": 18
+  },
+  "Havel's Leggings": {
+    "type": "Leggings",
+    "durability": 900,
+    "weight": 11,
+    "protection": {
+      "physical": 54,
+      "strike": 45,
+      "slash": 62,
+      "thrust": 54,
+      "magic": 32,
+      "fire": 32,
+      "lightning": 29,
+      "bleed": 27,
+      "poison": 5,
+      "curse": 13
+    },
+    "poise": 28
+  },
+  "Heavy Boots": {
+    "type": "Leggings",
+    "durability": 400,
+    "weight": 1,
+    "protection": {
+      "physical": 12,
+      "strike": 13,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 14,
+      "fire": 18,
+      "lightning": 10,
+      "bleed": 14,
+      "poison": 35,
+      "curse": 1
+    },
+    "poise": 0
+  },
+  "Helm of Artorias": {
+    "type": "Helms",
+    "durability": 600,
+    "weight": 4,
+    "protection": {
+      "physical": 18,
+      "strike": 16,
+      "slash": 20,
+      "thrust": 18,
+      "magic": 9,
+      "fire": 19,
+      "lightning": 9,
+      "bleed": 9,
+      "poison": 9,
+      "curse": 6
+    },
+    "poise": 9
+  },
+  "Helm of Favor": {
+    "type": "Helms",
+    "durability": 500,
+    "weight": 4,
+    "protection": {
+      "physical": 18,
+      "strike": 17,
+      "slash": 20,
+      "thrust": 18,
+      "magic": 10,
+      "fire": 11,
+      "lightning": 7,
+      "bleed": 11,
+      "poison": 8,
+      "curse": 5
+    },
+    "poise": 8
+  },
+  "Helm of Thorns": {
+    "type": "Helms",
+    "durability": 250,
+    "weight": 4,
+    "protection": {
+      "physical": 17,
+      "strike": 16,
+      "slash": 18,
+      "thrust": 17,
+      "magic": 10,
+      "fire": 12,
+      "lightning": 8,
+      "bleed": 10,
+      "poison": 7,
+      "curse": 0
+    },
+    "poise": 8
+  },
+  "Helm of the Wise": {
+    "type": "Helms",
+    "durability": 500,
+    "weight": 5,
+    "protection": {
+      "physical": 19,
+      "strike": 17,
+      "slash": 20,
+      "thrust": 18,
+      "magic": 12,
+      "fire": 13,
+      "lightning": 10,
+      "bleed": 11,
+      "poison": 7,
+      "curse": 18
+    },
+    "poise": 8
+  },
+  "Hollow Soldier Armor": {
+    "type": "Chest Armor",
+    "durability": 200,
+    "weight": 7,
+    "protection": {
+      "physical": 26,
+      "strike": 26,
+      "slash": 28,
+      "thrust": 22,
+      "magic": 16,
+      "fire": 17,
+      "lightning": 10,
+      "bleed": 18,
+      "poison": 13,
+      "curse": 0
+    },
+    "poise": 12
+  },
+  "Hollow Soldier Helm": {
+    "type": "Helms",
+    "durability": 200,
+    "weight": 3,
+    "protection": {
+      "physical": 10,
+      "strike": 10,
+      "slash": 11,
+      "thrust": 8,
+      "magic": 6,
+      "fire": 6,
+      "lightning": 4,
+      "bleed": 7,
+      "poison": 5,
+      "curse": 0
+    },
+    "poise": 5
+  },
+  "Hollow Soldier Waistcloth": {
+    "type": "Leggings",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 13,
+      "strike": 13,
+      "slash": 14,
+      "thrust": 11,
+      "magic": 8,
+      "fire": 8,
+      "lightning": 6,
+      "bleed": 10,
+      "poison": 6,
+      "curse": 0
+    },
+    "poise": 7
+  },
+  "Hollow Thief's Hood": {
+    "type": "Helms",
+    "durability": 250,
+    "weight": 1,
+    "protection": {
+      "physical": 8,
+      "strike": 8,
+      "slash": 8,
+      "thrust": 8,
+      "magic": 8,
+      "fire": 5,
+      "lightning": 7,
+      "bleed": 6,
+      "poison": 11,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Hollow Thief's Leather Armor": {
+    "type": "Chest Armor",
+    "durability": 250,
+    "weight": 2,
+    "protection": {
+      "physical": 21,
+      "strike": 22,
+      "slash": 21,
+      "thrust": 21,
+      "magic": 20,
+      "fire": 13,
+      "lightning": 18,
+      "bleed": 15,
+      "poison": 29,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Hollow Thief's Tights": {
+    "type": "Leggings",
+    "durability": 250,
+    "weight": 1,
+    "protection": {
+      "physical": 12,
+      "strike": 13,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 11,
+      "fire": 8,
+      "lightning": 10,
+      "bleed": 9,
+      "poison": 17,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Hollow Warrior Armor": {
+    "type": "Chest Armor",
+    "durability": 250,
+    "weight": 6,
+    "protection": {
+      "physical": 24,
+      "strike": 23,
+      "slash": 24,
+      "thrust": 22,
+      "magic": 16,
+      "fire": 12,
+      "lightning": 17,
+      "bleed": 13,
+      "poison": 13,
+      "curse": 0
+    },
+    "poise": 8
+  },
+  "Hollow Warrior Helm": {
+    "type": "Helms",
+    "durability": 250,
+    "weight": 2,
+    "protection": {
+      "physical": 10,
+      "strike": 9,
+      "slash": 10,
+      "thrust": 9,
+      "magic": 6,
+      "fire": 5,
+      "lightning": 6,
+      "bleed": 5,
+      "poison": 5,
+      "curse": 0
+    },
+    "poise": 3
+  },
+  "Hollow Warrior Waistcloth": {
+    "type": "Leggings",
+    "durability": 250,
+    "weight": 1,
+    "protection": {
+      "physical": 13,
+      "strike": 12,
+      "slash": 13,
+      "thrust": 12,
+      "magic": 8,
+      "fire": 6,
+      "lightning": 8,
+      "bleed": 6,
+      "poison": 6,
+      "curse": 0
+    },
+    "poise": 5
+  },
+  "Holy Robe": {
+    "type": "Chest Armor",
+    "durability": 350,
+    "weight": 4,
+    "protection": {
+      "physical": 22,
+      "strike": 26,
+      "slash": 22,
+      "thrust": 22,
+      "magic": 23,
+      "fire": 14,
+      "lightning": 19,
+      "bleed": 24,
+      "poison": 20,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Holy Trousers": {
+    "type": "Leggings",
+    "durability": 350,
+    "weight": 2,
+    "protection": {
+      "physical": 14,
+      "strike": 16,
+      "slash": 14,
+      "thrust": 14,
+      "magic": 15,
+      "fire": 8,
+      "lightning": 12,
+      "bleed": 15,
+      "poison": 13,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Iron Bracelet": {
+    "type": "Gauntlets",
+    "durability": 350,
+    "weight": 4,
+    "protection": {
+      "physical": 17,
+      "strike": 17,
+      "slash": 17,
+      "thrust": 16,
+      "magic": 10,
+      "fire": 10,
+      "lightning": 9,
+      "bleed": 11,
+      "poison": 7,
+      "curse": 2
+    },
+    "poise": 7
+  },
+  "Iron Helm": {
+    "type": "Helms",
+    "durability": 350,
+    "weight": 4,
+    "protection": {
+      "physical": 14,
+      "strike": 14,
+      "slash": 14,
+      "thrust": 13,
+      "magic": 10,
+      "fire": 10,
+      "lightning": 9,
+      "bleed": 8,
+      "poison": 12,
+      "curse": 2
+    },
+    "poise": 8
+  },
+  "Iron Leggings": {
+    "type": "Leggings",
+    "durability": 350,
+    "weight": 5,
+    "protection": {
+      "physical": 21,
+      "strike": 21,
+      "slash": 21,
+      "thrust": 20,
+      "magic": 12,
+      "fire": 12,
+      "lightning": 11,
+      "bleed": 14,
+      "poison": 9,
+      "curse": 2
+    },
+    "poise": 9
+  },
+  "Knight Armor": {
+    "type": "Chest Armor",
+    "durability": 400,
+    "weight": 10,
+    "protection": {
+      "physical": 37,
+      "strike": 35,
+      "slash": 43,
+      "thrust": 36,
+      "magic": 22,
+      "fire": 15,
+      "lightning": 13,
+      "bleed": 23,
+      "poison": 16,
+      "curse": 0
+    },
+    "poise": 20
+  },
+  "Knight Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 400,
+    "weight": 3,
+    "protection": {
+      "physical": 17,
+      "strike": 16,
+      "slash": 19,
+      "thrust": 16,
+      "magic": 7,
+      "fire": 8,
+      "lightning": 4,
+      "bleed": 8,
+      "poison": 5,
+      "curse": 0
+    },
+    "poise": 6
+  },
+  "Knight Helm": {
+    "type": "Helms",
+    "durability": 400,
+    "weight": 4,
+    "protection": {
+      "physical": 14,
+      "strike": 13,
+      "slash": 16,
+      "thrust": 14,
+      "magic": 8,
+      "fire": 9,
+      "lightning": 5,
+      "bleed": 9,
+      "poison": 6,
+      "curse": 0
+    },
+    "poise": 8
+  },
+  "Knight Leggings": {
+    "type": "Leggings",
+    "durability": 400,
+    "weight": 6,
+    "protection": {
+      "physical": 22,
+      "strike": 20,
+      "slash": 25,
+      "thrust": 21,
+      "magic": 10,
+      "fire": 11,
+      "lightning": 8,
+      "bleed": 14,
+      "poison": 9,
+      "curse": 0
+    },
+    "poise": 12
+  },
+  "Leather Armor": {
+    "type": "Chest Armor",
+    "durability": 250,
+    "weight": 4,
+    "protection": {
+      "physical": 24,
+      "strike": 25,
+      "slash": 24,
+      "thrust": 24,
+      "magic": 20,
+      "fire": 12,
+      "lightning": 23,
+      "bleed": 21,
+      "poison": 20,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Leather Boots": {
+    "type": "Leggings",
+    "durability": 250,
+    "weight": 2,
+    "protection": {
+      "physical": 12,
+      "strike": 12,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 12,
+      "fire": 6,
+      "lightning": 13,
+      "bleed": 13,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Leather Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 300,
+    "weight": 3,
+    "protection": {
+      "physical": 12,
+      "strike": 12,
+      "slash": 14,
+      "thrust": 11,
+      "magic": 10,
+      "fire": 8,
+      "lightning": 4,
+      "bleed": 12,
+      "poison": 7,
+      "curse": 0
+    },
+    "poise": 5
+  },
+  "Leather Gloves": {
+    "type": "Gauntlets",
+    "durability": 250,
+    "weight": 2,
+    "protection": {
+      "physical": 12,
+      "strike": 12,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 12,
+      "fire": 6,
+      "lightning": 13,
+      "bleed": 13,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Leggings of Artorias": {
+    "type": "Leggings",
+    "durability": 600,
+    "weight": 5,
+    "protection": {
+      "physical": 23,
+      "strike": 20,
+      "slash": 26,
+      "thrust": 24,
+      "magic": 11,
+      "fire": 24,
+      "lightning": 11,
+      "bleed": 11,
+      "poison": 11,
+      "curse": 10
+    },
+    "poise": 9
+  },
+  "Leggings of Favor": {
+    "type": "Leggings",
+    "durability": 500,
+    "weight": 6,
+    "protection": {
+      "physical": 28,
+      "strike": 26,
+      "slash": 32,
+      "thrust": 28,
+      "magic": 14,
+      "fire": 18,
+      "lightning": 11,
+      "bleed": 15,
+      "poison": 14,
+      "curse": 14
+    },
+    "poise": 11
+  },
+  "Leggings of Thorns": {
+    "type": "Leggings",
+    "durability": 250,
+    "weight": 6,
+    "protection": {
+      "physical": 26,
+      "strike": 24,
+      "slash": 28,
+      "thrust": 26,
+      "magic": 16,
+      "fire": 18,
+      "lightning": 12,
+      "bleed": 16,
+      "poison": 10,
+      "curse": 0
+    },
+    "poise": 9
+  },
+  "Lord's Blade Gloves": {
+    "type": "Gauntlets",
+    "durability": 250,
+    "weight": 2,
+    "protection": {
+      "physical": 15,
+      "strike": 15,
+      "slash": 15,
+      "thrust": 16,
+      "magic": 11,
+      "fire": 14,
+      "lightning": 9,
+      "bleed": 12,
+      "poison": 22,
+      "curse": 11
+    },
+    "poise": 3
+  },
+  "Lord's Blade Robe": {
+    "type": "Chest Armor",
+    "durability": 250,
+    "weight": 6,
+    "protection": {
+      "physical": 34,
+      "strike": 34,
+      "slash": 35,
+      "thrust": 37,
+      "magic": 26,
+      "fire": 32,
+      "lightning": 20,
+      "bleed": 28,
+      "poison": 49,
+      "curse": 25
+    },
+    "poise": 8
+  },
+  "Lord's Blade Waistcloth": {
+    "type": "Leggings",
+    "durability": 250,
+    "weight": 5,
+    "protection": {
+      "physical": 27,
+      "strike": 27,
+      "slash": 28,
+      "thrust": 29,
+      "magic": 20,
+      "fire": 25,
+      "lightning": 16,
+      "bleed": 22,
+      "poison": 38,
+      "curse": 20
+    },
+    "poise": 6
+  },
+  "Maiden Gloves": {
+    "type": "Gauntlets",
+    "durability": 150,
+    "weight": 1,
+    "protection": {
+      "physical": 11,
+      "strike": 12,
+      "slash": 11,
+      "thrust": 11,
+      "magic": 13,
+      "fire": 8,
+      "lightning": 10,
+      "bleed": 14,
+      "poison": 10,
+      "curse": 5
+    },
+    "poise": 0
+  },
+  "Maiden Hood": {
+    "type": "Helms",
+    "durability": 150,
+    "weight": 0,
+    "protection": {
+      "physical": 7,
+      "strike": 8,
+      "slash": 7,
+      "thrust": 7,
+      "magic": 8,
+      "fire": 5,
+      "lightning": 6,
+      "bleed": 9,
+      "poison": 7,
+      "curse": 3
+    },
+    "poise": 0
+  },
+  "Maiden Robe": {
+    "type": "Chest Armor",
+    "durability": 150,
+    "weight": 2,
+    "protection": {
+      "physical": 19,
+      "strike": 22,
+      "slash": 19,
+      "thrust": 19,
+      "magic": 22,
+      "fire": 13,
+      "lightning": 17,
+      "bleed": 23,
+      "poison": 18,
+      "curse": 8
+    },
+    "poise": 0
+  },
+  "Maiden Skirt": {
+    "type": "Leggings",
+    "durability": 150,
+    "weight": 2,
+    "protection": {
+      "physical": 14,
+      "strike": 16,
+      "slash": 14,
+      "thrust": 14,
+      "magic": 27,
+      "fire": 16,
+      "lightning": 21,
+      "bleed": 29,
+      "poison": 22,
+      "curse": 10
+    },
+    "poise": 0
+  },
+  "Mask of Velka": {
+    "type": "Helms",
+    "durability": 400,
+    "weight": 2,
+    "protection": {
+      "physical": 12,
+      "strike": 13,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 12,
+      "fire": 10,
+      "lightning": 7,
+      "bleed": 9,
+      "poison": 9,
+      "curse": 20
+    },
+    "poise": 0
+  },
+  "Mask of the Child": {
+    "type": "Helms",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 6,
+      "strike": 6,
+      "slash": 6,
+      "thrust": 6,
+      "magic": 10,
+      "fire": 8,
+      "lightning": 10,
+      "bleed": 6,
+      "poison": 0,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Mask of the Father": {
+    "type": "Helms",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 6,
+      "strike": 6,
+      "slash": 6,
+      "thrust": 6,
+      "magic": 10,
+      "fire": 6,
+      "lightning": 8,
+      "bleed": 6,
+      "poison": 0,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Mask of the Mother": {
+    "type": "Helms",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 6,
+      "strike": 6,
+      "slash": 6,
+      "thrust": 6,
+      "magic": 12,
+      "fire": 6,
+      "lightning": 8,
+      "bleed": 10,
+      "poison": 0,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Mask of the Sealer": {
+    "type": "Helms",
+    "durability": 400,
+    "weight": 1,
+    "protection": {
+      "physical": 12,
+      "strike": 13,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 12,
+      "fire": 7,
+      "lightning": 9,
+      "bleed": 8,
+      "poison": 8,
+      "curse": 8
+    },
+    "poise": 0
+  },
+  "Moonlight Gloves": {
+    "type": "Gauntlets",
+    "durability": 80,
+    "weight": 0,
+    "protection": {
+      "physical": 3,
+      "strike": 3,
+      "slash": 3,
+      "thrust": 3,
+      "magic": 5,
+      "fire": 3,
+      "lightning": 3,
+      "bleed": 4,
+      "poison": 4,
+      "curse": 5
+    },
+    "poise": 0
+  },
+  "Moonlight Robe": {
+    "type": "Chest Armor",
+    "durability": 80,
+    "weight": 3,
+    "protection": {
+      "physical": 20,
+      "strike": 20,
+      "slash": 20,
+      "thrust": 20,
+      "magic": 31,
+      "fire": 17,
+      "lightning": 17,
+      "bleed": 23,
+      "poison": 23,
+      "curse": 31
+    },
+    "poise": 0
+  },
+  "Moonlight Waistcloth": {
+    "type": "Leggings",
+    "durability": 80,
+    "weight": 1,
+    "protection": {
+      "physical": 12,
+      "strike": 12,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 18,
+      "fire": 10,
+      "lightning": 10,
+      "bleed": 14,
+      "poison": 14,
+      "curse": 18
+    },
+    "poise": 0
+  },
+  "Ornstein's Armor": {
+    "type": "Chest Armor",
+    "durability": 700,
+    "weight": 12,
+    "protection": {
+      "physical": 70,
+      "strike": 66,
+      "slash": 79,
+      "thrust": 70,
+      "magic": 36,
+      "fire": 46,
+      "lightning": 40,
+      "bleed": 38,
+      "poison": 18,
+      "curse": 18
+    },
+    "poise": 19
+  },
+  "Ornstein's Helm": {
+    "type": "Helms",
+    "durability": 700,
+    "weight": 5,
+    "protection": {
+      "physical": 32,
+      "strike": 30,
+      "slash": 36,
+      "thrust": 32,
+      "magic": 5,
+      "fire": 6,
+      "lightning": 6,
+      "bleed": 18,
+      "poison": 8,
+      "curse": 8
+    },
+    "poise": 9
+  },
+  "Ornstein's Leggings": {
+    "type": "Leggings",
+    "durability": 700,
+    "weight": 7,
+    "protection": {
+      "physical": 40,
+      "strike": 38,
+      "slash": 45,
+      "thrust": 40,
+      "magic": 20,
+      "fire": 28,
+      "lightning": 24,
+      "bleed": 22,
+      "poison": 12,
+      "curse": 12
+    },
+    "poise": 11
+  },
+  "Orntein's Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 700,
+    "weight": 4,
+    "protection": {
+      "physical": 29,
+      "strike": 27,
+      "slash": 32,
+      "thrust": 29,
+      "magic": 12,
+      "fire": 16,
+      "lightning": 14,
+      "bleed": 12,
+      "poison": 6,
+      "curse": 6
+    },
+    "poise": 6
+  },
+  "Painting Guardian Gloves": {
+    "type": "Gauntlets",
+    "durability": 150,
+    "weight": 0,
+    "protection": {
+      "physical": 6,
+      "strike": 7,
+      "slash": 6,
+      "thrust": 6,
+      "magic": 22,
+      "fire": 17,
+      "lightning": 12,
+      "bleed": 18,
+      "poison": 46,
+      "curse": 10
+    },
+    "poise": 0
+  },
+  "Painting Guardian Hood": {
+    "type": "Helms",
+    "durability": 150,
+    "weight": 0,
+    "protection": {
+      "physical": 3,
+      "strike": 3,
+      "slash": 3,
+      "thrust": 3,
+      "magic": 31,
+      "fire": 11,
+      "lightning": 8,
+      "bleed": 12,
+      "poison": 30,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Painting Guardian Robe": {
+    "type": "Chest Armor",
+    "durability": 150,
+    "weight": 1,
+    "protection": {
+      "physical": 9,
+      "strike": 10,
+      "slash": 9,
+      "thrust": 9,
+      "magic": 34,
+      "fire": 29,
+      "lightning": 21,
+      "bleed": 32,
+      "poison": 78,
+      "curse": 16
+    },
+    "poise": 0
+  },
+  "Painting Guardian Waistcloth": {
+    "type": "Leggings",
+    "durability": 150,
+    "weight": 4,
+    "protection": {
+      "physical": 22,
+      "strike": 26,
+      "slash": 22,
+      "thrust": 22,
+      "magic": 30,
+      "fire": 22,
+      "lightning": 21,
+      "bleed": 21,
+      "poison": 51,
+      "curse": 10
+    },
+    "poise": 0
+  },
+  "Paladin Armor": {
+    "type": "Chest Armor",
+    "durability": 500,
+    "weight": 12,
+    "protection": {
+      "physical": 59,
+      "strike": 56,
+      "slash": 67,
+      "thrust": 59,
+      "magic": 31,
+      "fire": 37,
+      "lightning": 19,
+      "bleed": 34,
+      "poison": 24,
+      "curse": 57
+    },
+    "poise": 20
+  },
+  "Paladin Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 500,
+    "weight": 7,
+    "protection": {
+      "physical": 35,
+      "strike": 33,
+      "slash": 40,
+      "thrust": 35,
+      "magic": 19,
+      "fire": 21,
+      "lightning": 12,
+      "bleed": 21,
+      "poison": 13,
+      "curse": 34
+    },
+    "poise": 12
+  },
+  "Paladin Helm": {
+    "type": "Helms",
+    "durability": 500,
+    "weight": 5,
+    "protection": {
+      "physical": 22,
+      "strike": 20,
+      "slash": 25,
+      "thrust": 22,
+      "magic": 12,
+      "fire": 13,
+      "lightning": 7,
+      "bleed": 13,
+      "poison": 9,
+      "curse": 22
+    },
+    "poise": 8
+  },
+  "Paladin Leggings": {
+    "type": "Leggings",
+    "durability": 500,
+    "weight": 7,
+    "protection": {
+      "physical": 35,
+      "strike": 33,
+      "slash": 40,
+      "thrust": 35,
+      "magic": 19,
+      "fire": 21,
+      "lightning": 12,
+      "bleed": 21,
+      "poison": 13,
+      "curse": 34
+    },
+    "poise": 12
+  },
+  "Pharis's Hat": {
+    "type": "Helms",
+    "durability": 250,
+    "weight": 1,
+    "protection": {
+      "physical": 7,
+      "strike": 7,
+      "slash": 7,
+      "thrust": 7,
+      "magic": 5,
+      "fire": 7,
+      "lightning": 7,
+      "bleed": 6,
+      "poison": 5,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Porcelain Mask": {
+    "type": "Helms",
+    "durability": 250,
+    "weight": 2,
+    "protection": {
+      "physical": 13,
+      "strike": 13,
+      "slash": 13,
+      "thrust": 14,
+      "magic": 10,
+      "fire": 12,
+      "lightning": 8,
+      "bleed": 11,
+      "poison": 19,
+      "curse": 11
+    },
+    "poise": 3
+  },
+  "Priest's Hat": {
+    "type": "Helms",
+    "durability": 350,
+    "weight": 1,
+    "protection": {
+      "physical": 9,
+      "strike": 9,
+      "slash": 8,
+      "thrust": 8,
+      "magic": 9,
+      "fire": 5,
+      "lightning": 7,
+      "bleed": 9,
+      "poison": 8,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Robe of the Channelers": {
+    "type": "Chest Armor",
+    "durability": 300,
+    "weight": 10,
+    "protection": {
+      "physical": 53,
+      "strike": 50,
+      "slash": 60,
+      "thrust": 53,
+      "magic": 45,
+      "fire": 45,
+      "lightning": 35,
+      "bleed": 38,
+      "poison": 33,
+      "curse": 0
+    },
+    "poise": 12
+  },
+  "Robe of the Great Lord": {
+    "type": "Chest Armor",
+    "durability": 400,
+    "weight": 6,
+    "protection": {
+      "physical": 32,
+      "strike": 35,
+      "slash": 37,
+      "thrust": 29,
+      "magic": 32,
+      "fire": 41,
+      "lightning": 41,
+      "bleed": 30,
+      "poison": 15,
+      "curse": 40
+    },
+    "poise": 0
+  },
+  "Royal Helm": {
+    "type": "Helms",
+    "durability": 500,
+    "weight": 4,
+    "protection": {
+      "physical": 16,
+      "strike": 13,
+      "slash": 16,
+      "thrust": 16,
+      "magic": 10,
+      "fire": 10,
+      "lightning": 6,
+      "bleed": 16,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 8
+  },
+  "Sack": {
+    "type": "Helms",
+    "durability": 150,
+    "weight": 0,
+    "protection": {
+      "physical": 6,
+      "strike": 10,
+      "slash": 6,
+      "thrust": 5,
+      "magic": 6,
+      "fire": 8,
+      "lightning": 4,
+      "bleed": 12,
+      "poison": 10,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Sage Robe": {
+    "type": "Chest Armor",
+    "durability": 250,
+    "weight": 4,
+    "protection": {
+      "physical": 41,
+      "strike": 44,
+      "slash": 42,
+      "thrust": 41,
+      "magic": 28,
+      "fire": 29,
+      "lightning": 35,
+      "bleed": 49,
+      "poison": 49,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Shadow Garb": {
+    "type": "Chest Armor",
+    "durability": 200,
+    "weight": 2,
+    "protection": {
+      "physical": 23,
+      "strike": 25,
+      "slash": 23,
+      "thrust": 23,
+      "magic": 12,
+      "fire": 16,
+      "lightning": 17,
+      "bleed": 39,
+      "poison": 47,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Shadow Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 13,
+      "strike": 14,
+      "slash": 13,
+      "thrust": 13,
+      "magic": 7,
+      "fire": 9,
+      "lightning": 10,
+      "bleed": 23,
+      "poison": 28,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Shadow Mask": {
+    "type": "Helms",
+    "durability": 200,
+    "weight": 0,
+    "protection": {
+      "physical": 9,
+      "strike": 9,
+      "slash": 9,
+      "thrust": 9,
+      "magic": 5,
+      "fire": 6,
+      "lightning": 6,
+      "bleed": 15,
+      "poison": 18,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Shadow Leggings": {
+    "type": "Leggings",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 13,
+      "strike": 14,
+      "slash": 13,
+      "thrust": 13,
+      "magic": 7,
+      "fire": 9,
+      "lightning": 10,
+      "bleed": 23,
+      "poison": 28,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Silver Knight Armor": {
+    "type": "Chest Armor",
+    "durability": 600,
+    "weight": 12,
+    "protection": {
+      "physical": 52,
+      "strike": 48,
+      "slash": 59,
+      "thrust": 51,
+      "magic": 26,
+      "fire": 29,
+      "lightning": 34,
+      "bleed": 24,
+      "poison": 12,
+      "curse": 2
+    },
+    "poise": 19
+  },
+  "Silver Knight Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 600,
+    "weight": 5,
+    "protection": {
+      "physical": 25,
+      "strike": 23,
+      "slash": 28,
+      "thrust": 24,
+      "magic": 12,
+      "fire": 14,
+      "lightning": 16,
+      "bleed": 11,
+      "poison": 6,
+      "curse": 1
+    },
+    "poise": 9
+  },
+  "Silver Knight Helm": {
+    "type": "Helms",
+    "durability": 600,
+    "weight": 4,
+    "protection": {
+      "physical": 21,
+      "strike": 19,
+      "slash": 24,
+      "thrust": 20,
+      "magic": 10,
+      "fire": 11,
+      "lightning": 14,
+      "bleed": 9,
+      "poison": 5,
+      "curse": 1
+    },
+    "poise": 8
+  },
+  "Silver Knight Leggings": {
+    "type": "Leggings",
+    "durability": 600,
+    "weight": 6,
+    "protection": {
+      "physical": 28,
+      "strike": 26,
+      "slash": 32,
+      "thrust": 27,
+      "magic": 15,
+      "fire": 16,
+      "lightning": 19,
+      "bleed": 14,
+      "poison": 7,
+      "curse": 1
+    },
+    "poise": 11
+  },
+  "Six-Eyed Helm of the Channelers": {
+    "type": "Helms",
+    "durability": 300,
+    "weight": 3,
+    "protection": {
+      "physical": 20,
+      "strike": 19,
+      "slash": 22,
+      "thrust": 20,
+      "magic": 18,
+      "fire": 17,
+      "lightning": 13,
+      "bleed": 15,
+      "poison": 13,
+      "curse": 0
+    },
+    "poise": 5
+  },
+  "Smough's Armor": {
+    "type": "Chest Armor",
+    "durability": 700,
+    "weight": 17,
+    "protection": {
+      "physical": 106,
+      "strike": 92,
+      "slash": 121,
+      "thrust": 106,
+      "magic": 52,
+      "fire": 66,
+      "lightning": 59,
+      "bleed": 54,
+      "poison": 28,
+      "curse": 9
+    },
+    "poise": 35
+  },
+  "Smough's Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 700,
+    "weight": 10,
+    "protection": {
+      "physical": 61,
+      "strike": 53,
+      "slash": 70,
+      "thrust": 61,
+      "magic": 31,
+      "fire": 40,
+      "lightning": 33,
+      "bleed": 33,
+      "poison": 16,
+      "curse": 5
+    },
+    "poise": 21
+  },
+  "Smough's Helm": {
+    "type": "Helms",
+    "durability": 700,
+    "weight": 6,
+    "protection": {
+      "physical": 40,
+      "strike": 34,
+      "slash": 46,
+      "thrust": 40,
+      "magic": 19,
+      "fire": 26,
+      "lightning": 21,
+      "bleed": 21,
+      "poison": 12,
+      "curse": 5
+    },
+    "poise": 14
+  },
+  "Smough's Leggings": {
+    "type": "Leggings",
+    "durability": 700,
+    "weight": 10,
+    "protection": {
+      "physical": 61,
+      "strike": 53,
+      "slash": 70,
+      "thrust": 61,
+      "magic": 31,
+      "fire": 40,
+      "lightning": 33,
+      "bleed": 33,
+      "poison": 16,
+      "curse": 5
+    },
+    "poise": 21
+  },
+  "Snickering Top Hat": {
+    "type": "Helms",
+    "durability": 300,
+    "weight": 2,
+    "protection": {
+      "physical": 12,
+      "strike": 16,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 13,
+      "fire": 9,
+      "lightning": 12,
+      "bleed": 19,
+      "poison": 14,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Sorcerer Boots": {
+    "type": "Leggings",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 12,
+      "strike": 13,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 16,
+      "fire": 8,
+      "lightning": 10,
+      "bleed": 9,
+      "poison": 7,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Sorcerer Cloak": {
+    "type": "Chest Armor",
+    "durability": 200,
+    "weight": 2,
+    "protection": {
+      "physical": 20,
+      "strike": 21,
+      "slash": 20,
+      "thrust": 20,
+      "magic": 27,
+      "fire": 13,
+      "lightning": 17,
+      "bleed": 16,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Sorcerer Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 12,
+      "strike": 13,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 16,
+      "fire": 8,
+      "lightning": 10,
+      "bleed": 9,
+      "poison": 7,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Sorcerer Hat": {
+    "type": "Helms",
+    "durability": 200,
+    "weight": 1,
+    "protection": {
+      "physical": 8,
+      "strike": 9,
+      "slash": 8,
+      "thrust": 8,
+      "magic": 10,
+      "fire": 5,
+      "lightning": 6,
+      "bleed": 6,
+      "poison": 5,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Standard Helm": {
+    "type": "Helms",
+    "durability": 250,
+    "weight": 3,
+    "protection": {
+      "physical": 14,
+      "strike": 8,
+      "slash": 16,
+      "thrust": 14,
+      "magic": 8,
+      "fire": 8,
+      "lightning": 3,
+      "bleed": 9,
+      "poison": 8,
+      "curse": 0
+    },
+    "poise": 5
+  },
+  "Steel Armor": {
+    "type": "Chest Armor",
+    "durability": 500,
+    "weight": 14,
+    "protection": {
+      "physical": 42,
+      "strike": 39,
+      "slash": 48,
+      "thrust": 42,
+      "magic": 22,
+      "fire": 21,
+      "lightning": 13,
+      "bleed": 23,
+      "poison": 16,
+      "curse": 0
+    },
+    "poise": 23
+  },
+  "Steel Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 500,
+    "weight": 8,
+    "protection": {
+      "physical": 25,
+      "strike": 23,
+      "slash": 28,
+      "thrust": 25,
+      "magic": 13,
+      "fire": 12,
+      "lightning": 8,
+      "bleed": 14,
+      "poison": 9,
+      "curse": 0
+    },
+    "poise": 14
+  },
+  "Steel Helm": {
+    "type": "Helms",
+    "durability": 500,
+    "weight": 5,
+    "protection": {
+      "physical": 16,
+      "strike": 15,
+      "slash": 18,
+      "thrust": 16,
+      "magic": 8,
+      "fire": 8,
+      "lightning": 5,
+      "bleed": 9,
+      "poison": 6,
+      "curse": 0
+    },
+    "poise": 9
+  },
+  "Steel Leggings": {
+    "type": "Leggings",
+    "durability": 500,
+    "weight": 8,
+    "protection": {
+      "physical": 25,
+      "strike": 23,
+      "slash": 28,
+      "thrust": 25,
+      "magic": 13,
+      "fire": 12,
+      "lightning": 8,
+      "bleed": 14,
+      "poison": 9,
+      "curse": 0
+    },
+    "poise": 14
+  },
+  "Stone Armor": {
+    "type": "Chest Armor",
+    "durability": 800,
+    "weight": 17,
+    "protection": {
+      "physical": 91,
+      "strike": 85,
+      "slash": 104,
+      "thrust": 91,
+      "magic": 45,
+      "fire": 54,
+      "lightning": 54,
+      "bleed": 45,
+      "poison": 16,
+      "curse": 0
+    },
+    "poise": 39
+  },
+  "Stone Gauntlets": {
+    "type": "Gauntlets",
+    "durability": 800,
+    "weight": 10,
+    "protection": {
+      "physical": 54,
+      "strike": 50,
+      "slash": 62,
+      "thrust": 54,
+      "magic": 27,
+      "fire": 33,
+      "lightning": 33,
+      "bleed": 27,
+      "poison": 10,
+      "curse": 0
+    },
+    "poise": 23
+  },
+  "Stone Helm": {
+    "type": "Helms",
+    "durability": 800,
+    "weight": 6,
+    "protection": {
+      "physical": 35,
+      "strike": 32,
+      "slash": 40,
+      "thrust": 35,
+      "magic": 17,
+      "fire": 21,
+      "lightning": 21,
+      "bleed": 17,
+      "poison": 6,
+      "curse": 0
+    },
+    "poise": 15
+  },
+  "Stone Leggings": {
+    "type": "Leggings",
+    "durability": 800,
+    "weight": 10,
+    "protection": {
+      "physical": 54,
+      "strike": 50,
+      "slash": 62,
+      "thrust": 54,
+      "magic": 27,
+      "fire": 33,
+      "lightning": 33,
+      "bleed": 27,
+      "poison": 10,
+      "curse": 0
+    },
+    "poise": 23
+  },
+  "Sunlight Maggot": {
+    "type": "Helms",
+    "durability": 80,
+    "weight": 1,
+    "protection": {
+      "physical": 6,
+      "strike": 6,
+      "slash": 6,
+      "thrust": 6,
+      "magic": 5,
+      "fire": 24,
+      "lightning": 13,
+      "bleed": 0,
+      "poison": 0,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Symbol of Avarice": {
+    "type": "Helms",
+    "durability": 300,
+    "weight": 10,
+    "protection": {
+      "physical": 21,
+      "strike": 10,
+      "slash": 21,
+      "thrust": 21,
+      "magic": 8,
+      "fire": 2,
+      "lightning": 2,
+      "bleed": 10,
+      "poison": 0,
+      "curse": 0
+    },
+    "poise": 15
+  },
+  "Tattered Cloth Hood": {
+    "type": "Helms",
+    "durability": 400,
+    "weight": 1,
+    "protection": {
+      "physical": 8,
+      "strike": 8,
+      "slash": 8,
+      "thrust": 8,
+      "magic": 9,
+      "fire": 12,
+      "lightning": 6,
+      "bleed": 9,
+      "poison": 23,
+      "curse": 1
+    },
+    "poise": 0
+  },
+  "Tattered Cloth Manchette": {
+    "type": "Gauntlets",
+    "durability": 400,
+    "weight": 1,
+    "protection": {
+      "physical": 12,
+      "strike": 13,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 14,
+      "fire": 18,
+      "lightning": 10,
+      "bleed": 14,
+      "poison": 35,
+      "curse": 1
+    },
+    "poise": 0
+  },
+  "Tattered Cloth Robe": {
+    "type": "Chest Armor",
+    "durability": 400,
+    "weight": 2,
+    "protection": {
+      "physical": 21,
+      "strike": 23,
+      "slash": 21,
+      "thrust": 21,
+      "magic": 23,
+      "fire": 30,
+      "lightning": 17,
+      "bleed": 23,
+      "poison": 59,
+      "curse": 2
+    },
+    "poise": 0
+  },
+  "Thief Mask": {
+    "type": "Helms",
+    "durability": 250,
+    "weight": 1,
+    "protection": {
+      "physical": 9,
+      "strike": 10,
+      "slash": 9,
+      "thrust": 9,
+      "magic": 8,
+      "fire": 5,
+      "lightning": 6,
+      "bleed": 9,
+      "poison": 12,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Travelling Boots": {
+    "type": "Leggings",
+    "durability": 250,
+    "weight": 1,
+    "protection": {
+      "physical": 12,
+      "strike": 13,
+      "slash": 12,
+      "thrust": 12,
+      "magic": 16,
+      "fire": 8,
+      "lightning": 10,
+      "bleed": 14,
+      "poison": 14,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Travelling Gloves": {
+    "type": "Gauntlets",
+    "durability": 350,
+    "weight": 0,
+    "protection": {
+      "physical": 5,
+      "strike": 5,
+      "slash": 5,
+      "thrust": 5,
+      "magic": 5,
+      "fire": 3,
+      "lightning": 4,
+      "bleed": 5,
+      "poison": 4,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Waistcloth of the Channelers": {
+    "type": "Leggings",
+    "durability": 300,
+    "weight": 6,
+    "protection": {
+      "physical": 32,
+      "strike": 30,
+      "slash": 36,
+      "thrust": 32,
+      "magic": 27,
+      "fire": 27,
+      "lightning": 30,
+      "bleed": 23,
+      "poison": 20,
+      "curse": 0
+    },
+    "poise": 7
+  },
+  "Wanderer Boots": {
+    "type": "Leggings",
+    "durability": 400,
+    "weight": 2,
+    "protection": {
+      "physical": 14,
+      "strike": 15,
+      "slash": 15,
+      "thrust": 14,
+      "magic": 12,
+      "fire": 15,
+      "lightning": 13,
+      "bleed": 13,
+      "poison": 13,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Wanderer Coat": {
+    "type": "Chest Armor",
+    "durability": 400,
+    "weight": 3,
+    "protection": {
+      "physical": 23,
+      "strike": 24,
+      "slash": 24,
+      "thrust": 23,
+      "magic": 21,
+      "fire": 26,
+      "lightning": 23,
+      "bleed": 21,
+      "poison": 21,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Wanderer Hood": {
+    "type": "Helms",
+    "durability": 400,
+    "weight": 1,
+    "protection": {
+      "physical": 9,
+      "strike": 10,
+      "slash": 10,
+      "thrust": 9,
+      "magic": 8,
+      "fire": 9,
+      "lightning": 10,
+      "bleed": 8,
+      "poison": 8,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Wanderer Manchette": {
+    "type": "Gauntlets",
+    "durability": 400,
+    "weight": 2,
+    "protection": {
+      "physical": 14,
+      "strike": 15,
+      "slash": 15,
+      "thrust": 14,
+      "magic": 12,
+      "fire": 15,
+      "lightning": 13,
+      "bleed": 13,
+      "poison": 13,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Witch Cloak": {
+    "type": "Chest Armor",
+    "durability": 250,
+    "weight": 4,
+    "protection": {
+      "physical": 33,
+      "strike": 37,
+      "slash": 33,
+      "thrust": 33,
+      "magic": 43,
+      "fire": 20,
+      "lightning": 26,
+      "bleed": 36,
+      "poison": 36,
+      "curse": 12
+    },
+    "poise": 0
+  },
+  "Witch Gloves": {
+    "type": "Gauntlets",
+    "durability": 250,
+    "weight": 1,
+    "protection": {
+      "physical": 14,
+      "strike": 15,
+      "slash": 14,
+      "thrust": 14,
+      "magic": 18,
+      "fire": 9,
+      "lightning": 11,
+      "bleed": 16,
+      "poison": 16,
+      "curse": 6
+    },
+    "poise": 0
+  },
+  "Witch Hat": {
+    "type": "Helms",
+    "durability": 250,
+    "weight": 1,
+    "protection": {
+      "physical": 9,
+      "strike": 10,
+      "slash": 9,
+      "thrust": 9,
+      "magic": 12,
+      "fire": 6,
+      "lightning": 7,
+      "bleed": 10,
+      "poison": 10,
+      "curse": 11
+    },
+    "poise": 0
+  },
+  "Witch Skirt": {
+    "type": "Leggings",
+    "durability": 250,
+    "weight": 2,
+    "protection": {
+      "physical": 17,
+      "strike": 18,
+      "slash": 17,
+      "thrust": 17,
+      "magic": 27,
+      "fire": 12,
+      "lightning": 17,
+      "bleed": 23,
+      "poison": 28,
+      "curse": 6
+    },
+    "poise": 0
+  },
+  "Xanthous Crown": {
+    "type": "Helms",
+    "durability": 400,
+    "weight": 5,
+    "protection": {
+      "physical": 18,
+      "strike": 28,
+      "slash": 18,
+      "thrust": 15,
+      "magic": 15,
+      "fire": 3,
+      "lightning": 8,
+      "bleed": 8,
+      "poison": 11,
+      "curse": 35
+    },
+    "poise": 0
+  },
+  "Xanthous Gloves": {
+    "type": "Gauntlets",
+    "durability": 400,
+    "weight": 2,
+    "protection": {
+      "physical": 18,
+      "strike": 20,
+      "slash": 18,
+      "thrust": 16,
+      "magic": 22,
+      "fire": 4,
+      "lightning": 14,
+      "bleed": 12,
+      "poison": 18,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Xanthous Overcoat": {
+    "type": "Chest Armor",
+    "durability": 400,
+    "weight": 3,
+    "protection": {
+      "physical": 32,
+      "strike": 35,
+      "slash": 32,
+      "thrust": 29,
+      "magic": 37,
+      "fire": 7,
+      "lightning": 23,
+      "bleed": 22,
+      "poison": 29,
+      "curse": 0
+    },
+    "poise": 0
+  },
+  "Xanthous Waistcloth": {
+    "type": "Leggings",
+    "durability": 400,
+    "weight": 4,
+    "protection": {
+      "physical": 32,
+      "strike": 35,
+      "slash": 32,
+      "thrust": 29,
+      "magic": 39,
+      "fire": 7,
+      "lightning": 23,
+      "bleed": 22,
+      "poison": 30,
+      "curse": 0
+    },
+    "poise": 0
+  }
+}

@@ -1,7 +1,7 @@
 import getHtml from "../../lib/getHtml";
 import { browser, start_browser } from "../../lib/browser";
-import fs from "fs";
 import { nodesToText } from "../../lib/utils";
+import { tdToNumber } from "../../lib/utils";
 
 const BASE_URL = "https://darksouls.wiki.fextralife.com";
 
@@ -20,8 +20,8 @@ const getPyromancyRoot = async (
 
 type Pyromancy = {
   [key: string]: {
-    uses: string;
-    slots: string;
+    uses: number;
+    slots: number;
     description: string;
     acquisition: string[];
     cost: string;
@@ -29,12 +29,11 @@ type Pyromancy = {
   };
 };
 
-type PyromancyData = {
-  [key: string]: Pyromancy;
-};
-
-const getPyromancyData = async (cheerioRoot: cheerio.Root): Promise<Pyromancy> => {
-  const $ = cheerioRoot;
+const getPyromancyData = async (): Promise<Pyromancy> => {
+  const $ = await getPyromancyRoot()!;
+  if (!$) {
+    throw new Error("Failed to get root");
+  }
 
   await browser.close();
 
@@ -44,11 +43,11 @@ const getPyromancyData = async (cheerioRoot: cheerio.Root): Promise<Pyromancy> =
 
   for (const row of rows) {
     const name = $(row).find("td").eq(0).text();
-    const uses = $(row).find("td").eq(1).text();
-    const slots = $(row).find("td").eq(2).text();
+    const uses = tdToNumber($, row, 1);
+    const slots = tdToNumber($, row, 2);
     const description = $(row).find("td").eq(3).text();
     const acquisition = nodesToText($, $(row).find("td").eq(4));
-    const cost = $(row).find("td").eq(5).text();    
+    const cost = $(row).find("td").eq(5).text();
     const type = $(row).find("td").eq(6).text();
 
     pyromancyData[name] = {
@@ -64,21 +63,4 @@ const getPyromancyData = async (cheerioRoot: cheerio.Root): Promise<Pyromancy> =
   return pyromancyData;
 };
 
-const scrapeAndSave = async (output: string = "pyromancies"): Promise<void> => {
-  const pyromancyRoot = await getPyromancyRoot();
-  if (!pyromancyRoot) {
-    console.log("Failed to get pyromancies urls");
-    return;
-  }
-
-  const magicData = await getPyromancyData(pyromancyRoot);
-
-  fs.writeFileSync(
-    `${__dirname}/${output}.json`,
-    JSON.stringify(magicData, null, 2)
-  );
-};
-
-(async () => {
-  await scrapeAndSave();
-})();
+export default getPyromancyData;

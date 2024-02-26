@@ -1,0 +1,358 @@
+{
+  "Heal Aid": {
+    "description": "Slightly restore HP",
+    "FP": "27",
+    "slots": "1",
+    "fth": "8",
+    "acquisition": [
+      "Starting spell for Herald",
+      "Purchased from Shrine Handmaid for 500 souls"
+    ]
+  },
+  "Heal": {
+    "description": "Restores HP for self and those in the vicinity.",
+    "FP": "45",
+    "slots": "1",
+    "fth": "12",
+    "acquisition": [
+      "Starting spell for Cleric",
+      "Purchased from Irina of Carim for 1000 souls"
+    ]
+  },
+  "Med Heal": {
+    "description": "Restores moderate HP for self and those in the vicinity.",
+    "FP": "55",
+    "slots": "1",
+    "fth": "15",
+    "acquisition": [
+      "Purchased from Irina of Carim for 3500 souls",
+      "Requires Braille Divine Tome of Carim"
+    ]
+  },
+  "Great Heal": {
+    "description": "Restores a large amount of HP for self and those in the vicinity.",
+    "FP": "65",
+    "slots": "1",
+    "fth": "25",
+    "acquisition": [
+      "Found at corpse in the Irithyll of the Boreal Valley"
+    ]
+  },
+  "Soothing Sunlight": {
+    "description": "Restores a large amount of HP for self and those in the general area.",
+    "FP": "80",
+    "slots": "1",
+    "fth": "45",
+    "acquisition": [
+      "Acquired by Soul of the Dancer Transposition"
+    ]
+  },
+  "Replenishment": {
+    "description": "Gradually restores 5 HP/s",
+    "FP": "30",
+    "slots": "1",
+    "fth": "15",
+    "acquisition": [
+      "Purchased from Irina of Carim for 1000 souls"
+    ]
+  },
+  "Bountiful Light": {
+    "description": "Gradually restores a large amount of HP. (7 HP/s)",
+    "FP": "45",
+    "slots": "1",
+    "fth": "25",
+    "acquisition": [
+      "Purchased from Irina of Carim for 5000 souls",
+      "Requires Braille Divine Tome of Lothric"
+    ]
+  },
+  "Bountiful Sunlight": {
+    "description": "Gradually restores a large amount of HP for self and those in the vicinity.        (10 HP/s)",
+    "FP": "70",
+    "slots": "2",
+    "fth": "35",
+    "acquisition": [
+      "Acquired by Soul of Rosaria Transposition"
+    ]
+  },
+  "Caressing Tears": {
+    "description": "Cures bleeding, poison and frost for self and those in the vicinity.",
+    "FP": "14",
+    "slots": "1",
+    "fth": "12",
+    "acquisition": [
+      "Purchased from Irina of Carim for 1500 souls"
+    ]
+  },
+  "Tears of Denial": {
+    "description": "Grants one chance to endure when HP reaches 0",
+    "FP": "100",
+    "slots": "2",
+    "fth": "15",
+    "acquisition": [
+      "Purchased from Irina of Carim for 10000 souls",
+      "Requires Braille Divine Tome of Carim"
+    ]
+  },
+  "Homeward": {
+    "description": "Returns caster to the last bonfire used for resting, or to the bonfire in the Firelink Shrine.",
+    "FP": "30",
+    "slots": "1",
+    "fth": "18",
+    "acquisition": [
+      "Purchased from Irina of Carim for 3000 souls"
+    ]
+  },
+  "Seek Guidance": {
+    "description": "Displays more help from other worlds and reveals summon signs without using an ember.",
+    "FP": "15",
+    "slots": "1",
+    "fth": "12",
+    "acquisition": [
+      "Looted from a corpse in Cathedral of the Deep. Just past the first giant and down the stairs to the left. It's a sort of dark-ish room above the Cathedral Knight with the mace"
+    ]
+  },
+  "Sacred Oath": {
+    "description": "10% (physical) AR buff, 10% damage absorption buff, 60 seconds",
+    "FP": "65",
+    "slots": "2",
+    "fth": "28",
+    "acquisition": [
+      "Warriors of Sunlight Rank 1 reward"
+    ]
+  },
+  "Force": {
+    "description": "Creates a shockwave. While it inflicts no direct damage, this miracle propels foes back, staggering them. Can also defend against incoming arrows.",
+    "FP": "26",
+    "slots": "1",
+    "fth": "12",
+    "acquisition": [
+      "Starting spell for Cleric",
+      "Purchased from Irina of Carim for 1000 souls",
+      "Requires Braille Divine Tome of Carim"
+    ]
+  },
+  "Emit Force": {
+    "description": "Releases a shockwave in front.",
+    "FP": "20",
+    "slots": "1",
+    "fth": "18",
+    "acquisition": [
+      "Acquired by Siegward of Catarina during third encounter. Below Irithyll of the Boreal Valley in a kitchen just after a sewer area"
+    ]
+  },
+  "Wrath of the Gods": {
+    "description": "Create powerful shockwave",
+    "FP": "40",
+    "slots": "2",
+    "fth": "30",
+    "acquisition": [
+      "Acquired by dropping from the ledge near the spellcaster on the roof in Profaned Capital"
+    ]
+  },
+  "Lightning Spear": {
+    "description": "Hurl lightning spear.",
+    "FP": "23",
+    "slots": "1",
+    "fth": "20",
+    "acquisition": [
+      "Use the elevator near the Old Wolf of Farron and take the stairs up. Turn to the right and run to the closed gate. On the right side of the gate drop down and follow the path, one of the items there is Lightning Spear"
+    ]
+  },
+  "Great Lightning Spear": {
+    "description": "Hurl giant lightning spear.",
+    "FP": "32",
+    "slots": "1",
+    "fth": "30",
+    "acquisition": [
+      "Warriors of Sunlight Rank 2 reward"
+    ]
+  },
+  "Sunlight Spear": {
+    "description": "Hurls a Sunlight Spear",
+    "FP": "48",
+    "slots": "1",
+    "fth": "40",
+    "acquisition": [
+      "Acquired by Soul of the Lords Transposition"
+    ]
+  },
+  "Lightning Stake": {
+    "description": "Strikes with a stake of lightning.",
+    "FP": "34",
+    "slots": "1",
+    "fth": "35",
+    "acquisition": [
+      "Dropped by the giant worm just before the Old Demon King boss fight"
+    ]
+  },
+  "Lightning Storm": {
+    "description": "Calls forth furious bolts of lightning.",
+    "FP": "36",
+    "slots": "2",
+    "fth": "45",
+    "acquisition": [
+      "Acquired by Soul of the Nameless King Transposition"
+    ]
+  },
+  "Divine Pillars of Light": {
+    "description": "Bring down multiple pillars of light in vicinity.",
+    "FP": "3",
+    "slots": "1",
+    "fth": "30",
+    "acquisition": [
+      "Found at the top of the Grand Archives in a room after defeating three Ascended Winged Knights on the rooftops before the stairs leading to the boss encounter"
+    ]
+  },
+  "Blessed Weapon": {
+    "description": "Blesses right weapon, increasing attack power, as well as gradually restoring HP.",
+    "FP": "35",
+    "slots": "1",
+    "fth": "15",
+    "acquisition": [
+      "Sold by Irina of Carim for 8000 souls",
+      "Requires Braille Divine Tome of Lothric"
+    ]
+  },
+  "Lightning Blade": {
+    "description": "Reinforces right weapon with lightning.",
+    "FP": "50",
+    "slots": "1",
+    "fth": "30",
+    "acquisition": [
+      "Located in Irithyll Dungeon. Can be found in the area near the broken dragon statue used to reach the Archdragon Peak"
+    ]
+  },
+  "Darkmoon Blade": {
+    "description": "Reinforces right weapon with (Magic) \"Darkmoon Light\"",
+    "FP": "50",
+    "slots": "1",
+    "fth": "30",
+    "acquisition": [
+      "Blades of the Darkmoon Covenant Rank 2 reward"
+    ]
+  },
+  "Magic Barrier": {
+    "description": "Increases magic damage absorption by covering the body in a white protective coating.",
+    "FP": "30",
+    "slots": "1",
+    "fth": "15",
+    "acquisition": [
+      "Sold by Irina of Carim for 5000 souls",
+      "Requires Braille Divine Tome of Lothric"
+    ]
+  },
+  "Great Magic Barrier": {
+    "description": "Greatly increases magic damage absorption with coating.",
+    "FP": "40",
+    "slots": "2",
+    "fth": "25",
+    "acquisition": [
+      "Archdragon Peak: Found off a ledge where you find Havel and a dead dragon"
+    ]
+  },
+  "Dark Blade": {
+    "description": "Reinforces right weapon with dark.",
+    "FP": "35",
+    "slots": "1",
+    "fth": "25",
+    "acquisition": [
+      "Purchased from Irina of Carim or Karla for 10000 souls",
+      "Requires Londor Braille Divine Tome"
+    ]
+  },
+  "Vow of Silence": {
+    "description": "Prevents the use of magic in an area.",
+    "FP": "35",
+    "slots": "2",
+    "fth": "30",
+    "acquisition": [
+      "Purchased from Irina of Carim or Karla for 15000 souls",
+      "Requires Londor Braille Divine Tome"
+    ]
+  },
+  "Dead Again": {
+    "description": "Bless corpses, transforming them into traps.",
+    "FP": "45",
+    "slots": "1",
+    "fth": "23 Int: 15",
+    "acquisition": [
+      "Purchased from Irina of Carim or Karla for 5000 souls",
+      "Requires Londor Braille Divine Tome"
+    ]
+  },
+  "Atonement": {
+    "description": "Attracts more attention from foes.",
+    "FP": "15",
+    "slots": "1",
+    "fth": "18",
+    "acquisition": [
+      "Farron Keep Perimeter bonfire. Turn around 180 degrees and follow the path until you reach a hole in the wall on your right. Drop down on the ledge below. The spell will be on a corpse"
+    ]
+  },
+  "Deep Protection": {
+    "description": "Slightly boosts attack, damage absorption and resistance, while also increasing stamina recovery speed",
+    "FP": "25",
+    "slots": "1",
+    "fth": "20",
+    "acquisition": [
+      "Purchased from Irina of Carim or Karla for 4000 souls",
+      "Requires Deep Braille Divine Tome"
+    ]
+  },
+  "Gnaw": {
+    "description": "Summons insect swarm to feast on foes.",
+    "FP": "15",
+    "slots": "1",
+    "fth": "18",
+    "acquisition": [
+      "Purchased from Irina of Carim or Karla for 2000 souls",
+      "Requires Deep Braille Divine Tome"
+    ]
+  },
+  "Dorhys' Gnawing": {
+    "description": "Summon great insect swarm to feast on foes.",
+    "FP": "20",
+    "slots": "1",
+    "fth": "25",
+    "acquisition": [
+      "Guaranteed kill reward from the screaming Evangelist in Irithyll of the Boreal Valley, found behind an illusory wall (fence)."
+    ]
+  },
+  "Lifehunt Scythe": {
+    "description": "Steals HP of foes using an illusory scythe",
+    "FP": "20",
+    "slots": "1",
+    "fth": "22",
+    "acquisition": [
+      "Acquired from Soul of Aldrich Transposition"
+    ]
+  },
+  "Way of White Corona": {
+    "description": "White discus slices into foes and returns to conjurer",
+    "FP": "15",
+    "slots": "1",
+    "fth": "18",
+    "acquisition": [
+      "Ashes of Ariandel DLC: Painted World of Ariandel, Corvian settlement in the large house with 2 Corvian Knights."
+    ]
+  },
+  "Projected Heal": {
+    "description": "Project a healing spell at an area.",
+    "FP": "55",
+    "slots": "1",
+    "fth": "28",
+    "acquisition": [
+      "The Ringed City DLC: After meeting Lapp for the first time in the Dreg Heap, jump off the right side of the bridge into a pile of ash. The spell is located near a group of Murkmen and a Lothric Knight."
+    ]
+  },
+  "Lightning Arrow": {
+    "description": "Fires a lightning arrow.",
+    "FP": "19",
+    "slots": "1",
+    "fth": "35",
+    "acquisition": [
+      "The Ringed City DLC: After fighting the dragon after the Shared Grave bonfire, it's just inside the building behind 3 illusory walls."
+    ]
+  }
+}

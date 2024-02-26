@@ -7,11 +7,11 @@ const getHtml = async (
 ): Promise<{
   html: string;
   $: cheerio.Root;
-} | null> => {
+}> => {
   let html = "";
   let $: cheerio.Root;
   if (!page) {
-    return null;
+    throw new Error("page not initialized");
   }
   try {
     try {

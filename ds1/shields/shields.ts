@@ -1,7 +1,7 @@
 import getHtml from "../../lib/getHtml";
-import { browser, start_browser } from "../../lib/browser";
-import fs from "fs";
-import { ShieldData, WeaponURL, UpgradeTable } from "../types";
+import { browser, start_browser, page } from "../../lib/browser";
+import { WeaponShieldData, WeaponURL } from "../types";
+import { parseUpgradeTable, parseWeaponTable } from "../util";
 
 const BASE_URL = "https://darksouls.wiki.fextralife.com";
 
@@ -12,8 +12,6 @@ const sleep = async (ms: number) => {
 };
 
 const getWeaponURLs = async (): Promise<WeaponURL[] | null> => {
-  await start_browser();
-
   const getDs1WeaponUrls = async (): Promise<WeaponURL[] | null> => {
     const result = await getHtml(BASE_URL + "/Shields");
     if (!result) {
@@ -38,141 +36,59 @@ const getWeaponURLs = async (): Promise<WeaponURL[] | null> => {
 
   const weaponUrls = await getDs1WeaponUrls();
 
-  await browser.close();
-
   return weaponUrls
     ? weaponUrls.sort((a, b) => a.name.localeCompare(b.name))
     : null;
 };
 
-const getWeaponRoot = async (
-  url: string
-): Promise<cheerio.Root | undefined> => {
-  await start_browser();
-  const result = await getHtml(BASE_URL + url);
-  await browser.close();
-  if (!result) {
-    return;
-  }
-  const { html, $ } = result;
-  return $;
-};
-
-const getWeaponData = async (
+const getShieldData = async (
   cheerioRoot: cheerio.Root
-): Promise<ShieldData> => {
+): Promise<WeaponShieldData> => {
   const $ = cheerioRoot;
 
-  await browser.close();
-
-  const table = $(".wiki_table").eq(0);
-
-  const rows = table.find("tr").filter((i, el) => {
-    return [1, 2, 3, 4, 7, 8, 9, 10].includes(i);
-  });
+  const weaponTable = parseWeaponTable($);
+  const upgradeTable = parseUpgradeTable($);
 
   return {
-    damage: {
-      physical: $(rows[0]).find("td").eq(1).text().trim(),
-      magic: $(rows[0]).find("td").eq(3).text().trim(),
-      fire: $(rows[2]).find("td").eq(1).text().trim(),
-      lightning: $(rows[3]).find("td").eq(1).text().trim(),
-    },
-    requirements: {
-      strength: $(rows[4]).find("td").eq(0).text().trim(),
-      dexterity: $(rows[4]).find("td").eq(1).text().trim(),
-      intelligence: $(rows[4]).find("td").eq(2).text().trim(),
-      faith: $(rows[4]).find("td").eq(3).text().trim(),
-    },
-    critical: $(rows[0]).find("td").eq(3).text().trim(),
-    stability: $(rows[1]).find("td").eq(3).text().trim(),
-    durability: $(rows[2]).find("td").eq(3).text().trim(),
-    weight: $(rows[3]).find("td").eq(3).text().trim(),
-    type: $(rows[5]).find("td").eq(0).text().trim(),
-    attack_type: $(rows[6]).find("td").eq(0).text().trim(),
-    upgrades: {},
+    ...weaponTable,
+    upgrades: upgradeTable,
   };
 };
 
-const getUpgradeTable = async (cheerioRoot: cheerio.Root) => {
-  const $ = cheerioRoot;
-
-  const colNames = [
-    "physical",
-    "magic",
-    "fire",
-    "lightning",
-    "strength",
-    "dexterity",
-    "intelligence",
-    "faith",
-    "divine",
-    "occult",
-    "physical defense",
-    "magic defense",
-    "fire defense",
-    "lightning defense",
-    "stability",
-  ];
-
-  const table = $(".wiki_table").eq(1);
-  const rows = table.find("tr").slice(2);
-
-  const upgradeTable: UpgradeTable = {};
-
-  rows.each((i, el) => {
-    const upgradeName = $(el).find("th").text().trim();
-    const cells = $(el).find("td");
-
-    upgradeTable[upgradeName] = {};
-    for (let i = 0; i < cells.length; i++) {
-      upgradeTable[upgradeName][colNames[i]] = $(cells[i]).text().trim();
-    }
-  });
-
-  return upgradeTable;
-};
-
-const scrapeAndSave = async (output: string = "shields"): Promise<void> => {
-  const weaponUrls = await getWeaponURLs();
-  if (!weaponUrls) {
-    console.log("Failed to get shield urls");
+const getAllShieldsData = async () => {
+  await start_browser();
+  const urls = await getWeaponURLs();
+  if (!urls) {
     return;
   }
+  const shields = [];
+  console.log(urls.length);
 
-  const allWeapons: {
-    [key: string]: ShieldData;
-  } = {};
-
-  for (const weapon of weaponUrls) {
-    console.log("Scraping", weapon.name);
-    const $ = await getWeaponRoot(weapon.url!);
+  for (let i = 0; i < urls.length; i++) {
+    const { name, url } = urls[i];
+    let $;
+    try {
+      const html$ = await getHtml(BASE_URL + url)!;
+      if (!html$) {
+        continue;
+      }
+      $ = html$.$;
+    } catch (e) {
+      console.error(e);
+      i--;
+      continue;
+    }
     if (!$) {
-      console.log("Failed to get shield root");
-      return;
-    }
-    const data = await getWeaponData($);
-    if (!data) {
-      console.log("Failed to get weapon data for", weapon.name);
       continue;
     }
-
-    const upgradeTable = await getUpgradeTable($);
-    if (!upgradeTable) {
-      console.log("Failed to get upgrade table for", weapon.name);
-      continue;
-    }
-
-    allWeapons[weapon.name] = { ...data, upgrades: upgradeTable };
+    console.log(name);
+    const shieldData = await getShieldData($);
+    shields.push({ name, ...shieldData });
     await sleep(1000);
   }
 
-  fs.writeFileSync(
-    `${__dirname}/out/${output}.json`,
-    JSON.stringify(allWeapons, null, 2)
-  );
+  await browser.close();
+  return shields;
 };
 
-(async () => {
-  await scrapeAndSave();
-})();
+export default getAllShieldsData;

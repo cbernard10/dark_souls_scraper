@@ -1,7 +1,7 @@
 import getHtml from "../../lib/getHtml";
 import { browser, start_browser } from "../../lib/browser";
-import fs from "fs";
 import { nodesToText } from "../../lib/utils";
+import { tdToNumber } from "../../lib/utils";
 
 const BASE_URL = "https://darksouls.wiki.fextralife.com";
 
@@ -20,9 +20,9 @@ const getMiracleRoot = async (
 
 type Miracle = {
   [key: string]: {
-    uses: string;
-    slots: string;
-    faith: string;
+    uses: number;
+    slots: number;
+    faith: number;
     description: string;
     acquisition: string[];
     type: string;
@@ -33,9 +33,11 @@ type MiracleData = {
   [key: string]: Miracle;
 };
 
-const getMiracleData = async (cheerioRoot: cheerio.Root): Promise<Miracle> => {
-  const $ = cheerioRoot;
-
+const getMiracleData = async (): Promise<Miracle> => {
+  const $ = await getMiracleRoot()!;
+  if (!$) {
+    throw new Error("Failed to get root");
+  }
   await browser.close();
 
   const miracleData: Miracle = {};
@@ -44,9 +46,9 @@ const getMiracleData = async (cheerioRoot: cheerio.Root): Promise<Miracle> => {
 
   for (const row of rows) {
     const name = $(row).find("td").eq(0).text();
-    const uses = $(row).find("td").eq(1).text();
-    const slots = $(row).find("td").eq(2).text();
-    const faith = $(row).find("td").eq(3).text();
+    const uses = tdToNumber($, row, 1);
+    const slots = tdToNumber($, row, 2);
+    const faith = tdToNumber($, row, 3);
     const description = $(row).find("td").eq(4).text();
     const acquisition = nodesToText($, $(row).find("td").eq(5));
 
@@ -65,21 +67,4 @@ const getMiracleData = async (cheerioRoot: cheerio.Root): Promise<Miracle> => {
   return miracleData;
 };
 
-const scrapeAndSave = async (output: string = "miracles"): Promise<void> => {
-  const miracleRoot = await getMiracleRoot();
-  if (!miracleRoot) {
-    console.log("Failed to get miracles urls");
-    return;
-  }
-
-  const magicData = await getMiracleData(miracleRoot);
-
-  fs.writeFileSync(
-    `${__dirname}/${output}.json`,
-    JSON.stringify(magicData, null, 2)
-  );
-};
-
-(async () => {
-  await scrapeAndSave();
-})();
+export default getMiracleData;

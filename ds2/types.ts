@@ -1,64 +1,34 @@
 export type WeaponData = {
-  damage: {
-    physical: string;
-    magic: string;
-    fire: string;
-    lightning: string;
-  };
-  requirements: {
-    strength: string | null;
-    dexterity: string | null;
-    intelligence: string | null;
-    faith: string | null;
-  };
-  critical: string;
-  stability: string;
-  durability: string;
-  weight: string;
-  auxiliary: string | null;
-  type: string;
-  attack_type: string;
-  enchantable: boolean;
-  special: string;
-  upgrades: UpgradeTable | undefined;
-};
-
-export type DS2WeaponData = {
   requirements: {
     strength: number;
     dexterity: number;
     intelligence: number;
     faith: number;
   };
-  weight: number;
-  durability: number;
+  counter_damage: number;
+  poise_damage: number;
   stability: number;
-  type: string;
+  durability: number;
+  weight: number;
+  weapon_type: string;
   attack_type: string;
   enchantable: boolean;
   special: string;
-  upgrades: UpgradeTable;
+  upgrades: UpgradeTable | undefined;
 };
 
 export type ShieldData = {
-  damage: {
-    physical: string;
-    magic: string;
-    fire: string;
-    lightning: string;
-  };
   requirements: {
-    strength: string | null;
-    dexterity: string | null;
-    intelligence: string | null;
-    faith: string | null;
+    strength: number;
+    dexterity: number;
+    intelligence: number;
+    faith: number;
   };
-  critical: string;
-  stability: string;
-  durability: string;
-  weight: string;
-  type: string;
+  durability: number;
+  weight: number;
+  weapon_type: string;
   attack_type: string;
+  special: string;
   upgrades: UpgradeTable | undefined;
 };
 

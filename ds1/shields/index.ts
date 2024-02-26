@@ -1,15 +1,14 @@
-import { ds1_shields, ds1_upgrades } from "../../schema/schema";
+import { ds1_weapons, ds1_upgrades } from "../../schema/schema";
 import { db } from "../../drizzle.config";
-import * as shield_data from "./shields.json";
+import weapon_data from "../../output/ds1/shields.json";
 import { UpgradeTable } from "../types";
 
 export async function insert_shields(): Promise<void> {
-  for (const kv of Object.entries(shield_data)) {
-    console.log(kv[0], kv[1]);
-    if (!kv[0] || !kv[1] || !kv[1].upgrades) continue;
-
-    const shield_name = kv[0];
-    const upgradeTable: UpgradeTable = kv[1].upgrades;
+  for (const weapon of weapon_data) {
+    // if (!kv[0] || !kv[1] || !kv[1].upgrades) continue;
+    const weapon_name = weapon.name;
+    console.log(weapon_name);
+    const upgradeTable: UpgradeTable = weapon.upgrades;
 
     const upgradeLevels = Object.keys(upgradeTable);
     const upgradeData = Object.values(upgradeTable);
@@ -21,21 +20,25 @@ export async function insert_shields(): Promise<void> {
     const strength = upgradeData.map((x) => x.strength);
     const dexterity = upgradeData.map((x) => x.dexterity);
     const intelligence = upgradeData.map((x) => x.intelligence);
-    const faith = upgradeData.map((x) => x.faith);
-    const divine = upgradeData.map((x) => x.divine);
-    const occult = upgradeData.map((x) => x.occult ?? "0");
-    const physical_defense = upgradeData.map(
-      (x) => x["physical defense"] ?? "0"
-    );
-    const magic_defense = upgradeData.map((x) => x["magic defense"] ?? "0");
-    const fire_defense = upgradeData.map((x) => x["fire defense"] ?? "0");
+    const faith = upgradeData.map((x) => x.faith ?? null);
+    const bleed = upgradeData.map((x) => x.bleed ?? null);
+    const poison = upgradeData.map((x) => x.poison ?? null);
+    const divine = upgradeData.map((x) => x.divine ?? null);
+    const occult = upgradeData.map((x) => x.occult ?? null);
+    const physical_defense = upgradeData.map((x) => x["physical_defense"] ?? null);
+    const magic_defense = upgradeData.map((x) => x["magic_defense"] ?? null);
+    const fire_defense = upgradeData.map((x) => x["fire_defense"] ?? null);
     const lightning_defense = upgradeData.map(
-      (x) => x["lightning defense"] ?? "0"
+      (x) => x["lightning_defense"] ?? null
     );
-    const stability = upgradeData.map((x) => x.stability ?? "0");
+    const stability = upgradeData.map((x) => x.stability ?? null);
+    const magic_adjust = upgradeData.map(
+      (x) => x["magic_adjustment"] ?? null
+    );
+
     try {
       await db.insert(ds1_upgrades).values({
-        weapon_name: shield_name,
+        weapon_name: weapon_name,
         range: upgradeLevels,
         physical,
         magic,
@@ -45,6 +48,8 @@ export async function insert_shields(): Promise<void> {
         dexterity,
         intelligence,
         faith,
+        bleed,
+        poison,
         divine,
         occult,
         physical_defense,
@@ -52,24 +57,30 @@ export async function insert_shields(): Promise<void> {
         fire_defense,
         lightning_defense,
         stability,
+        magic_adjust,
       });
     } catch (e) {
-      console.log(e);
+      console.log("could not add row", e);
     }
 
     // @ts-ignore
-    await db.insert(ds1_shields).values({
-      name: shield_name,
-      strength: kv[1].requirements.strength,
-      dexterity: kv[1].requirements.dexterity,
-      intelligence: kv[1].requirements.intelligence,
-      faith: kv[1].requirements.faith,
-      durability: kv[1].durability,
-      weight: kv[1].weight,
-      critical: kv[1].critical,
-      type: kv[1].type,
-      attack_type: kv[1].attack_type,
-      enchantable: kv[1].enchantable,
-    });
+    try {
+      await db.insert(ds1_weapons).values({
+        name: weapon_name,
+        critical: weapon.critical,
+        durability: weapon.durability,
+        weight: weapon.weight,
+        weapon_type: weapon_name === 'Bonewheel Shield' ? 'Standard Shield' : weapon.weapon_type,
+        attack_type: weapon.attack_type,
+        enchantable: weapon.enchantable,
+        special: weapon.special,
+        dexterity: weapon.requirements.dexterity,
+        strength: weapon.requirements.strength,
+        intelligence: weapon.requirements.intelligence,
+        faith: weapon.requirements.faith,
+      });
+    } catch (e) {
+      console.log("could not add row", e);
+    }
   }
 }

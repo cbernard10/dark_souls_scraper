@@ -1,10 +1,8 @@
 import getHtml from "../../lib/getHtml";
 import { browser, start_browser } from "../../lib/browser";
-import fs from "fs";
-import { nodesToText } from "../../lib/utils";
-import { ArmorData, ArmorPiece } from "../types";
-
+import { ArmorData } from "../types";
 const BASE_URL = "https://darksouls.wiki.fextralife.com";
+import { tdToNumber } from "../../lib/utils";
 
 const sleep = async (ms: number) => {
   return new Promise((resolve, reject) => {
@@ -24,12 +22,7 @@ const getArmorRoot = async (url: string): Promise<cheerio.Root | undefined> => {
 };
 
 const getArmorData = async (): Promise<ArmorData> => {
-  const armorData: ArmorData = {
-    Helms: {},
-    "Chest Armor": {},
-    Gauntlets: {},
-    Leggings: {},
-  };
+  const armorData: ArmorData = {};
 
   for (const armorType of [
     ["/Helms", "Helms"],
@@ -45,55 +38,40 @@ const getArmorData = async (): Promise<ArmorData> => {
 
     const table = $(".wiki_table").eq(0);
     const rows = table.find("tr").slice(1);
-    const armorPieces: {
-      [key: string]: ArmorPiece;
-    } = {};
 
     for (const row of rows) {
       const name = $(row).find("td").eq(0).text();
-      const durability = $(row).find("td").eq(1).text();
-      const weight = $(row).find("td").eq(2).text();
+      const durability = tdToNumber($, row, 1);
+      const weight = tdToNumber($, row, 2);
       const protection = {
-        physical: $(row).find("td").eq(3).text(),
-        strike: $(row).find("td").eq(4).text(),
-        slash: $(row).find("td").eq(5).text(),
-        thrust: $(row).find("td").eq(6).text(),
-        magic: $(row).find("td").eq(7).text(),
-        fire: $(row).find("td").eq(8).text(),
-        lightning: $(row).find("td").eq(9).text(),
-        bleed: $(row).find("td").eq(10).text(),
-        poison: $(row).find("td").eq(11).text(),
-        curse: $(row).find("td").eq(12).text(),
+        physical: tdToNumber($, row, 3),
+        strike: tdToNumber($, row, 4),
+        slash: tdToNumber($, row, 5),
+        thrust: tdToNumber($, row, 6),
+        magic: tdToNumber($, row, 7),
+        fire: tdToNumber($, row, 8),
+        lightning: tdToNumber($, row, 9),
+        bleed: tdToNumber($, row, 10),
+        poison: tdToNumber($, row, 11),
+        curse: tdToNumber($, row, 12),
       };
-      const poise = $(row).find("td").eq(13).text();
+      const poise = tdToNumber($, row, 13);
 
       const type = armorType[1];
-      armorPieces[name] = {
+      armorData[name] = {
+        type,
         durability,
         weight,
         protection,
         poise,
       };
-
-      console.log(type, name);
     }
-    armorData[armorType[1]] = Object.fromEntries(
-      Object.entries(armorPieces).sort()
-    );
   }
 
-  return armorData;
+  const result = Object.fromEntries(
+    Object.entries(armorData).sort()
+  ) as ArmorData;
+  return result;
 };
 
-const scrapeAndSave = async (output: string = "armor"): Promise<void> => {
-  const armorData = await getArmorData();
-
-  fs.writeFileSync(
-    `${__dirname}/out/${output}.json`,
-    JSON.stringify(armorData, null, 2)
-  );
-};
-
-(async () => {
-  await scrapeAndSave();
-})();
+export default getArmorData;

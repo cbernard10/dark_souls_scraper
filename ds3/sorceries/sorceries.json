@@ -1,0 +1,371 @@
+{
+  "Soul Arrow": {
+    "description": "Fires a soul arrow.",
+    "FP": "7",
+    "slots": "1",
+    "int": "10",
+    "acquisition": [
+      "Sold by Yoel of Londor for 1,000 souls",
+      "Sold by Yuria of Londor for 1,000 souls",
+      "Sold by Orbeck of Vinheim for 1,000 souls",
+      "Starting Equipment for the Sorcerer"
+    ]
+  },
+  "Great Soul Arrow": {
+    "description": "Fires a more powerful soul arrow.",
+    "FP": "10",
+    "slots": "1",
+    "int": "15",
+    "acquisition": [
+      "Sold by Orbeck of Vinheim for 3,000 souls"
+    ]
+  },
+  "Heavy Soul Arrow": {
+    "description": "Fires a heavy soul arrow.",
+    "FP": "11",
+    "slots": "1",
+    "int": "13",
+    "acquisition": [
+      "Sold by Yoel of Londor for 2,000 souls",
+      "Sold by Yuria of Londor for 2,000 souls",
+      "Sold by Orbeck of Vinheim for 2,000 souls",
+      "Starting Equipment for the Sorcerer"
+    ]
+  },
+  "Great Heavy Soul Arrow": {
+    "description": "Fires a more powerful heavy soul arrow.",
+    "FP": "14",
+    "slots": "1",
+    "int": "18",
+    "acquisition": [
+      "Sold by Orbeck of Vinheim for 4,000 souls"
+    ]
+  },
+  "Farron Dart": {
+    "description": "Fires a soul dart.",
+    "FP": "3",
+    "slots": "1",
+    "int": "8",
+    "acquisition": [
+      "Sold by Yoel of Londor for 1,000 souls",
+      "Sold by Orbeck of Vinheim for 500 souls",
+      "Sold by Shrine Handmaid for 1,000 souls"
+    ]
+  },
+  "Great Farron Dart": {
+    "description": "Fires a more powerful soul dart.",
+    "FP": "4",
+    "slots": "1",
+    "int": "23",
+    "acquisition": [
+      "Sold by Orbeck of Vinheim for 2,000 souls",
+      "Requires Sage's Scroll"
+    ]
+  },
+  "Farron Hail": {
+    "description": "Fires a cascade of soul darts.",
+    "FP": "4",
+    "slots": "1",
+    "int": "28",
+    "acquisition": [
+      "Sold by Orbeck of Vinheim for 5,000 souls",
+      "Requires Sage's Scroll"
+    ]
+  },
+  "Homing Soulmass": {
+    "description": "Releases a homing soulmass.",
+    "FP": "20",
+    "slots": "1",
+    "int": "20",
+    "acquisition": [
+      "Sold by Orbeck of Vinheim for 6,000 souls",
+      "Requires Logan's Scroll"
+    ]
+  },
+  "Homing Crystal Soulmass": {
+    "description": "Releases a homing crystal soulmass. Crystal soulmass has piercing qualities.",
+    "FP": "43",
+    "slots": "1",
+    "int": "30",
+    "acquisition": [
+      "Sold by Orbeck of Vinheim for 18,000 souls",
+      "Requires Crystal Scroll"
+    ]
+  },
+  "Crystal Hail": {
+    "description": "Casts a cascade of small crystal soulmasses from above. Crystal soulmasses have piercing qualities.",
+    "FP": "19",
+    "slots": "1",
+    "int": "18",
+    "acquisition": [
+      "Obtained by Soul of a Crystal Sage Transposition"
+    ]
+  },
+  "Soul Spear": {
+    "description": "Fires a soul spear.",
+    "FP": "32",
+    "slots": "1",
+    "int": "32",
+    "acquisition": [
+      "Sold by Orbeck of Vinheim for 5,000 souls.",
+      "Requires Logan's Scroll"
+    ]
+  },
+  "Crystal Soul Spear": {
+    "description": "Fires a piercing crystal soul spear.",
+    "FP": "46",
+    "slots": "1",
+    "int": "48",
+    "acquisition": [
+      "Sold by Orbeck of Vinheim for 15,000 souls",
+      "Requires Crystal Scroll"
+    ]
+  },
+  "White Dragon Breath": {
+    "description": "Emits crystal breath of Seath the Scaleless. Crystal breath has piercing qualities.",
+    "FP": "25",
+    "slots": "1",
+    "int": "50",
+    "acquisition": [
+      "Obtained by Soul of Consumed Oceiros Transposition"
+    ]
+  },
+  "Soul Stream": {
+    "description": "Fires a torrential volley of souls.",
+    "FP": "55",
+    "slots": "2",
+    "int": "45",
+    "acquisition": [
+      "Found in Lothric Castle in the Grand Archives behind a hidden room with a Boreal Knight."
+    ]
+  },
+  "Soul Greatsword": {
+    "description": "Attacks with a greatsword formed from souls.",
+    "FP": "23",
+    "slots": "1",
+    "int": "22",
+    "acquisition": [
+      "Sold by Yoel of Londor for 5,000 souls",
+      "Sold by Yuria of Londor for 5,000 souls",
+      "Sold by Orbeck of Vinheim for 5,000 souls"
+    ]
+  },
+  "Farron Flashsword": {
+    "description": "Alteration of Soul Greatsword developed by sorcerers of the Undead Legion of Farron.",
+    "FP": "4",
+    "slots": "1",
+    "int": "23",
+    "acquisition": [
+      "Sold by Orbeck Of Vinheim for 3,000 souls"
+    ]
+  },
+  "Magic Weapon": {
+    "description": "Reinforce right weapon with magic.",
+    "FP": "25",
+    "slots": "1",
+    "int": "10",
+    "acquisition": [
+      "Sold by Yoel of Londor for 4,500 souls",
+      "Sold by Yuria of Londor for 4,500 souls",
+      "Sold by Orbeck of Vinheim for 3,000 souls"
+    ]
+  },
+  "Great Magic Weapon": {
+    "description": "Greatly reinforces right weapon with magic.",
+    "FP": "35",
+    "slots": "1",
+    "int": "15",
+    "acquisition": [
+      "From the Farron Keep Perimeter bonfire, turn around 180 and head towards the shortcut gate to Road of Sacrifices. The spell will be on a corpse at the gate."
+    ]
+  },
+  "Crystal Magic Weapon": {
+    "description": "Reinforces right weapon with crystal.",
+    "FP": "45",
+    "slots": "1",
+    "int": "30",
+    "acquisition": [
+      "Sold by Orbeck of Vinheim for 10,000 souls",
+      "Requires Crystal Scroll"
+    ]
+  },
+  "Magic Shield": {
+    "description": "Reinforce left shield with magic.",
+    "FP": "30",
+    "slots": "1",
+    "int": "10",
+    "acquisition": [
+      "Sold by Yoel of Londor for 4,500 souls",
+      "Sold by Yuria of Londor for 4,500 souls",
+      "Sold by Orbeck of Vinheim for 3,000 souls"
+    ]
+  },
+  "Great Magic Shield": {
+    "description": "Greatly reinforce left shield with magic",
+    "FP": "60",
+    "slots": "1",
+    "int": "18",
+    "acquisition": [
+      "Found in Irithyll Dungeon"
+    ]
+  },
+  "Spook": {
+    "description": "Masks noises of the caster and prevents fall damage.",
+    "FP": "15",
+    "slots": "1",
+    "int": "10",
+    "acquisition": [
+      "Sold by Orbeck Of Vinheim for 2,000 souls"
+    ]
+  },
+  "Aural Decoy": {
+    "description": "Distracts foes with distant sound.",
+    "FP": "15",
+    "slots": "1",
+    "int": "18",
+    "acquisition": [
+      "Sold by Orbeck of Vinheim for 2,000 souls"
+    ]
+  },
+  "Pestilent Mist": {
+    "description": "Releases dense mist that eats away at HP. Beware, as the caster is not immune to its effect.",
+    "FP": "13",
+    "slots": "1",
+    "int": "30",
+    "acquisition": [
+      "Sold by Orbeck Of Vinheim for 1,000 souls"
+    ]
+  },
+  "Cast Light": {
+    "description": "Casts a light to illuminate surroundings.",
+    "FP": "20",
+    "slots": "1",
+    "int": "15",
+    "acquisition": [
+      "Sold by Orbeck Of Vinheim for 1,000 souls",
+      "Requires Golden Scroll"
+    ]
+  },
+  "Repair": {
+    "description": "Repairs equipped weapons and armor. Includes weapons with exhausted durability.",
+    "FP": "20",
+    "slots": "1",
+    "int": "15",
+    "acquisition": [
+      "Sold by Orbeck of Vinheim for 2,000 souls",
+      "Requires Golden Scroll"
+    ]
+  },
+  "Hidden Weapon": {
+    "description": "Turns right weapon invisible.",
+    "FP": "25",
+    "slots": "1",
+    "int": "12",
+    "acquisition": [
+      "Sold by Orbeck of Vinheim for 1,500 souls",
+      "Requires Golden Scroll"
+    ]
+  },
+  "Hidden Body": {
+    "description": "Turns body nearly invisible.",
+    "FP": "15",
+    "slots": "1",
+    "int": "15",
+    "acquisition": [
+      "Sold by Orbeck of Vinheim for 3,000 souls",
+      "Requires Golden Scroll"
+    ]
+  },
+  "Chameleon": {
+    "description": "Transforms player into something inconspicuous. (The object will change depending on what area you're in.)",
+    "FP": "20",
+    "slots": "1",
+    "int": "12",
+    "acquisition": [
+      "Found near the Church of Yorshka bonfire in  Irithyll of the Boreal Valley during Anri of Astora's questline. The spell will drop from an assassin disguised as a statue.",
+      "Found in the Darkmoon Tomb from the assassin's corpse if not killed earlier."
+    ]
+  },
+  "Twisted Wall of Light": {
+    "description": "Distorts light to deflect magic.",
+    "FP": "10",
+    "slots": "1",
+    "int": "27",
+    "acquisition": [
+      "Sold by Orbeck of Vinheim for 6,000 souls",
+      "Requires Golden Scroll"
+    ]
+  },
+  "Deep Soul": {
+    "description": "Fires dark soul dregs.",
+    "FP": "6",
+    "slots": "1",
+    "int": "12",
+    "acquisition": [
+      "Obtained by Soul of the Deacons of the Deep Transposition"
+    ]
+  },
+  "Great Deep Soul": {
+    "description": "Fires powerful darkened soul sediment.",
+    "FP": "9",
+    "slots": "1",
+    "int": "20",
+    "acquisition": [
+      "Reward for reaching rank 1 in the covenant Aldrich Faithful."
+    ]
+  },
+  "Affinity": {
+    "description": "Casts a dark manifestation of humanity.",
+    "FP": "40",
+    "slots": "1",
+    "int": "32",
+    "acquisition": [
+      "Sold by Karla for 15,000 souls"
+    ]
+  },
+  "Dark Edge": {
+    "description": "Strikes with a blade formed of humanity's darkness.",
+    "FP": "26",
+    "slots": "1",
+    "int": "30",
+    "acquisition": [
+      "Sold by Karla for 8,000 souls"
+    ]
+  },
+  "Frozen Weapon": {
+    "description": "Imbues right-hand weapon with frost",
+    "FP": "30",
+    "slots": "1",
+    "int": "15",
+    "acquisition": [
+      "Ashes of Ariandel DLC:  Near the Giant Flies before the Rope Bridge Cave bonfire"
+    ]
+  },
+  "Snap Freeze": {
+    "description": "Creates a cloud of near-freezing mist.",
+    "FP": "16",
+    "slots": "1",
+    "int": "18",
+    "acquisition": [
+      "Ashes of Ariandel DLC: From Depths of the Painting bonfire, turn left to where the crabs are and keep going until you reach the end of that path. The sorcery will be behind an aggressive Tree Woman"
+    ]
+  },
+  "Great Soul Dregs": {
+    "description": "Fires great soul dregs",
+    "FP": "30",
+    "slots": "1",
+    "int": "40",
+    "acquisition": [
+      "The Ringed City DLC: Behind an illusory wall in The Dreg Heap"
+    ]
+  },
+  "Old Moonlight": {
+    "description": "Conceive old moonlight sword and attack",
+    "FP": "23",
+    "slots": "1",
+    "int": "25",
+    "acquisition": [
+      "The Ringed City DLC: Transposed with Soul of Darkeater Midir"
+    ]
+  }
+}

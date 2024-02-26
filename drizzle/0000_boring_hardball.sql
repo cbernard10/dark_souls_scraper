@@ -59,59 +59,45 @@ CREATE TABLE IF NOT EXISTS "ds1_rings" (
 	CONSTRAINT "ds1_rings_name_unique" UNIQUE("name")
 );
 --> statement-breakpoint
-CREATE TABLE IF NOT EXISTS "ds1_shields" (
-	"id" serial PRIMARY KEY NOT NULL,
-	"name" text NOT NULL,
-	"strength" text,
-	"dexterity" text,
-	"intelligence" text,
-	"faith" text,
-	"durability" text NOT NULL,
-	"weight" text NOT NULL,
-	"critical" text NOT NULL,
-	"type" text NOT NULL,
-	"attack_type" text NOT NULL,
-	"enchantable" boolean NOT NULL,
-	CONSTRAINT "ds1_shields_name_unique" UNIQUE("name")
-);
---> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "ds1_upgrades" (
 	"id" serial PRIMARY KEY NOT NULL,
-	"weapon" text NOT NULL,
+	"weapon_name" text NOT NULL,
 	"range" text[],
-	"physical" text[],
-	"magic" text[],
-	"fire" text[],
-	"lightning" text[],
+	"physical" numeric[],
+	"magic" numeric[],
+	"fire" numeric[],
+	"lightning" numeric[],
 	"strength" text[],
 	"dexterity" text[],
 	"intelligence" text[],
 	"faith" text[],
-	"divine" text[],
-	"occult" text[],
-	"physical_defense" text[],
-	"magic_defense" text[],
-	"fire_defense" text[],
-	"lightning_defense" text[],
-	"stability" text[],
-	CONSTRAINT "ds1_upgrades_weapon_unique" UNIQUE("weapon")
+	"bleed" numeric[],
+	"poison" numeric[],
+	"divine" numeric[],
+	"occult" numeric[],
+	"physical_defense" numeric[],
+	"magic_defense" numeric[],
+	"fire_defense" numeric[],
+	"lightning_defense" numeric[],
+	"stability" numeric[],
+	"magic_adjust" numeric[],
+	CONSTRAINT "ds1_upgrades_weapon_name_unique" UNIQUE("weapon_name")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "ds1_weapons" (
 	"id" serial PRIMARY KEY NOT NULL,
 	"name" text NOT NULL,
-	"strength" text,
-	"dexterity" text,
-	"intelligence" text,
-	"faith" text,
-	"durability" text NOT NULL,
-	"weight" text NOT NULL,
-	"critical" text NOT NULL,
+	"critical" numeric,
+	"durability" numeric,
+	"weight" numeric NOT NULL,
 	"type" text NOT NULL,
 	"attack_type" text NOT NULL,
 	"enchantable" boolean NOT NULL,
 	"special" text NOT NULL,
-	"auxiliary" text,
+	"strength" numeric,
+	"dexterity" numeric,
+	"intelligence" numeric,
+	"faith" numeric,
 	CONSTRAINT "ds1_weapons_name_unique" UNIQUE("name")
 );
 --> statement-breakpoint
@@ -162,7 +148,7 @@ CREATE TABLE IF NOT EXISTS "ds2_rings" (
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "ds2_shield_upgrades" (
 	"id" serial PRIMARY KEY NOT NULL,
-	"shield" text NOT NULL,
+	"shield_name" text NOT NULL,
 	"range" text[],
 	"physical" text[],
 	"magic" text[],
@@ -176,18 +162,18 @@ CREATE TABLE IF NOT EXISTS "ds2_shield_upgrades" (
 	"lightning_bonus" text[],
 	"dark_bonus" text[],
 	"poison" text[],
-	"poison_def" text[],
+	"poison_defense" text[],
 	"bleed" text[],
-	"bleed_def" text[],
-	"petrify_def" text[],
-	"curse_def" text[],
-	"physical_def" text[],
-	"magic_def" text[],
-	"fire_def" text[],
-	"lightning_def" text[],
-	"dark_def" text[],
+	"bleed_defense" text[],
+	"petrify_defense" text[],
+	"curse_defense" text[],
+	"physical_defense" text[],
+	"magic_defense" text[],
+	"fire_defense" text[],
+	"lightning_defense" text[],
+	"dark_defense" text[],
 	"stability" text[],
-	CONSTRAINT "ds2_shield_upgrades_shield_unique" UNIQUE("shield")
+	CONSTRAINT "ds2_shield_upgrades_shield_name_unique" UNIQUE("shield_name")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "ds2_shields" (
@@ -195,34 +181,31 @@ CREATE TABLE IF NOT EXISTS "ds2_shields" (
 	"name" text NOT NULL,
 	"durability" text NOT NULL,
 	"weight" text NOT NULL,
-	"stability" text NOT NULL,
 	"strength" text,
-	"str_scaling" text,
-	"dex" text,
-	"dex_scaling" text,
-	"int" text,
-	"int_scaling" text,
+	"dexterity" text,
+	"intelligence" text,
 	"faith" text,
-	"faith_scaling" text,
-	"type" text NOT NULL,
+	"weapon_type" text NOT NULL,
 	"attack_type" text NOT NULL,
+	"special" text NOT NULL,
 	CONSTRAINT "ds2_shields_name_unique" UNIQUE("name")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "ds2_upgrades" (
 	"id" serial PRIMARY KEY NOT NULL,
-	"weapon" text NOT NULL,
+	"weapon_name" text NOT NULL,
 	"range" text[],
 	"physical" text[],
-	"magicdmg" text[],
+	"magic" text[],
 	"fire" text[],
 	"lightning" text[],
 	"dark" text[],
-	"counter" text[],
-	"poise" text[],
-	"strength" text[],
-	"dexterity" text[],
-	"magic" text[],
+	"strength_bonus" text[],
+	"dexterity_bonus" text[],
+	"magic_bonus" text[],
+	"fire_bonus" text[],
+	"lightning_bonus" text[],
+	"dark_bonus" text[],
 	"poison" text[],
 	"bleed" text[],
 	"physical_defense" text[],
@@ -230,7 +213,9 @@ CREATE TABLE IF NOT EXISTS "ds2_upgrades" (
 	"fire_defense" text[],
 	"lightning_defense" text[],
 	"dark_defense" text[],
-	CONSTRAINT "ds2_upgrades_weapon_unique" UNIQUE("weapon")
+	"weapon_range" text[],
+	"cast_speed" text[],
+	CONSTRAINT "ds2_upgrades_weapon_name_unique" UNIQUE("weapon_name")
 );
 --> statement-breakpoint
 CREATE TABLE IF NOT EXISTS "ds2_weapons" (
@@ -240,11 +225,126 @@ CREATE TABLE IF NOT EXISTS "ds2_weapons" (
 	"dexterity" text,
 	"intelligence" text,
 	"faith" text,
+	"counter_damage" text,
+	"poise_damage" text,
+	"stability" text,
 	"durability" text,
+	"weight" text,
+	"type" text,
+	"attack_type" text,
+	"enchantable" boolean,
+	"special" text,
+	CONSTRAINT "ds2_weapons_name_unique" UNIQUE("name")
+);
+--> statement-breakpoint
+CREATE TABLE IF NOT EXISTS "ds3_miracles" (
+	"id" serial PRIMARY KEY NOT NULL,
+	"name" text NOT NULL,
+	"fp" text NOT NULL,
+	"slots" text NOT NULL,
+	"faith" text NOT NULL,
+	"description" text NOT NULL,
+	"acquisition" text[],
+	CONSTRAINT "ds3_miracles_name_unique" UNIQUE("name")
+);
+--> statement-breakpoint
+CREATE TABLE IF NOT EXISTS "ds3_pyromancies" (
+	"id" serial PRIMARY KEY NOT NULL,
+	"name" text NOT NULL,
+	"fp" text NOT NULL,
+	"slots" text NOT NULL,
+	"int" text NOT NULL,
+	"faith" text NOT NULL,
+	"description" text NOT NULL,
+	"acquisition" text[],
+	CONSTRAINT "ds3_pyromancies_name_unique" UNIQUE("name")
+);
+--> statement-breakpoint
+CREATE TABLE IF NOT EXISTS "ds3_rings" (
+	"id" serial PRIMARY KEY NOT NULL,
+	"name" text NOT NULL,
 	"weight" text NOT NULL,
+	"effects" text[],
+	"acquisition" text[],
+	CONSTRAINT "ds3_rings_name_unique" UNIQUE("name")
+);
+--> statement-breakpoint
+CREATE TABLE IF NOT EXISTS "ds3_sorceries" (
+	"id" serial PRIMARY KEY NOT NULL,
+	"name" text NOT NULL,
+	"fp" text NOT NULL,
+	"slots" text NOT NULL,
+	"int" text NOT NULL,
+	"description" text NOT NULL,
+	"acquisition" text[],
+	CONSTRAINT "ds3_sorceries_name_unique" UNIQUE("name")
+);
+--> statement-breakpoint
+CREATE TABLE IF NOT EXISTS "ds3_upgrades" (
+	"id" serial PRIMARY KEY NOT NULL,
+	"weapon_name" text NOT NULL,
+	"range" text[],
+	"physical" numeric[],
+	"magic" numeric[],
+	"fire" numeric[],
+	"lightning" numeric[],
+	"dark" numeric[],
+	"strength_bonus" text[],
+	"dexterity_bonus" text[],
+	"intelligence_bonus" text[],
+	"faith_bonus" text[],
+	"poison" numeric[],
+	"bleed" numeric[],
+	"frost" numeric[],
+	"physical_defense" numeric[],
+	"magic_defense" numeric[],
+	"fire_defense" numeric[],
+	"lightning_defense" numeric[],
+	"dark_defense" numeric[],
+	CONSTRAINT "ds3_upgrades_weapon_name_unique" UNIQUE("weapon_name")
+);
+--> statement-breakpoint
+CREATE TABLE IF NOT EXISTS "ds3_weapons" (
+	"id" serial PRIMARY KEY NOT NULL,
+	"name" text NOT NULL,
+	"critical" numeric,
+	"durability" numeric NOT NULL,
+	"weight" numeric NOT NULL,
 	"type" text NOT NULL,
 	"attack_type" text NOT NULL,
-	"enchantable" boolean NOT NULL,
 	"special" text NOT NULL,
-	CONSTRAINT "ds2_weapons_name_unique" UNIQUE("name")
+	"strength" text NOT NULL,
+	"dexterity" text NOT NULL,
+	"intelligence" text NOT NULL,
+	"faith" text NOT NULL,
+	"spell_buff" numeric NOT NULL,
+	"stability" numeric,
+	"fp" text,
+	"auxiliary" text NOT NULL,
+	"auxiliary_value" numeric,
+	CONSTRAINT "ds3_weapons_name_unique" UNIQUE("name")
+);
+--> statement-breakpoint
+CREATE TABLE IF NOT EXISTS "eldenring_spells" (
+	"id" serial PRIMARY KEY NOT NULL,
+	"type" text NOT NULL,
+	"name" text NOT NULL,
+	"effect" text NOT NULL,
+	"fp" text NOT NULL,
+	"slots" text NOT NULL,
+	"int" text NOT NULL,
+	"fth" text NOT NULL,
+	"arc" text NOT NULL,
+	"stamina" text NOT NULL,
+	"bonus" text NOT NULL,
+	CONSTRAINT "eldenring_spells_name_unique" UNIQUE("name")
+);
+--> statement-breakpoint
+CREATE TABLE IF NOT EXISTS "eldenring_talismans" (
+	"id" serial PRIMARY KEY NOT NULL,
+	"name" text NOT NULL,
+	"weight" numeric NOT NULL,
+	"effects" text[],
+	"acquisition" text[],
+	CONSTRAINT "eldenring_talismans_name_unique" UNIQUE("name")
 );

@@ -1,8 +1,8 @@
 {
   "Soul Arrow": {
-    "uses": "30",
-    "slots": "1",
-    "intelligence": "10",
+    "uses": 30,
+    "slots": 1,
+    "intelligence": 10,
     "description": "Fires a magical projectile. Excellent starting spell which does very good damage against most enemies in the early game areas.",
     "acquisition": [
       "Griggs of Vinheim 1,000 souls",
@@ -12,9 +12,9 @@
     "type": "Ranged Magic Attack"
   },
   "Great Soul Arrow": {
-    "uses": "20",
-    "slots": "1",
-    "intelligence": "14",
+    "uses": 20,
+    "slots": 1,
+    "intelligence": 14,
     "description": "Stronger soul arrow, same cast time as soul arrow, fewer uses.",
     "acquisition": [
       "Griggs of Vinheim 6,000 souls",
@@ -23,9 +23,9 @@
     "type": "Ranged Magic Attack"
   },
   "Heavy Soul Arrow": {
-    "uses": "12",
-    "slots": "1",
-    "intelligence": "12",
+    "uses": 12,
+    "slots": 1,
+    "intelligence": 12,
     "description": "Stronger than greater soul arrow, longer casting time.",
     "acquisition": [
       "Griggs of Vinheim 2,000 souls",
@@ -35,9 +35,9 @@
     "type": "Ranged Magic Attack"
   },
   "Great Heavy Soul Arrow": {
-    "uses": "8",
-    "slots": "1",
-    "intelligence": "16",
+    "uses": 8,
+    "slots": 1,
+    "intelligence": 16,
     "description": "Stronger than heavy soul arrow, fewer uses. Has a slow cast time, but deals a tremendous amount of damage, even against bosses.",
     "acquisition": [
       "Griggs of Vinheim 8,000 souls",
@@ -46,9 +46,9 @@
     "type": "Ranged Magic Attack"
   },
   "Homing Soulmass": {
-    "uses": "10",
-    "slots": "1",
-    "intelligence": "18",
+    "uses": 10,
+    "slots": 1,
+    "intelligence": 18,
     "description": "Fires multiple, homing magic projectiles. Can be successfully cast without an initial \"lock on\". Multiple soul arrows will hover above the player. Each individual soul arrow will seek the closest target, in the direction the player is facing, when in range. Because the spell can be cast in advance, it has a unique advantage in that, if timed correctly, it can be cast in synchronicity with other attacks.",
     "acquisition": [
       "Big Hat Logan 20,000 souls",
@@ -57,9 +57,9 @@
     "type": "Ranged Magic Attack"
   },
   "Homing Crystal Soulmass": {
-    "uses": "10",
-    "slots": "1",
-    "intelligence": "24",
+    "uses": 10,
+    "slots": 1,
+    "intelligence": 24,
     "description": "Fires multiple, homing crystal projectiles. Can be successfully cast without an initial \"lock on\". Multiple crystal arrows will hover above the player. Each individual soul arrow will seek the closest target, in the direction the player is facing, when in range.",
     "acquisition": [
       "Big Hat Logan 30,000 souls"
@@ -67,9 +67,9 @@
     "type": "Ranged Magic Attack"
   },
   "Soul Spear": {
-    "uses": "4",
-    "slots": "1",
-    "intelligence": "36",
+    "uses": 4,
+    "slots": 1,
+    "intelligence": 36,
     "description": "Fire piercing soul spear.",
     "acquisition": [
       "Big Hat Logan 40,000 souls",
@@ -78,9 +78,9 @@
     "type": "Ranged Magic Attack"
   },
   "Crystal Soul Spear": {
-    "uses": "4",
-    "slots": "1",
-    "intelligence": "44",
+    "uses": 4,
+    "slots": 1,
+    "intelligence": 44,
     "description": "Fire an even more powerful, piercing ranged attack.",
     "acquisition": [
       "Big Hat Logan 50,000 souls"
@@ -88,9 +88,9 @@
     "type": "Ranged Magic Attack"
   },
   "White Dragon Breath": {
-    "uses": "20",
-    "slots": "1",
-    "intelligence": "50",
+    "uses": 20,
+    "slots": 1,
+    "intelligence": 50,
     "description": "A straight line of crystals pop out of the ground in front of you, shooting towards your target. One advantage of this spell is that it will take out large groups of enemies if they are lined up one behind the other. It has a medium cast time, but once it fires, it will take out anything in its path. 20 casts make this a great high level replacement for the soul arrow at high levels, as it's not as useful on most bosses.",
     "acquisition": [
       "Big Hat Logan (drop)"
@@ -98,9 +98,9 @@
     "type": "Ranged Magic Attack"
   },
   "Magic Weapon": {
-    "uses": "5",
-    "slots": "1",
-    "intelligence": "10",
+    "uses": 5,
+    "slots": 1,
+    "intelligence": 10,
     "description": "Enhances the right-hand weapon. Weapon must be standard, crystal, or raw. Some Dragon and Unique weapons can be enchanted too. Adds 0.8x your Magic Adjustment stat (NOT Intelligence) magic damage to your weapon.",
     "acquisition": [
       "Griggs of Vinheim 3,000 souls",
@@ -109,9 +109,9 @@
     "type": "Weapon Buff"
   },
   "Great Magic Weapon": {
-    "uses": "3",
-    "slots": "1",
-    "intelligence": "15",
+    "uses": 3,
+    "slots": 1,
+    "intelligence": 15,
     "description": "Enhances the right-hand weapon. Weapon must be standard, crystal, or raw. Some Dragon and Unique weapons can be enchanted too. Adds 1.1x your Magic Adjustment stat (NOT Intelligence) magic damage to your weapon.",
     "acquisition": [
       "Cut Chandelier on the catwalk and pick up in front of Painted World Entrance in Anor Londo"
@@ -119,9 +119,9 @@
     "type": "Weapon Buff"
   },
   "Crystal Magic Weapon": {
-    "uses": "3",
-    "slots": "1",
-    "intelligence": "25",
+    "uses": 3,
+    "slots": 1,
+    "intelligence": 25,
     "description": "Enhances and crystallizes right-hand weapon. Weapon must be standard, crystal, or raw. Some Dragon and Unique weapons can be enchanted too. Adds 1.4x your Magic Adjustment stat (NOT Intelligence) as magic damage to your weapon.",
     "acquisition": [
       "Big Hat Logan 20,000 souls"
@@ -129,9 +129,9 @@
     "type": "Weapon Buff"
   },
   "Magic Shield": {
-    "uses": "5",
-    "slots": "1",
-    "intelligence": "10",
+    "uses": 5,
+    "slots": 1,
+    "intelligence": 10,
     "description": "Reinforces the equipped shield or weapon able to block in the left hand with magic. Works on all types of shields (even unique or upgraded to any path) and on all weapons able to block while on the left hand (even unique or upgraded to any path). Halves stamina used on hit deflection (only on shields) and improves the weapon's or shield's magic resistance by 30% (by up to a maximum of 90%). Lasts 15 seconds, 5 casts.",
     "acquisition": [
       "Griggs of Vinheim 3,000 souls",
@@ -140,9 +140,9 @@
     "type": "Support Defense (Buff)"
   },
   "Strong Magic Shield": {
-    "uses": "3",
-    "slots": "1",
-    "intelligence": "15",
+    "uses": 3,
+    "slots": 1,
+    "intelligence": 15,
     "description": "Reinforces the equipped shield or weapon able to block in the left hand with a stronger magic effect. Works on all types of shields (even unique or upgraded to any path) and on all weapons able to block while on the left hand (even unique or upgraded to any path). Reduces the stamina used to deflect a hit considerably (only on shields) and improves all the resistances of the shield or weapon enchanted to 100%. Lasts 15 seconds, 3 casts.",
     "acquisition": [
       "Chest in The Duke's Archives"
@@ -150,9 +150,9 @@
     "type": "Support Defense (Buff)"
   },
   "Aural Decoy": {
-    "uses": "20",
-    "slots": "1",
-    "intelligence": "10",
+    "uses": 20,
+    "slots": 1,
+    "intelligence": 10,
     "description": "Lures enemies away by creating a sound originating in the distance.",
     "acquisition": [
       "Griggs of Vinheim 1,000 souls"
@@ -160,9 +160,9 @@
     "type": "Support Defense"
   },
   "Hush": {
-    "uses": "6",
-    "slots": "1",
-    "intelligence": "15",
+    "uses": 6,
+    "slots": 1,
+    "intelligence": 15,
     "description": "Masks all noises of caster.",
     "acquisition": [
       "Sen's Fortress (treasure)",
@@ -171,9 +171,9 @@
     "type": "Support Defense (Buff)"
   },
   "Fall Control": {
-    "uses": "10",
-    "slots": "1",
-    "intelligence": "15",
+    "uses": 10,
+    "slots": 1,
+    "intelligence": 15,
     "description": "Reduces damage and noise from fall. However, terminal falls will still kill you even with this active.",
     "acquisition": [
       "Griggs of Vinheim 1,500 souls"
@@ -181,9 +181,9 @@
     "type": "Support Defense (Buff)"
   },
   "Hidden Weapon": {
-    "uses": "3",
-    "slots": "1",
-    "intelligence": "14",
+    "uses": 3,
+    "slots": 1,
+    "intelligence": 14,
     "description": "Turns your right hand weapon invisible. Weapon must be standard, crystal, or raw. Some Dragon and Unique weapons can be enchanted too.",
     "acquisition": [
       "Dusk of Oolacile 2,000 souls"
@@ -191,9 +191,9 @@
     "type": "Support (Weapon Buff)"
   },
   "Hidden Body": {
-    "uses": "3",
-    "slots": "1",
-    "intelligence": "14",
+    "uses": 3,
+    "slots": 1,
+    "intelligence": 14,
     "description": "Masks your presence, making detection harder.",
     "acquisition": [
       "Dusk of Oolacile 2,000 souls"
@@ -201,9 +201,9 @@
     "type": "Support (Buff)"
   },
   "Repair": {
-    "uses": "1",
-    "slots": "1",
-    "intelligence": "14",
+    "uses": 1,
+    "slots": 1,
+    "intelligence": 14,
     "description": "Repairs weapons and armor",
     "acquisition": [
       "Dusk of Oolacile 10,000 souls"
@@ -211,9 +211,9 @@
     "type": "Support"
   },
   "Cast Light": {
-    "uses": "3",
-    "slots": "1",
-    "intelligence": "14",
+    "uses": 3,
+    "slots": 1,
+    "intelligence": 14,
     "description": "Cast a bright light upon surroundings, and lasts 5 minutes. Particularly useful for Tomb of Giants",
     "acquisition": [
       "Dusk of Oolacile 1,000 souls"
@@ -221,9 +221,9 @@
     "type": "Support"
   },
   "Chameleon": {
-    "uses": "11",
-    "slots": "1",
-    "intelligence": "14",
+    "uses": 11,
+    "slots": 1,
+    "intelligence": 14,
     "description": "Transform the caster into an inanimate object. Generally, the object you become is something common to the area you are in. Could be a vase, or a box, etc. Some strategy must be used, and the most effective is to place yourself in a cluster of similar objects. Once cast, you can move slowly and position yourself. If done properly, an enemy will walk by you and never know you're there. Cannot run when using, any other action breaks the effect.",
     "acquisition": [
       "Dusk of Oolacile 3,000 souls"
@@ -231,9 +231,9 @@
     "type": "Support"
   },
   "Remedy": {
-    "uses": "4",
-    "slots": "1",
-    "intelligence": "16",
+    "uses": 4,
+    "slots": 1,
+    "intelligence": 16,
     "description": "Removes poison/toxic/bleeding build up, and cures poison/toxic status.",
     "acquisition": [
       "Blighttown"
@@ -241,9 +241,9 @@
     "type": "Support"
   },
   "Resist Curse": {
-    "uses": "4",
-    "slots": "1",
-    "intelligence": "16",
+    "uses": 4,
+    "slots": 1,
+    "intelligence": 16,
     "description": "Removes curse build up.",
     "acquisition": [
       "Ingward 5,000 souls"
@@ -251,9 +251,9 @@
     "type": "Support"
   },
   "Dark Orb": {
-    "uses": "12",
-    "slots": "1",
-    "intelligence": "16",
+    "uses": 12,
+    "slots": 1,
+    "intelligence": 16,
     "description": "After a brief charge, fires a large shot at your target.",
     "acquisition": [
       "Found in Oolacile Township.",
@@ -262,9 +262,9 @@
     "type": "Ranged Magic Attack"
   },
   "Dark Bead": {
-    "uses": "6",
-    "slots": "1",
-    "intelligence": "16",
+    "uses": 6,
+    "slots": 1,
+    "intelligence": 16,
     "description": "Fires a large amount of small dark orbs that fan outwards—very fast cast time. Excellent against large bosses.",
     "acquisition": [
       "Found on a corpse behind an Oolacile Sorcerer in the Depths of the Abyss.",
@@ -273,9 +273,9 @@
     "type": "Ranged Magic Attack"
   },
   "Dark Fog": {
-    "uses": "2",
-    "slots": "1",
-    "intelligence": "18",
+    "uses": 2,
+    "slots": 1,
+    "intelligence": 18,
     "description": "Creates a fog that inflicts poison. The fog is created at the location of the locked target.",
     "acquisition": [
       "Found in Oolacile Township",
@@ -284,9 +284,9 @@
     "type": "AoE Ranged Sorcery"
   },
   "Pursuers": {
-    "uses": "3",
-    "slots": "2",
-    "intelligence": "32",
+    "uses": 3,
+    "slots": 2,
+    "intelligence": 32,
     "description": "Slow moving dark soul mass, fires and homes in on target when in range. Slower moving than homing soul mass but has much better homing capabilities.",
     "acquisition": [
       "Exchange Soul of Manus with Snuggly.",
